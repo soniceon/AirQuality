@@ -1,0 +1,84 @@
+{
+  "common": {
+    "search": "검색",
+    "loading": "로딩 중...",
+    "error": "오류",
+    "retry": "다시 시도"
+  },
+  "nav": {
+    "home": "홈",
+    "airQuality": "대기질",
+    "faq": "자주 묻는 질문",
+    "about": "회사 소개",
+    "contact": "문의하기"
+  },
+  "home": {
+    "title": "대기질 지수",
+    "subtitle": "전 세계 도시의 실시간 대기질 정보",
+    "searchPlaceholder": "도시 이름 입력...",
+    "popularCities": "인기 도시",
+    "dataDisclaimer": "데이터는 참고용입니다 | 실제 사용을 위해서는 실제 대기질 API가 필요합니다.",
+    "cities": {
+      "beijing": "베이징",
+      "shanghai": "상하이",
+      "guangzhou": "광저우",
+      "shenzhen": "선전",
+      "tokyo": "도쿄",
+      "newyork": "뉴욕",
+      "london": "런던",
+      "paris": "파리"
+    }
+  },
+  "airQuality": {
+    "aqi": "대기질 지수",
+    "pm25": "PM2.5",
+    "pm10": "PM10",
+    "o3": "오존",
+    "no2": "이산화질소",
+    "so2": "이산화황",
+    "co": "일산화탄소"
+  },
+  "aqiLevels": {
+    "good": "좋음",
+    "moderate": "보통",
+    "unhealthyForSensitive": "민감군에 나쁨",
+    "unhealthy": "나쁨",
+    "veryUnhealthy": "매우 나쁨",
+    "hazardous": "위험"
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "whatIsAQI": {
+      "question": "AQI란 무엇입니까?",
+      "answer": "대기질 지수(AQI)는 매일의 대기질을 보고하는 표준화된 지표입니다. 공기가 얼마나 깨끗하거나 오염되었는지, 그리고 관련 건강 영향이 무엇인지 알려줍니다."
+    },
+    "whatIsPM25": {
+      "question": "PM2.5란 무엇입니까?",
+      "answer": "PM2.5는 지름이 2.5마이크로미터 이하인 미세 입자를 의미합니다. 이 입자는 폐 깊숙이 침투할 수 있으며 심각한 건강 문제를 일으킬 수 있습니다."
+    },
+    "dataSource": {
+      "question": "데이터 출처와 갱신 빈도는?",
+      "answer": "AirQuality.Tools의 데이터는 권위 있는 기상 및 환경 모니터링 기관에서 제공되며, 일반적으로 매시간 갱신되어 정확성을 보장합니다."
+    },
+    "howToQuery": {
+      "question": "도시의 대기질을 어떻게 확인하나요?",
+      "answer": "AirQuality.Tools 홈페이지에서 도시 이름을 입력하고 '검색'을 클릭하면 해당 도시의 실시간 대기질 데이터를 확인할 수 있습니다."
+    },
+    "healthImpact": {
+      "question": "대기질이 건강에 영향을 미치나요?",
+      "answer": "대기 오염은 호흡기 및 심혈관 질환의 위험을 높이며, 특히 어린이, 노인 및 민감한 사람들에게 더 큰 영향을 미칩니다. 대기질에 주의하고 건강한 생활을 유지하세요."
+    }
+  },
+  "about": {
+    "title": "회사 소개",
+    "description": "AirQuality.Tools는 사용자에게 권위 있고, 신속하며, 사용하기 쉬운 글로벌 대기질 데이터 서비스를 제공하기 위해 노력하고 있습니다.",
+    "team": "저희 팀은 환경 과학, 데이터 엔지니어링, 프론트엔드 개발 등 다양한 분야의 구성원으로 이루어져 있으며, 기술로 건강한 삶을 지키는 데 전념하고 있습니다."
+  },
+  "contact": {
+    "title": "문의하기",
+    "intro": "협업, 제안 또는 데이터 문제에 대해 아래 방법으로 문의해 주세요:",
+    "email": "이메일",
+    "wechat": "WeChat",
+    "feedback": "피드백 폼(곧 제공 예정)"
+  }
+} 

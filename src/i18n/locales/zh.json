@@ -1,0 +1,58 @@
+{
+  "common": {
+    "search": "搜索",
+    "loading": "加载。..",
+    "error": "错误",
+    "retry": "重试"
+  },
+  "nav": {
+    "home": "家",
+    "airQuality": "空气质量",
+    "about": "关于",
+    "contact": "联系"
+  },
+  "home": {
+    "title": "空气质量指数",
+    "subtitle": "全球城市的实时空气质量信息",
+    "searchPlaceholder": "输入城市名称。..",
+    "popularCities": "热门城市"
+  },
+  "airQuality": {
+    "aqi": "空气质量指数",
+    "pm25": "可入肺颗粒物",
+    "pm10": "PM10",
+    "o3": "臭氧",
+    "no2": "二氧化氮",
+    "so2": "二氧化硫",
+    "co": "一氧化碳"
+  },
+  "aqiLevels": {
+    "good": "好的",
+    "moderate": "适度的",
+    "unhealthyForSensitive": "对敏感人群不健康",
+    "unhealthy": "不健康的",
+    "veryUnhealthy": "极不良",
+    "hazardous": "危险"
+  },
+  "faq": {
+    "title": "常见问题解答",
+    "whatIsAQI": {
+      "question": "什么是AQI？",
+      "answer": "空气质量指数（AQI）是用于报告每日空气质量的标准化指标。它告诉你你的空气有多干净或有多污染，以及你可能担心的相关健康影响。"
+    },
+    "whatIsPM25": {
+      "question": "PM2.5是什么？",
+      "answer": "PM2.5是指直径为2.5微米或更小的细颗粒物。这些颗粒足够小，可以深入肺部，并可能导致严重的健康问题。"
+    }
+  },
+  "about": {
+    "title": "关于我们",
+    "description": "我们提供实时空气质量信息，帮助您对户外活动做出明智的决定，保护您的健康。"
+  },
+  "contact": {
+    "title": "联系我们",
+    "email": "电子邮件",
+    "phone": "电话",
+    "address": "地址"
+  }
+}

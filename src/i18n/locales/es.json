@@ -1,0 +1,107 @@
+{
+  "common": {
+    "search": "Buscar",
+    "loading": "Cargando...",
+    "error": "Error",
+    "retry": "Reintentar"
+  },
+  "nav": {
+    "home": "Inicio",
+    "airQuality": "Calidad del aire",
+    "faq": "Preguntas frecuentes",
+    "about": "Sobre nosotros",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title": "Índice de calidad del aire",
+    "subtitle": "Información en tiempo real sobre la calidad del aire en ciudades de todo el mundo",
+    "searchPlaceholder": "Ingrese el nombre de la ciudad...",
+    "popularCities": "Ciudades populares",
+    "dataDisclaimer": "Datos solo para referencia | El uso real requiere una API de calidad del aire real.",
+    "cities": {
+      "beijing": "Pekín",
+      "shanghai": "Shanghái",
+      "guangzhou": "Cantón",
+      "shenzhen": "Shenzhen",
+      "tokyo": "Tokio",
+      "osaka": "Osaka",
+      "yokohama": "Yokohama",
+      "nagoya": "Nagoya",
+      "sapporo": "Sapporo",
+      "fukuoka": "Fukuoka",
+      "kobe": "Kobe",
+      "kyoto": "Kioto",
+      "berlin": "Berlín",
+      "hamburg": "Hamburgo",
+      "munich": "Múnich",
+      "cologne": "Colonia",
+      "frankfurt": "Fráncfort",
+      "stuttgart": "Stuttgart",
+      "dusseldorf": "Düsseldorf",
+      "dortmund": "Dortmund",
+      "newyork": "Nueva York",
+      "london": "Londres",
+      "paris": "París",
+      "madrid": "Madrid",
+      "barcelona": "Barcelona",
+      "valencia": "Valencia",
+      "seville": "Sevilla",
+      "zaragoza": "Zaragoza",
+      "malaga": "Málaga",
+      "murcia": "Murcia",
+      "palma": "Palma"
+    }
+  },
+  "airQuality": {
+    "aqi": "Índice de calidad del aire",
+    "pm25": "PM2.5",
+    "pm10": "PM10",
+    "o3": "Ozono",
+    "no2": "Dióxido de nitrógeno",
+    "so2": "Dióxido de azufre",
+    "co": "Monóxido de carbono"
+  },
+  "aqiLevels": {
+    "good": "Bueno",
+    "moderate": "Moderado",
+    "unhealthyForSensitive": "Insalubre para grupos sensibles",
+    "unhealthy": "Insalubre",
+    "veryUnhealthy": "Muy insalubre",
+    "hazardous": "Peligroso"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "whatIsAQI": {
+      "question": "¿Qué es el AQI?",
+      "answer": "El Índice de Calidad del Aire (AQI) es una medida estandarizada utilizada para informar la calidad del aire diaria. Le indica cuán limpio o contaminado está el aire y qué efectos sobre la salud pueden ser motivo de preocupación para usted."
+    },
+    "whatIsPM25": {
+      "question": "¿Qué es PM2.5?",
+      "answer": "PM2.5 se refiere a partículas finas con un diámetro de 2.5 micrómetros o menos. Estas partículas son lo suficientemente pequeñas como para penetrar profundamente en los pulmones y pueden causar graves problemas de salud."
+    },
+    "dataSource": {
+      "question": "¿Cuáles son las fuentes de datos y la frecuencia de actualización?",
+      "answer": "Los datos de AirQuality.Tools provienen de agencias meteorológicas y de monitoreo ambiental autorizadas, y generalmente se actualizan cada hora para garantizar la precisión."
+    },
+    "howToQuery": {
+      "question": "¿Cómo consultar la calidad del aire de una ciudad?",
+      "answer": "Ingrese el nombre de la ciudad en la página principal de AirQuality.Tools y haga clic en 'Buscar' para obtener los datos de calidad del aire en tiempo real de esa ciudad."
+    },
+    "healthImpact": {
+      "question": "¿La calidad del aire afecta la salud?",
+      "answer": "La contaminación del aire aumenta el riesgo de enfermedades respiratorias y cardiovasculares, especialmente en niños, ancianos y personas sensibles. Preste atención a la calidad del aire y mantenga un estilo de vida saludable."
+    }
+  },
+  "about": {
+    "title": "Sobre nosotros",
+    "description": "AirQuality.Tools se compromete a proporcionar a los usuarios servicios de datos de calidad del aire globales, autorizados, oportunos y fáciles de usar.",
+    "team": "Nuestro equipo está formado por miembros de los campos de la ciencia ambiental, la ingeniería de datos y el desarrollo frontend, dedicados a proteger la vida saludable mediante la tecnología."
+  },
+  "contact": {
+    "title": "Contacto",
+    "intro": "Para colaboraciones, sugerencias o problemas de datos, contáctenos a través de los siguientes métodos:",
+    "email": "Correo electrónico",
+    "wechat": "WeChat",
+    "feedback": "Formulario de comentarios (próximamente)"
+  }
+} 

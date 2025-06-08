@@ -1,0 +1,107 @@
+{
+  "common": {
+    "search": "Suche",
+    "loading": "Laden...",
+    "error": "Fehler",
+    "retry": "Wiederholen"
+  },
+  "nav": {
+    "home": "Startseite",
+    "airQuality": "Luftqualität",
+    "faq": "FAQ",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "title": "Luftqualitätsindex",
+    "subtitle": "Echtzeit-Luftqualitätsinformationen für Städte weltweit",
+    "searchPlaceholder": "Stadtname eingeben...",
+    "popularCities": "Beliebte Städte",
+    "dataDisclaimer": "Daten nur als Referenz | Für die tatsächliche Nutzung ist eine echte Luftqualitäts-API erforderlich.",
+    "cities": {
+      "beijing": "Peking",
+      "shanghai": "Shanghai",
+      "guangzhou": "Guangzhou",
+      "shenzhen": "Shenzhen",
+      "tokyo": "Tokio",
+      "osaka": "Osaka",
+      "yokohama": "Yokohama",
+      "nagoya": "Nagoya",
+      "sapporo": "Sapporo",
+      "fukuoka": "Fukuoka",
+      "kobe": "Kobe",
+      "kyoto": "Kyoto",
+      "berlin": "Berlin",
+      "hamburg": "Hamburg",
+      "munich": "München",
+      "cologne": "Köln",
+      "frankfurt": "Frankfurt",
+      "stuttgart": "Stuttgart",
+      "dusseldorf": "Düsseldorf",
+      "dortmund": "Dortmund",
+      "madrid": "Madrid",
+      "barcelona": "Barcelona",
+      "valencia": "Valencia",
+      "seville": "Sevilla",
+      "zaragoza": "Saragossa",
+      "malaga": "Málaga",
+      "murcia": "Murcia",
+      "palma": "Palma",
+      "newyork": "New York",
+      "london": "London",
+      "paris": "Paris"
+    }
+  },
+  "airQuality": {
+    "aqi": "Luftqualitätsindex",
+    "pm25": "PM2.5",
+    "pm10": "PM10",
+    "o3": "Ozon",
+    "no2": "Stickstoffdioxid",
+    "so2": "Schwefeldioxid",
+    "co": "Kohlenmonoxid"
+  },
+  "aqiLevels": {
+    "good": "Gut",
+    "moderate": "Mäßig",
+    "unhealthyForSensitive": "Ungesund für empfindliche Gruppen",
+    "unhealthy": "Ungesund",
+    "veryUnhealthy": "Sehr ungesund",
+    "hazardous": "Gefährlich"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "whatIsAQI": {
+      "question": "Was ist der AQI?",
+      "answer": "Der Luftqualitätsindex (AQI) ist ein standardisiertes Maß zur Meldung der täglichen Luftqualität. Er sagt Ihnen, wie sauber oder verschmutzt Ihre Luft ist und welche gesundheitlichen Auswirkungen für Sie von Bedeutung sein könnten."
+    },
+    "whatIsPM25": {
+      "question": "Was ist PM2.5?",
+      "answer": "PM2.5 bezieht sich auf feine Partikel mit einem Durchmesser von 2,5 Mikrometern oder weniger. Diese Partikel sind klein genug, um tief in die Lunge einzudringen und können ernsthafte Gesundheitsprobleme verursachen."
+    },
+    "dataSource": {
+      "question": "Was sind die Datenquellen und die Aktualisierungshäufigkeit?",
+      "answer": "Die Daten von AirQuality.Tools stammen von anerkannten meteorologischen und Umweltüberwachungsstellen und werden in der Regel stündlich aktualisiert, um die Genauigkeit zu gewährleisten."
+    },
+    "howToQuery": {
+      "question": "Wie kann man die Luftqualität einer Stadt abfragen?",
+      "answer": "Geben Sie den Stadtnamen auf der Startseite von AirQuality.Tools ein und klicken Sie auf 'Suche', um die aktuellen Luftqualitätsdaten dieser Stadt zu erhalten."
+    },
+    "healthImpact": {
+      "question": "Beeinflusst die Luftqualität die Gesundheit?",
+      "answer": "Luftverschmutzung erhöht das Risiko für Atemwegs- und Herz-Kreislauf-Erkrankungen, insbesondere bei Kindern, älteren Menschen und empfindlichen Gruppen. Achten Sie auf die Luftqualität und führen Sie einen gesunden Lebensstil."
+    }
+  },
+  "about": {
+    "title": "Über uns",
+    "description": "AirQuality.Tools engagiert sich dafür, den Nutzern weltweit autoritative, zeitnahe und benutzerfreundliche Luftqualitätsdaten bereitzustellen.",
+    "team": "Unser Team besteht aus Experten für Umweltwissenschaften, Datenengineering und Frontend-Entwicklung, die sich dem Schutz eines gesunden Lebens durch Technologie widmen."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "intro": "Für Kooperationen, Anregungen oder Datenanfragen kontaktieren Sie uns bitte auf folgende Weise:",
+    "email": "E-Mail",
+    "wechat": "WeChat",
+    "feedback": "Feedback-Formular (bald verfügbar)"
+  }
+} 

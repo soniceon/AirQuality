@@ -1,0 +1,88 @@
+{
+  "common": {
+    "search": "搜尋",
+    "loading": "加載中...",
+    "error": "錯誤",
+    "retry": "重試"
+  },
+  "nav": {
+    "home": "首頁",
+    "airQuality": "空氣質量",
+    "faq": "常見問題",
+    "about": "關於我們",
+    "contact": "聯絡我們"
+  },
+  "home": {
+    "title": "空氣質量指數",
+    "subtitle": "全球城市的即時空氣質量資訊",
+    "searchPlaceholder": "輸入城市名稱...",
+    "popularCities": "熱門城市",
+    "dataDisclaimer": "數據僅供參考｜實際使用需配置真實的空氣質量API",
+    "cities": {
+      "beijing": "北京",
+      "shanghai": "上海",
+      "guangzhou": "廣州",
+      "shenzhen": "深圳",
+      "chengdu": "成都",
+      "chongqing": "重慶",
+      "hangzhou": "杭州",
+      "xian": "西安",
+      "tokyo": "東京",
+      "newyork": "紐約",
+      "london": "倫敦",
+      "paris": "巴黎"
+    }
+  },
+  "airQuality": {
+    "aqi": "空氣質量指數",
+    "pm25": "PM2.5",
+    "pm10": "PM10",
+    "o3": "臭氧",
+    "no2": "二氧化氮",
+    "so2": "二氧化硫",
+    "co": "一氧化碳"
+  },
+  "aqiLevels": {
+    "good": "優",
+    "moderate": "良",
+    "unhealthyForSensitive": "對敏感人群不健康",
+    "unhealthy": "不健康",
+    "veryUnhealthy": "非常不健康",
+    "hazardous": "危險"
+  },
+  "faq": {
+    "title": "常見問題",
+    "whatIsAQI": {
+      "question": "什麼是AQI？",
+      "answer": "空氣質量指數（AQI）是用於報告每日空氣質量的標準化指標。它告訴你你的空氣有多乾淨或有多污染，以及你可能擔心的相關健康影響。"
+    },
+    "whatIsPM25": {
+      "question": "什麼是PM2.5？",
+      "answer": "PM2.5是指直徑為2.5微米或更小的細顆粒物。這些顆粒足夠小，可以深入肺部，並可能導致嚴重的健康問題。"
+    },
+    "dataSource": {
+      "question": "數據來源和更新頻率？",
+      "answer": "AirQuality.Tools 的 air quality 數據來源於權威氣象和環境監測機構，通常每小時更新一次，確保數據準確及時。"
+    },
+    "howToQuery": {
+      "question": "如何查詢某城市的空氣質量？",
+      "answer": "在 AirQuality.Tools 首頁輸入城市名稱，點擊'查詢'即可獲取該城市的即時 air quality（空氣質量）數據。"
+    },
+    "healthImpact": {
+      "question": "空氣質量對健康有影響嗎？",
+      "answer": "空氣污染會增加呼吸道、心血管等疾病風險，尤其對兒童、老人和敏感人群影響更大。關注 air quality，守護健康生活。"
+    }
+  },
+  "about": {
+    "title": "關於我們",
+    "description": "AirQuality.Tools 致力於為用戶提供權威、及時、易用的全球空氣質量數據服務。",
+    "team": "我們的團隊由環境科學、數據工程和前端開發等多領域成員組成，專注於用科技守護健康生活。"
+  },
+  "contact": {
+    "title": "聯絡我們",
+    "intro": "如有合作、建議或數據問題，歡迎通過以下方式聯絡我們：",
+    "email": "電子郵件",
+    "wechat": "微信",
+    "feedback": "意見反饋表單（即將上線"
+  }
+} 

@@ -1,0 +1,43 @@
+.language-switcher {
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.language-select {
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 30px 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.language-select:hover {
+  border-color: #999;
+}
+
+.language-select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* RTL支持 */
+[dir="rtl"] .language-select {
+  padding: 8px 12px 8px 30px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .language-switcher {
+    margin: 10px 0;
+  }
+  
+  .language-select {
+    width: 100%;
+    max-width: 200px;
+  }
+} 

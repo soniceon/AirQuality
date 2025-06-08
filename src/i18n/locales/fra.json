@@ -1,0 +1,58 @@
+{
+  "common": {
+    "search": "Recherche",
+    "loading": "Chargement. ..",
+    "error": "Erreur",
+    "retry": "Réessayer"
+  },
+  "nav": {
+    "home": "Accueil",
+    "airQuality": "Qualité de l'air",
+    "about": "À propos",
+    "contact": "Contactez-nous"
+  },
+  "home": {
+    "title": "Indice de qualité de l'air",
+    "subtitle": "Informations en temps réel sur la qualité de l'air pour les villes du monde entier",
+    "searchPlaceholder": "Entrez le nom de la ville. ..",
+    "popularCities": "Villes populaires"
+  },
+  "airQuality": {
+    "aqi": "Indice de qualité de l'air",
+    "pm25": "Les PM2,5",
+    "pm10": "PM10",
+    "o3": "L'ozone",
+    "no2": "Dioxyde d'azote",
+    "so2": "Dioxyde de soufre",
+    "co": "Monoxyde de carbone"
+  },
+  "aqiLevels": {
+    "good": "Bien",
+    "moderate": "Modéré",
+    "unhealthyForSensitive": "Malsanté pour les groupes sensibles",
+    "unhealthy": "Malsanté",
+    "veryUnhealthy": "Très malsain",
+    "hazardous": "Dangereux"
+  },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "whatIsAQI": {
+      "question": "Qu'est-ce que l'AQI ?",
+      "answer": "L'indice de qualité de l'air (AQI) est une mesure normalisée utilisée pour signaler la qualité de l'air quotidienne. Il vous indique à quel point votre air est propre ou pollué, et quels effets sur la santé associés pourraient vous préoccuper."
+    },
+    "whatIsPM25": {
+      "question": "Qu'est-ce que PM2.5 ?",
+      "answer": "Les PM2,5 désignent des particules fines ayant un diamètre de 2,5 micromètres ou moins. Ces particules sont assez petites pour pénétrer profondément dans les poumons et peuvent causer de graves problèmes de santé."
+    }
+  },
+  "about": {
+    "title": "À propos de nous",
+    "description": "Nous fournissons des informations en temps réel sur la qualité de l'air pour vous aider à prendre des décisions éclairées concernant vos activités en plein air et protéger votre santé."
+  },
+  "contact": {
+    "title": "Nous contacter",
+    "email": "Courriel",
+    "phone": "Téléphone",
+    "address": "Adresse"
+  }
+}
