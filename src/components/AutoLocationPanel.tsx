@@ -12,7 +12,7 @@ const BAIDU_AK = 'WQbX6sngyRMkmUw12j51alybbwPhOaur';
 
 const AutoLocationPanel: React.FC = () => {
   const [city, setCity] = useState('');
-  const [country, setCountry] = useState('');
+  // const [country, setCountry] = useState('');
   const [hotCities, setHotCities] = useState<string[]>([]);
   const [weather, setWeather] = useState<any>(null);
   const [error, setError] = useState<string | null>(null);
@@ -22,7 +22,6 @@ const AutoLocationPanel: React.FC = () => {
       try {
         const loc = await getUserLocation();
         setCity(loc.city);
-        setCountry(loc.country);
         setHotCities(hotCitiesByCountry[loc.country] || ['New York', 'London', 'Tokyo']);
         const district_id = await getDistrictId(loc.city);
         const weatherData = await getWeatherAndAirQuality(district_id);

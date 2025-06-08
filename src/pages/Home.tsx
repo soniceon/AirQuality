@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Wind, Eye, Thermometer, Droplets, AlertTriangle, CheckCircle, XCircle } from 'lucide-react';
+import { Search, Wind, Thermometer, Droplets, AlertTriangle, CheckCircle, XCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { getUserLocation } from '../utils/baiduApi';
 

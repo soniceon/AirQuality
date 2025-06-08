@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, Wind, Eye, Thermometer, Droplets, AlertTriangle, CheckCircle, XCircle } from 'lucide-react';
+import { Search, Wind, Thermometer, Droplets, AlertTriangle, CheckCircle, XCircle } from 'lucide-react';
 
 interface AirData {
   cityName: string;
@@ -42,7 +42,7 @@ const AirQualityTool: React.FC = () => {
     
     try {
       // 使用免费的OpenWeatherMap空气污染API
-      const API_KEY = process.env.VITE_OPENWEATHER_API_KEY || 'demo_key';
+      // const API_KEY = process.env.VITE_OPENWEATHER_API_KEY || 'demo_key';
       
       // 模拟数据，因为在这个环境中无法进行实际API调用
       await new Promise(resolve => setTimeout(resolve, 1000));
@@ -164,12 +164,10 @@ const AirQualityTool: React.FC = () => {
                 <h2 className="text-2xl font-bold text-gray-800">
                   {airData.cityName} 空气质量
                 </h2>
-                <div className="flex items-center">
-                  <IconComponent className={`h-6 w-6 ${aqiInfo.color} mr-2`} />
-                  <span className={`text-lg font-semibold ${aqiInfo.color}`}>
-                    {aqiInfo.level}
-                  </span>
-                </div>
+                {IconComponent && <IconComponent className={`h-6 w-6 ${aqiInfo.color} mr-2`} />}
+                <span className={`text-lg font-semibold ${aqiInfo.color}`}>
+                  {aqiInfo.level}
+                </span>
               </div>
               <div className="text-center">
                 <div className="text-5xl font-bold text-gray-800 mb-2">
