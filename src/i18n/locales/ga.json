@@ -171,7 +171,10 @@
       "malaga": "Málaga",
       "murcia": "Murcia",
       "palma": "Palma"
-    }
+    },
+    "seoTitle": "Innéacs Cáilíochta Aeir - Sonraí AQI Domhanda Fíor-ama",
+    "seoDesc": "Seiceáil innéacs cáilíochta aeir (AQI), PM2.5, PM10 agus sonraí truaillithe do chathracha ar fud an domhain. Fan ar an eolas agus tabhair aire do do shláinte.",
+    "seoKeywords": "cáilíocht aeir, AQI, PM2.5, PM10, truailliú, domhanda, cathair, aimsir, sláinte"
   },
   "airQuality": {
     "aqi": "Innéacs Cáilíochta Aeir",
@@ -199,18 +202,32 @@
     "whatIsPM25": {
       "question": "Cad é PM2.5?",
       "answer": "Tagraíonn PM2.5 do cháithníní fíneáil a bhfuil trastomhas 2.5 micriméadar nó níos lú acu. Tá na cáithníní seo sách beag chun dul go domhain sna scamhóga agus d'fhéadfadh siad fadhbanna sláinte tromchúiseacha a chur faoi deara."
-    }
+    },
+    "seoTitle": "Ceisteanna Coitianta - AirQuality.Tools",
+    "seoDesc": "Ceisteanna coitianta faoi cháilíocht aeir, AQI, PM2.5 agus úsáid AirQuality.Tools.",
+    "seoKeywords": "ceisteanna coitianta, cáilíocht aeir, AQI, PM2.5, cabhair"
   },
   "about": {
     "title": "Fúinn",
     "description": "Tá AirQuality.Tools tiomanta do sheirbhísí sonraí cáilíochta aeir domhanda údarásacha, tráthúla agus atá éasca le húsáid a sholáthar d'úsáideoirí.",
-    "team": "Tá ár bhfoireann comhdhéanta d'eolaithe comhshaoil, innealtóirí sonraí agus forbróirí tosaigh, tiomanta do shaol sláintiúil a chosaint trí theicneolaíocht."
+    "team": "Tá ár bhfoireann comhdhéanta d'eolaithe comhshaoil, innealtóirí sonraí agus forbróirí tosaigh, tiomanta do shaol sláintiúil a chosaint trí theicneolaíocht.",
+    "seoTitle": "Fúinn - AirQuality.Tools",
+    "seoDesc": "Faigh amach faoi fhoireann AirQuality.Tools, ár misean agus conas a sholáthraímid sonraí cáilíochta aeir fíor-ama do chathracha domhanda.",
+    "seoKeywords": "fúinn, cáilíocht aeir, foireann, teagmháil, AQI"
   },
   "contact": {
     "title": "Déan teagmháil",
     "intro": "Le haghaidh comhoibrithe, moltaí nó saincheisteanna sonraí, déan teagmháil linn trí na modhanna seo a leanas:",
     "email": "Ríomhphost",
     "wechat": "WeChat",
-    "feedback": "Foirmeacha aiseolais (ag teacht go luath)"
+    "feedback": "Foirmeacha aiseolais (ag teacht go luath)",
+    "seoTitle": "Déan teagmháil linn - AirQuality.Tools",
+    "seoDesc": "Déan teagmháil le AirQuality.Tools le haghaidh tacaíochta, aiseolais nó comhpháirtíochta. Táimid anseo chun cabhrú leat.",
+    "seoKeywords": "teagmháil, cáilíocht aeir, ríomhphost, guthán, AQI"
+  },
+  "science": {
+    "seoTitle": "Ailt Eolaíochta - Léargais ar Cháilíocht Aeir agus Truailliú",
+    "seoDesc": "Léigh ailt eolaíochta agus léargais faoi cháilíocht aeir, truailliú, tionchair sláinte agus eolaíocht chomhshaoil.",
+    "seoKeywords": "eolaíocht, cáilíocht aeir, alt, AQI, PM2.5, truailliú, sláinte"
   }
 } 

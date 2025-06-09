@@ -1,6 +1,11 @@
 User-agent: *
 Allow: /
-Sitemap: https://airquality.tools/sitemap.xml
+
+# Sitemaps
+Sitemap: https://airquality.tools/sitemaps/sitemap-index.xml
+
+# Crawl-delay
+Crawl-delay: 10
 
 # Disallow admin and api routes
 Disallow: /admin/

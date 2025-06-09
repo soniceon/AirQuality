@@ -7,6 +7,7 @@
   },
   "nav": {
     "home": "Startseite",
+    "science": "Wissen",
     "airQuality": "Luftqualität",
     "faq": "FAQ",
     "about": "Über uns",
@@ -49,8 +50,19 @@
       "palma": "Palma",
       "newyork": "New York",
       "london": "London",
-      "paris": "Paris"
-    }
+      "paris": "Paris",
+      "losangeles": "Los Angeles",
+      "chicago": "Chicago",
+      "houston": "Houston",
+      "phoenix": "Phoenix",
+      "philadelphia": "Philadelphia",
+      "sanantonio": "San Antonio",
+      "sandiego": "San Diego",
+      "poipet": "Poipet"
+    },
+    "seoTitle": "Luftqualitätsindex - Echtzeit globale AQI- & Verschmutzungsdaten",
+    "seoDesc": "Prüfen Sie den Luftqualitätsindex (AQI), PM2.5, PM10 und Verschmutzungsdaten für Städte weltweit. Bleiben Sie informiert und schützen Sie Ihre Gesundheit.",
+    "seoKeywords": "luftqualität, AQI, PM2.5, PM10, verschmutzung, global, stadt, wetter, gesundheit"
   },
   "airQuality": {
     "aqi": "Luftqualitätsindex",
@@ -59,7 +71,9 @@
     "o3": "Ozon",
     "no2": "Stickstoffdioxid",
     "so2": "Schwefeldioxid",
-    "co": "Kohlenmonoxid"
+    "co": "Kohlenmonoxid",
+    "temp": "Temperatur",
+    "humidity": "Luftfeuchtigkeit"
   },
   "aqiLevels": {
     "good": "Gut",
@@ -90,18 +104,46 @@
     "healthImpact": {
       "question": "Beeinflusst die Luftqualität die Gesundheit?",
       "answer": "Luftverschmutzung erhöht das Risiko für Atemwegs- und Herz-Kreislauf-Erkrankungen, insbesondere bei Kindern, älteren Menschen und empfindlichen Gruppen. Achten Sie auf die Luftqualität und führen Sie einen gesunden Lebensstil."
-    }
+    },
+    "seoTitle": "FAQ - AirQuality.Tools",
+    "seoDesc": "Häufig gestellte Fragen zu Luftqualität, AQI, PM2.5 und zur Nutzung von AirQuality.Tools.",
+    "seoKeywords": "faq, luftqualität, AQI, PM2.5, hilfe"
   },
   "about": {
     "title": "Über uns",
     "description": "AirQuality.Tools engagiert sich dafür, den Nutzern weltweit autoritative, zeitnahe und benutzerfreundliche Luftqualitätsdaten bereitzustellen.",
-    "team": "Unser Team besteht aus Experten für Umweltwissenschaften, Datenengineering und Frontend-Entwicklung, die sich dem Schutz eines gesunden Lebens durch Technologie widmen."
+    "team": "Unser Team besteht aus Experten für Umweltwissenschaften, Datenengineering und Frontend-Entwicklung, die sich dem Schutz eines gesunden Lebens durch Technologie widmen.",
+    "seoTitle": "Über uns - AirQuality.Tools",
+    "seoDesc": "Erfahren Sie mehr über das AirQuality.Tools-Team, unsere Mission und wie wir Echtzeit-Luftqualitätsdaten bereitstellen.",
+    "seoKeywords": "über, luftqualität, team, kontakt, AQI"
   },
   "contact": {
     "title": "Kontakt",
     "intro": "Für Kooperationen, Anregungen oder Datenanfragen kontaktieren Sie uns bitte auf folgende Weise:",
     "email": "E-Mail",
     "wechat": "WeChat",
-    "feedback": "Feedback-Formular (bald verfügbar)"
+    "feedback": "Feedback-Formular (bald verfügbar)",
+    "seoTitle": "Kontakt - AirQuality.Tools",
+    "seoDesc": "Kontaktieren Sie AirQuality.Tools für Unterstützung, Feedback oder Partnerschaften. Wir helfen Ihnen gerne weiter.",
+    "seoKeywords": "kontakt, luftqualität, e-mail, telefon, AQI"
+  },
+  "science": {
+    "title": "Wissenschaft zur Luftqualität",
+    "sourceTitle": "Hauptquellen der Luftverschmutzung",
+    "sourceContent": "Luftverschmutzung entsteht hauptsächlich durch Industrieemissionen, Fahrzeugabgase, Baustellenstaub, Kohleverbrennung und die Verbrennung von Hausmüll. Die Struktur der Verschmutzungsquellen kann je nach Stadt und Jahreszeit variieren.",
+    "impactTitle": "Auswirkungen der Luftqualität auf verschiedene Gruppen",
+    "impactContent": "Luftverschmutzung hat größere Auswirkungen auf Kinder, ältere Menschen, Schwangere und Menschen mit Atemwegserkrankungen. Eine langfristige Exposition gegenüber hoher Verschmutzung erhöht das Gesundheitsrisiko erheblich.",
+    "protectTitle": "Wie Sie sich schützen können",
+    "protect1": "Reduzieren Sie bei starker Luftverschmutzung insbesondere während der Stoßzeiten Aktivitäten im Freien.",
+    "protect2": "Tragen Sie beim Verlassen des Hauses Schutzmasken (z. B. N95).",
+    "protect3": "Verwenden Sie Luftreiniger in Innenräumen und sorgen Sie für ausreichende Belüftung.",
+    "protect4": "Beachten Sie offizielle Luftqualitätsvorhersagen und passen Sie Ihre Reise- und Trainingspläne rechtzeitig an.",
+    "trendTitle": "Historische Trends und globaler Vergleich",
+    "trendContent": "In den letzten Jahren hat sich die Luftqualität in einigen Städten verbessert, aber im Winter und an Tagen mit starker Verschmutzung ist weiterhin Vorsicht geboten. Weltweit ist die Luftqualität in Industrieländern meist besser, während einige Städte in Entwicklungsländern stärker betroffen sind.",
+    "policyTitle": "Politik und gesellschaftliche Maßnahmen",
+    "policyContent": "Regierungen verbessern die Luftqualität durch Emissionsbegrenzungen, Förderung neuer Energien und Stadtbegrünung. Auch die Öffentlichkeit kann durch umweltfreundliche Mobilität und Energiesparen einen Beitrag leisten.",
+    "seoTitle": "Wissenschaftliche Artikel - Luftqualität & Verschmutzung",
+    "seoDesc": "Lesen Sie wissenschaftliche Artikel und Erkenntnisse zu Luftqualität, Verschmutzung, Gesundheit und Umweltwissenschaften.",
+    "seoKeywords": "wissenschaft, luftqualität, artikel, AQI, PM2.5, verschmutzung, gesundheit"
   }
 } 

@@ -7,6 +7,7 @@
   },
   "nav": {
     "home": "首页",
+    "science": "科普文章",
     "airQuality": "空气质量",
     "faq": "常见问题",
     "about": "关于我们",
@@ -171,7 +172,10 @@
       "malaga": "马拉加",
       "murcia": "穆尔西亚",
       "palma": "帕尔马"
-    }
+    },
+    "seoTitle": "空气质量指数 - 全球实时AQI与污染数据",
+    "seoDesc": "查询全球城市实时空气质量指数（AQI）、PM2.5、PM10等污染数据，关注健康生活。",
+    "seoKeywords": "空气质量, AQI, PM2.5, PM10, 污染, 全球, 城市, 天气, 健康"
   },
   "airQuality": {
     "aqi": "空气质量指数",
@@ -180,7 +184,10 @@
     "o3": "臭氧",
     "no2": "二氧化氮",
     "so2": "二氧化硫",
-    "co": "一氧化碳"
+    "co": "一氧化碳",
+    "temp": "温度",
+    "humidity": "湿度",
+    "aqiDescTitle": "空气质量指数说明"
   },
   "aqiLevels": {
     "good": "优",
@@ -211,18 +218,46 @@
     "healthImpact": {
       "question": "空气质量对健康有影响吗？",
       "answer": "空气污染会增加呼吸道、心血管等疾病风险，尤其对儿童、老人和敏感人群影响更大。关注 air quality，守护健康生活。"
-    }
+    },
+    "seoTitle": "常见问题 - AirQuality.Tools",
+    "seoDesc": "关于空气质量、AQI、PM2.5及AirQuality.Tools使用的常见问题解答。",
+    "seoKeywords": "常见问题, 空气质量, AQI, PM2.5, 帮助"
   },
   "about": {
     "title": "关于我们",
     "description": "AirQuality.Tools 致力于为用户提供权威、及时、易用的全球空气质量数据服务。",
-    "team": "我们的团队由环境科学、数据工程和前端开发等多领域成员组成，专注于用科技守护健康生活。"
+    "team": "我们的团队由环境科学、数据工程和前端开发等多领域成员组成，专注于用科技守护健康生活。",
+    "seoTitle": "关于我们 - AirQuality.Tools",
+    "seoDesc": "了解AirQuality.Tools团队、使命，以及我们如何为全球城市提供实时空气质量数据。",
+    "seoKeywords": "关于, 空气质量, 团队, 联系, AQI"
   },
   "contact": {
     "title": "联系我们",
     "intro": "如有合作、建议或数据问题，欢迎通过以下方式联系我们：",
     "email": "邮箱",
     "wechat": "微信",
-    "feedback": "意见反馈表单（即将上线）"
+    "feedback": "意见反馈表单（即将上线）",
+    "seoTitle": "联系我们 - AirQuality.Tools",
+    "seoDesc": "如需支持、反馈或合作，欢迎联系AirQuality.Tools。我们致力于为您提供空气质量信息服务。",
+    "seoKeywords": "联系, 空气质量, 邮箱, 电话, AQI"
+  },
+  "science": {
+    "title": "空气质量科普",
+    "sourceTitle": "空气污染的主要来源",
+    "sourceContent": "空气污染主要来源于工业排放、机动车尾气、建筑扬尘、燃煤、生活垃圾焚烧等。不同城市和季节，污染源结构可能不同。",
+    "impactTitle": "空气质量对不同人群的影响",
+    "impactContent": "空气污染对儿童、老人、孕妇、呼吸系统疾病患者影响更大。长期暴露在高污染环境下，健康风险显著增加。",
+    "protectTitle": "如何自我防护",
+    "protect1": "空气污染严重时减少户外活动，尤其是早晚高峰时段。",
+    "protect2": "外出佩戴防护口罩（如N95）。",
+    "protect3": "室内可使用空气净化器，保持通风。",
+    "protect4": "关注权威空气质量预报，及时调整出行和锻炼计划。",
+    "trendTitle": "空气质量历史趋势与全球对比",
+    "trendContent": "近年来，部分城市空气质量有所改善，但冬季、重污染天气仍需警惕。全球范围内，发达国家空气质量普遍较好，发展中国家部分城市污染较重。",
+    "policyTitle": "政策与社会措施",
+    "policyContent": "各国政府通过限排、推广新能源、绿化城市等措施改善空气质量。公众也可通过绿色出行、节能减排等方式贡献力量。 ",
+    "seoTitle": "科普文章 - 空气质量与污染科学",
+    "seoDesc": "阅读关于空气质量、污染、健康影响和环境科学的科普文章与深度解读。",
+    "seoKeywords": "科普, 空气质量, 文章, AQI, PM2.5, 污染, 健康"
   }
 } 

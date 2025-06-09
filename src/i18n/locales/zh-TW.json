@@ -7,6 +7,7 @@
   },
   "nav": {
     "home": "首頁",
+    "science": "科普文章",
     "airQuality": "空氣質量",
     "faq": "常見問題",
     "about": "關於我們",
@@ -30,17 +31,30 @@
       "tokyo": "東京",
       "newyork": "紐約",
       "london": "倫敦",
-      "paris": "巴黎"
-    }
+      "paris": "巴黎",
+      "losangeles": "洛杉磯",
+      "chicago": "芝加哥",
+      "houston": "休士頓",
+      "phoenix": "鳳凰城",
+      "philadelphia": "費城",
+      "sanantonio": "聖安東尼奧",
+      "sandiego": "聖地牙哥"
+    },
+    "seoTitle": "空氣品質指數 - 全球即時AQI與污染數據",
+    "seoDesc": "查詢全球城市即時空氣品質指數（AQI）、PM2.5、PM10等污染數據，守護健康生活。",
+    "seoKeywords": "空氣品質, AQI, PM2.5, PM10, 污染, 全球, 城市, 天氣, 健康"
   },
   "airQuality": {
-    "aqi": "空氣質量指數",
+    "aqi": "空氣品質指數",
     "pm25": "PM2.5",
     "pm10": "PM10",
     "o3": "臭氧",
     "no2": "二氧化氮",
     "so2": "二氧化硫",
-    "co": "一氧化碳"
+    "co": "一氧化碳",
+    "temp": "溫度",
+    "humidity": "濕度",
+    "aqiDescTitle": "空氣品質指數說明"
   },
   "aqiLevels": {
     "good": "優",
@@ -71,18 +85,46 @@
     "healthImpact": {
       "question": "空氣質量對健康有影響嗎？",
       "answer": "空氣污染會增加呼吸道、心血管等疾病風險，尤其對兒童、老人和敏感人群影響更大。關注 air quality，守護健康生活。"
-    }
+    },
+    "seoTitle": "常見問題 - AirQuality.Tools",
+    "seoDesc": "關於空氣品質、AQI、PM2.5及AirQuality.Tools使用的常見問題解答。",
+    "seoKeywords": "常見問題, 空氣品質, AQI, PM2.5, 幫助"
   },
   "about": {
     "title": "關於我們",
     "description": "AirQuality.Tools 致力於為用戶提供權威、及時、易用的全球空氣質量數據服務。",
-    "team": "我們的團隊由環境科學、數據工程和前端開發等多領域成員組成，專注於用科技守護健康生活。"
+    "team": "我們的團隊由環境科學、數據工程和前端開發等多領域成員組成，專注於用科技守護健康生活。",
+    "seoTitle": "關於我們 - AirQuality.Tools",
+    "seoDesc": "了解AirQuality.Tools團隊、使命，以及我們如何為全球城市提供即時空氣品質數據。",
+    "seoKeywords": "關於, 空氣品質, 團隊, 聯絡, AQI"
   },
   "contact": {
     "title": "聯絡我們",
     "intro": "如有合作、建議或數據問題，歡迎通過以下方式聯絡我們：",
     "email": "電子郵件",
     "wechat": "微信",
-    "feedback": "意見反饋表單（即將上線"
+    "feedback": "意見反饋表單（即將上線",
+    "seoTitle": "聯絡我們 - AirQuality.Tools",
+    "seoDesc": "如需支援、反饋或合作，歡迎聯絡AirQuality.Tools。我們致力於為您提供空氣品質資訊服務。",
+    "seoKeywords": "聯絡, 空氣品質, 郵箱, 電話, AQI"
+  },
+  "science": {
+    "title": "空氣品質科普",
+    "sourceTitle": "空氣污染的主要來源",
+    "sourceContent": "空氣污染主要來源於工業排放、機動車尾氣、建築揚塵、燃煤、生活垃圾焚燒等。不同城市和季節，污染源結構可能不同。",
+    "impactTitle": "空氣品質對不同人群的影響",
+    "impactContent": "空氣污染對兒童、老人、孕婦、呼吸系統疾病患者影響更大。長期暴露在高污染環境下，健康風險顯著增加。",
+    "protectTitle": "如何自我防護",
+    "protect1": "空氣污染嚴重時減少戶外活動，尤其是早晚高峰時段。",
+    "protect2": "外出佩戴防護口罩（如N95）。",
+    "protect3": "室內可使用空氣淨化器，保持通風。",
+    "protect4": "關注權威空氣品質預報，及時調整出行和鍛煉計劃。",
+    "trendTitle": "空氣品質歷史趨勢與全球對比",
+    "trendContent": "近年來，部分城市空氣品質有所改善，但冬季、重污染天氣仍需警惕。全球範圍內，發達國家空氣品質普遍較好，發展中國家部分城市污染較重。",
+    "policyTitle": "政策與社會措施",
+    "policyContent": "各國政府通過限排、推廣新能源、綠化城市等措施改善空氣品質。公眾也可通過綠色出行、節能減排等方式貢獻力量。",
+    "seoTitle": "科普文章 - 空氣品質與污染科學",
+    "seoDesc": "閱讀關於空氣品質、污染、健康影響和環境科學的科普文章與深度解讀。",
+    "seoKeywords": "科普, 空氣品質, 文章, AQI, PM2.5, 污染, 健康"
   }
 } 

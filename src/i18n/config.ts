@@ -23,25 +23,25 @@ import ga from './locales/ga.json';
 
 // 支持的语言列表
 export const supportedLanguages = {
-  en: { name: 'English', nativeName: 'English' },
-  'zh-CN': { name: '简体中文', nativeName: '简体中文' },
-  'zh-TW': { name: '繁體中文', nativeName: '繁體中文' },
-  ja: { name: '日本語', nativeName: '日本語' },
-  ko: { name: '한국어', nativeName: '한국어' },
-  es: { name: 'Español', nativeName: 'Español' },
-  fr: { name: 'Français', nativeName: 'Français' },
-  de: { name: 'Deutsch', nativeName: 'Deutsch' },
-  ar: { name: 'العربية', nativeName: 'العربية' },
-  hi: { name: 'Hindi', nativeName: 'हिन्दी' },
-  km: { name: 'Khmer', nativeName: 'ភាសាខ្មែរ' },
-  ur: { name: 'Urdu', nativeName: 'اردو' },
-  el: { name: 'Ελληνικά', nativeName: 'Ελληνικά' },
-  tr: { name: 'Türkçe', nativeName: 'Türkçe' },
-  ne: { name: 'नेपाली', nativeName: 'नेपाली' },
-  bs: { name: 'Bosanski', nativeName: 'Bosanski' },
-  sr: { name: 'Српски', nativeName: 'Српски' },
-  hr: { name: 'Hrvatski', nativeName: 'Hrvatski' },
-  ga: { name: 'Gaeilge', nativeName: 'Gaeilge' }
+  en: { name: 'English', nativeName: 'English', flag: '🇺🇸', flagImg: 'https://flagcdn.com/us.svg' },
+  'zh-CN': { name: '简体中文', nativeName: '简体中文', flag: '🇨🇳', flagImg: 'https://flagcdn.com/cn.svg' },
+  'zh-TW': { name: '繁體中文', nativeName: '繁體中文', flag: '🇹🇼', flagImg: 'https://flagcdn.com/tw.svg' },
+  ja: { name: '日本語', nativeName: '日本語', flag: '🇯🇵', flagImg: 'https://flagcdn.com/jp.svg' },
+  ko: { name: '한국어', nativeName: '한국어', flag: '🇰🇷', flagImg: 'https://flagcdn.com/kr.svg' },
+  es: { name: 'Español', nativeName: 'Español', flag: '🇪🇸', flagImg: 'https://flagcdn.com/es.svg' },
+  fr: { name: 'Français', nativeName: 'Français', flag: '🇫🇷', flagImg: 'https://flagcdn.com/fr.svg' },
+  de: { name: 'Deutsch', nativeName: 'Deutsch', flag: '🇩🇪', flagImg: 'https://flagcdn.com/de.svg' },
+  ar: { name: 'العربية', nativeName: 'العربية', flag: '🇸🇦', flagImg: 'https://flagcdn.com/sa.svg' },
+  hi: { name: 'Hindi', nativeName: 'हिन्दी', flag: '🇮🇳', flagImg: 'https://flagcdn.com/in.svg' },
+  km: { name: 'Khmer', nativeName: 'ភាសាខ្មែរ', flag: '🇰🇭', flagImg: 'https://flagcdn.com/kh.svg' },
+  ur: { name: 'Urdu', nativeName: 'اردو', flag: '🇵🇰', flagImg: 'https://flagcdn.com/pk.svg' },
+  el: { name: 'Ελληνικά', nativeName: 'Ελληνικά', flag: '🇬🇷', flagImg: 'https://flagcdn.com/gr.svg' },
+  tr: { name: 'Türkçe', nativeName: 'Türkçe', flag: '🇹🇷', flagImg: 'https://flagcdn.com/tr.svg' },
+  ne: { name: 'नेपाली', nativeName: 'नेपाली', flag: '🇳🇵', flagImg: 'https://flagcdn.com/np.svg' },
+  bs: { name: 'Bosanski', nativeName: 'Bosanski', flag: '🇧🇦', flagImg: 'https://flagcdn.com/ba.svg' },
+  sr: { name: 'Српски', nativeName: 'Српски', flag: '🇷🇸', flagImg: 'https://flagcdn.com/rs.svg' },
+  hr: { name: 'Hrvatski', nativeName: 'Hrvatski', flag: '🇭🇷', flagImg: 'https://flagcdn.com/hr.svg' },
+  ga: { name: 'Gaeilge', nativeName: 'Gaeilge', flag: '🇮🇪', flagImg: 'https://flagcdn.com/ie.svg' }
 };
 
 // 初始化i18n配置

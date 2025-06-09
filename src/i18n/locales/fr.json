@@ -7,6 +7,7 @@
   },
   "nav": {
     "home": "Accueil",
+    "science": "Science",
     "airQuality": "Qualité de l'air",
     "faq": "FAQ",
     "about": "À propos",
@@ -154,24 +155,11 @@
       "sapporo": "Sapporo",
       "fukuoka": "Fukuoka",
       "kobe": "Kobe",
-      "kyoto": "Kyoto",
-      "berlin": "Berlin",
-      "hamburg": "Hambourg",
-      "munich": "Munich",
-      "cologne": "Cologne",
-      "frankfurt": "Francfort",
-      "stuttgart": "Stuttgart",
-      "dusseldorf": "Düsseldorf",
-      "dortmund": "Dortmund",
-      "madrid": "Madrid",
-      "barcelona": "Barcelone",
-      "valencia": "Valence",
-      "seville": "Séville",
-      "zaragoza": "Saragosse",
-      "malaga": "Málaga",
-      "murcia": "Murcie",
-      "palma": "Palma"
-    }
+      "kyoto": "Kyoto"
+    },
+    "seoTitle": "Indice de Qualité de l'Air - Données AQI mondiales en temps réel",
+    "seoDesc": "Consultez l'indice de qualité de l'air (AQI), PM2.5, PM10 et les données de pollution pour les villes du monde entier. Restez informé et protégez votre santé.",
+    "seoKeywords": "qualité de l'air, AQI, PM2.5, PM10, pollution, mondial, ville, météo, santé"
   },
   "airQuality": {
     "aqi": "Indice de qualité de l'air",
@@ -180,7 +168,9 @@
     "o3": "Ozone",
     "no2": "Dioxyde d'azote",
     "so2": "Dioxyde de soufre",
-    "co": "Monoxyde de carbone"
+    "co": "Monoxyde de carbone",
+    "temp": "Température",
+    "humidity": "Humidité"
   },
   "aqiLevels": {
     "good": "Bon",
@@ -211,18 +201,46 @@
     "healthImpact": {
       "question": "La qualité de l'air affecte-t-elle la santé ?",
       "answer": "La pollution de l'air augmente le risque de maladies respiratoires et cardiovasculaires, en particulier chez les enfants, les personnes âgées et les groupes sensibles. Faites attention à la qualité de l'air et adoptez un mode de vie sain."
-    }
+    },
+    "seoTitle": "FAQ - AirQuality.Tools",
+    "seoDesc": "Questions fréquemment posées sur la qualité de l'air, AQI, PM2.5 et l'utilisation d'AirQuality.Tools.",
+    "seoKeywords": "faq, qualité de l'air, AQI, PM2.5, aide"
   },
   "about": {
     "title": "À propos de nous",
     "description": "AirQuality.Tools s'engage à fournir aux utilisateurs des services de données sur la qualité de l'air mondiaux, faisant autorité, opportuns et faciles à utiliser.",
-    "team": "Notre équipe est composée de membres spécialisés en sciences de l'environnement, ingénierie des données et développement frontend, dédiés à la protection de la vie saine par la technologie."
+    "team": "Notre équipe est composée de membres spécialisés en sciences de l'environnement, ingénierie des données et développement frontend, dédiés à la protection de la vie saine par la technologie.",
+    "seoTitle": "À propos de nous - AirQuality.Tools",
+    "seoDesc": "Découvrez l'équipe AirQuality.Tools, notre mission et comment nous fournissons des données de qualité de l'air en temps réel.",
+    "seoKeywords": "à propos, qualité de l'air, équipe, contact, AQI"
   },
   "contact": {
     "title": "Contact",
     "intro": "Pour toute collaboration, suggestion ou question sur les données, veuillez nous contacter par les moyens suivants :",
     "email": "E-mail",
     "wechat": "WeChat",
-    "feedback": "Formulaire de retour (bientôt disponible)"
+    "feedback": "Formulaire de retour (bientôt disponible)",
+    "seoTitle": "Contactez-nous - AirQuality.Tools",
+    "seoDesc": "Contactez AirQuality.Tools pour toute assistance, retour ou partenariat. Nous sommes là pour vous aider.",
+    "seoKeywords": "contact, qualité de l'air, email, téléphone, AQI"
+  },
+  "science": {
+    "title": "Science de la qualité de l'air",
+    "sourceTitle": "Principales sources de pollution de l'air",
+    "sourceContent": "La pollution de l'air provient principalement des émissions industrielles, des gaz d'échappement des véhicules, de la poussière de construction, de la combustion du charbon et de l'incinération des déchets domestiques. La structure des sources de pollution peut varier selon la ville et la saison.",
+    "impactTitle": "Impact de la qualité de l'air sur différents groupes",
+    "impactContent": "La pollution de l'air a un impact plus important sur les enfants, les personnes âgées, les femmes enceintes et les personnes atteintes de maladies respiratoires. Une exposition prolongée à une forte pollution augmente considérablement les risques pour la santé.",
+    "protectTitle": "Comment se protéger",
+    "protect1": "Réduisez les activités de plein air lorsque la pollution de l'air est grave, surtout aux heures de pointe.",
+    "protect2": "Portez des masques de protection (comme les N95) lorsque vous sortez.",
+    "protect3": "Utilisez des purificateurs d'air à l'intérieur et gardez les pièces ventilées.",
+    "protect4": "Suivez les prévisions officielles de la qualité de l'air et ajustez vos plans de sortie et d'exercice en conséquence.",
+    "trendTitle": "Tendances historiques et comparaison mondiale",
+    "trendContent": "Ces dernières années, la qualité de l'air s'est améliorée dans certaines villes, mais il faut rester vigilant en hiver et lors des pics de pollution. À l'échelle mondiale, les pays développés ont généralement une meilleure qualité de l'air, tandis que certaines villes des pays en développement sont plus touchées.",
+    "policyTitle": "Politiques et mesures sociales",
+    "policyContent": "Les gouvernements améliorent la qualité de l'air grâce à des limites d'émissions, à la promotion des énergies nouvelles et à la végétalisation urbaine. Le public peut également contribuer en adoptant des modes de déplacement écologiques et en économisant l'énergie.",
+    "seoTitle": "Articles scientifiques - Qualité de l'air et pollution",
+    "seoDesc": "Lisez des articles scientifiques et des analyses sur la qualité de l'air, la pollution, les impacts sur la santé et la science environnementale.",
+    "seoKeywords": "science, qualité de l'air, article, AQI, PM2.5, pollution, santé"
   }
 } 

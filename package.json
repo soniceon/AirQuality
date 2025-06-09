@@ -6,6 +6,7 @@
   "author": "AirQuality.Tools",
   "homepage": "https://airquality.tools",
   "dependencies": {
+    "@headlessui/react": "^2.2.4",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "@types/react-router-dom": "^5.3.3",
@@ -29,7 +30,9 @@
     "preview": "vite preview",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "test": "vitest",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "generate-sitemap": "node scripts/generate-sitemap.js",
+    "prebuild": "npm run generate-sitemap"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",

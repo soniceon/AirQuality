@@ -7,7 +7,9 @@
   },
   "nav": {
     "home": "Home",
+    "science": "Science",
     "airQuality": "Air Quality",
+    "faq": "FAQ",
     "about": "About",
     "contact": "Contact"
   },
@@ -170,7 +172,10 @@
       "malaga": "Malaga",
       "murcia": "Murcia",
       "palma": "Palma"
-    }
+    },
+    "seoTitle": "Air Quality Index - Real-time Global AQI & Pollution Data",
+    "seoDesc": "Check real-time air quality index (AQI), PM2.5, PM10, and pollution data for cities worldwide. Stay informed and protect your health.",
+    "seoKeywords": "air quality, AQI, PM2.5, PM10, pollution, global, city, weather, health"
   },
   "airQuality": {
     "aqi": "Air Quality Index",
@@ -179,7 +184,10 @@
     "o3": "Ozone",
     "no2": "Nitrogen Dioxide",
     "so2": "Sulfur Dioxide",
-    "co": "Carbon Monoxide"
+    "co": "Carbon Monoxide",
+    "temp": "Temperature",
+    "humidity": "Humidity",
+    "aqiDescTitle": "AQI Level Description"
   },
   "aqiLevels": {
     "good": "Good",
@@ -210,18 +218,46 @@
     "healthImpact": {
       "question": "Does air quality affect health?",
       "answer": "Air pollution increases the risk of respiratory and cardiovascular diseases, especially for children, the elderly, and sensitive groups. Pay attention to air quality and maintain a healthy lifestyle."
-    }
+    },
+    "seoTitle": "FAQ - AirQuality.Tools",
+    "seoDesc": "Frequently asked questions about air quality, AQI, PM2.5, and how to use AirQuality.Tools.",
+    "seoKeywords": "faq, air quality, AQI, PM2.5, help"
   },
   "about": {
     "title": "About Us",
     "description": "AirQuality.Tools is committed to providing users with authoritative, timely, and user-friendly global air quality data services.",
-    "team": "Our team consists of experts in environmental science, data engineering, and frontend development, dedicated to using technology to protect healthy living."
+    "team": "Our team consists of experts in environmental science, data engineering, and frontend development, dedicated to using technology to protect healthy living.",
+    "seoTitle": "About Us - AirQuality.Tools",
+    "seoDesc": "Learn about the AirQuality.Tools team, our mission, and how we provide real-time air quality data for global cities.",
+    "seoKeywords": "about, air quality, team, contact, AQI"
   },
   "contact": {
     "title": "Contact Us",
     "intro": "For cooperation, suggestions, or data issues, please contact us via the following methods:",
     "email": "Email",
     "wechat": "WeChat",
-    "feedback": "Feedback form (coming soon)"
+    "feedback": "Feedback form (coming soon)",
+    "seoTitle": "Contact Us - AirQuality.Tools",
+    "seoDesc": "Contact AirQuality.Tools for support, feedback, or partnership inquiries. We're here to help you with air quality information.",
+    "seoKeywords": "contact, air quality, email, phone, AQI"
+  },
+  "science": {
+    "title": "Air Quality Science",
+    "sourceTitle": "Main Sources of Air Pollution",
+    "sourceContent": "Air pollution mainly comes from industrial emissions, vehicle exhaust, construction dust, coal burning, and domestic waste incineration. The structure of pollution sources may vary by city and season.",
+    "impactTitle": "Impact of Air Quality on Different Groups",
+    "impactContent": "Air pollution has a greater impact on children, the elderly, pregnant women, and people with respiratory diseases. Long-term exposure to high pollution increases health risks significantly.",
+    "protectTitle": "How to Protect Yourself",
+    "protect1": "Reduce outdoor activities when air pollution is severe, especially during rush hours.",
+    "protect2": "Wear protective masks (such as N95) when going out.",
+    "protect3": "Use air purifiers indoors and keep rooms ventilated.",
+    "protect4": "Follow authoritative air quality forecasts and adjust travel and exercise plans in time.",
+    "trendTitle": "Historical Trends and Global Comparison",
+    "trendContent": "In recent years, air quality in some cities has improved, but winter and heavy pollution days still require vigilance. Globally, developed countries generally have better air quality, while some cities in developing countries face more serious pollution.",
+    "policyTitle": "Policies and Social Measures",
+    "policyContent": "Governments improve air quality through emission limits, promotion of new energy, and urban greening. The public can also contribute by choosing green travel and saving energy.",
+    "seoTitle": "Science Articles - Air Quality & Pollution Insights",
+    "seoDesc": "Read scientific articles and insights about air quality, pollution, health impacts, and environmental science.",
+    "seoKeywords": "science, air quality, article, AQI, PM2.5, pollution, health"
   }
 } 

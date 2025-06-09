@@ -50,7 +50,10 @@
       "malaga": "Málaga",
       "murcia": "Murcia",
       "palma": "Palma"
-    }
+    },
+    "seoTitle": "Índice de Calidad del Aire - Datos AQI Globales en Tiempo Real",
+    "seoDesc": "Consulta el índice de calidad del aire (AQI), PM2.5, PM10 y datos de contaminación para ciudades de todo el mundo. Mantente informado y protege tu salud.",
+    "seoKeywords": "calidad del aire, AQI, PM2.5, PM10, contaminación, global, ciudad, clima, salud"
   },
   "airQuality": {
     "aqi": "Índice de calidad del aire",
@@ -59,7 +62,9 @@
     "o3": "Ozono",
     "no2": "Dióxido de nitrógeno",
     "so2": "Dióxido de azufre",
-    "co": "Monóxido de carbono"
+    "co": "Monóxido de carbono",
+    "temp": "Temperatura",
+    "humidity": "Humedad"
   },
   "aqiLevels": {
     "good": "Bueno",
@@ -90,18 +95,32 @@
     "healthImpact": {
       "question": "¿La calidad del aire afecta la salud?",
       "answer": "La contaminación del aire aumenta el riesgo de enfermedades respiratorias y cardiovasculares, especialmente en niños, ancianos y personas sensibles. Preste atención a la calidad del aire y mantenga un estilo de vida saludable."
-    }
+    },
+    "seoTitle": "Preguntas Frecuentes - AirQuality.Tools",
+    "seoDesc": "Preguntas frecuentes sobre calidad del aire, AQI, PM2.5 y cómo usar AirQuality.Tools.",
+    "seoKeywords": "preguntas frecuentes, calidad del aire, AQI, PM2.5, ayuda"
   },
   "about": {
     "title": "Sobre nosotros",
     "description": "AirQuality.Tools se compromete a proporcionar a los usuarios servicios de datos de calidad del aire globales, autorizados, oportunos y fáciles de usar.",
-    "team": "Nuestro equipo está formado por miembros de los campos de la ciencia ambiental, la ingeniería de datos y el desarrollo frontend, dedicados a proteger la vida saludable mediante la tecnología."
+    "team": "Nuestro equipo está formado por miembros de los campos de la ciencia ambiental, la ingeniería de datos y el desarrollo frontend, dedicados a proteger la vida saludable mediante la tecnología.",
+    "seoTitle": "Sobre Nosotros - AirQuality.Tools",
+    "seoDesc": "Conoce al equipo de AirQuality.Tools, nuestra misión y cómo proporcionamos datos de calidad del aire en tiempo real.",
+    "seoKeywords": "sobre, calidad del aire, equipo, contacto, AQI"
   },
   "contact": {
     "title": "Contacto",
     "intro": "Para colaboraciones, sugerencias o problemas de datos, contáctenos a través de los siguientes métodos:",
     "email": "Correo electrónico",
     "wechat": "WeChat",
-    "feedback": "Formulario de comentarios (próximamente)"
+    "feedback": "Formulario de comentarios (próximamente)",
+    "seoTitle": "Contáctanos - AirQuality.Tools",
+    "seoDesc": "Contacta a AirQuality.Tools para soporte, comentarios o consultas de asociación. Estamos aquí para ayudarte.",
+    "seoKeywords": "contacto, calidad del aire, correo electrónico, teléfono, AQI"
+  },
+  "science": {
+    "seoTitle": "Artículos Científicos - Calidad del Aire y Contaminación",
+    "seoDesc": "Lee artículos científicos y conocimientos sobre calidad del aire, contaminación, impactos en la salud y ciencia ambiental.",
+    "seoKeywords": "ciencia, calidad del aire, artículo, AQI, PM2.5, contaminación, salud"
   }
 } 

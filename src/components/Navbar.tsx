@@ -7,7 +7,7 @@ export default function Navbar() {
   const { t } = useTranslation();
   const navItems = [
     { path: '/', label: t('nav.home') },
-    { path: '/science', label: t('nav.airQuality') },
+    { path: '/science', label: t('nav.science', '科普文章') },
     { path: '/faq', label: t('nav.faq', '常见问题') },
     { path: '/about', label: t('nav.about') },
     { path: '/contact', label: t('nav.contact') },

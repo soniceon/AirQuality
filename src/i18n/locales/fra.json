@@ -7,9 +7,11 @@
   },
   "nav": {
     "home": "Accueil",
+    "science": "Science",
     "airQuality": "Qualité de l'air",
+    "faq": "FAQ",
     "about": "À propos",
-    "contact": "Contactez-nous"
+    "contact": "Contact"
   },
   "home": {
     "title": "Indice de qualité de l'air",
@@ -54,5 +56,21 @@
     "email": "Courriel",
     "phone": "Téléphone",
     "address": "Adresse"
+  },
+  "science": {
+    "title": "Science de la qualité de l'air",
+    "sourceTitle": "Principales sources de pollution de l'air",
+    "sourceContent": "La pollution de l'air provient principalement des émissions industrielles, des gaz d'échappement des véhicules, de la poussière de construction, de la combustion du charbon et de l'incinération des déchets domestiques. La structure des sources de pollution peut varier selon la ville et la saison.",
+    "impactTitle": "Impact de la qualité de l'air sur différents groupes",
+    "impactContent": "La pollution de l'air a un impact plus important sur les enfants, les personnes âgées, les femmes enceintes et les personnes atteintes de maladies respiratoires. Une exposition prolongée à une forte pollution augmente considérablement les risques pour la santé.",
+    "protectTitle": "Comment se protéger",
+    "protect1": "Réduisez les activités de plein air lorsque la pollution de l'air est grave, surtout aux heures de pointe.",
+    "protect2": "Portez des masques de protection (comme les N95) lorsque vous sortez.",
+    "protect3": "Utilisez des purificateurs d'air à l'intérieur et gardez les pièces ventilées.",
+    "protect4": "Suivez les prévisions officielles de la qualité de l'air et ajustez vos plans de sortie et d'exercice en conséquence.",
+    "trendTitle": "Tendances historiques et comparaison mondiale",
+    "trendContent": "Ces dernières années, la qualité de l'air s'est améliorée dans certaines villes, mais il faut rester vigilant en hiver et lors des pics de pollution. À l'échelle mondiale, les pays développés ont généralement une meilleure qualité de l'air, tandis que certaines villes des pays en développement sont plus touchées.",
+    "policyTitle": "Politiques et mesures sociales",
+    "policyContent": "Les gouvernements améliorent la qualité de l'air grâce à des limites d'émissions, à la promotion des énergies nouvelles et à la végétalisation urbaine. Le public peut également contribuer en adoptant des modes de déplacement écologiques et en économisant l'énergie."
   }
 }

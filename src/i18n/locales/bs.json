@@ -171,7 +171,10 @@
       "malaga": "Malaga",
       "murcia": "Mursija",
       "palma": "Palma"
-    }
+    },
+    "seoTitle": "Indeks kvaliteta zraka - Globalni AQI podaci u stvarnom vremenu",
+    "seoDesc": "Provjerite indeks kvaliteta zraka (AQI), PM2.5, PM10 i podatke o zagađenju za gradove širom svijeta. Ostanite informisani i zaštitite svoje zdravlje.",
+    "seoKeywords": "kvalitet zraka, AQI, PM2.5, PM10, zagađenje, globalno, grad, vrijeme, zdravlje"
   },
   "airQuality": {
     "aqi": "Indeks kvaliteta zraka",
@@ -199,18 +202,32 @@
     "whatIsPM25": {
       "question": "Šta je PM2.5?",
       "answer": "PM2.5 se odnosi na fine čestice promjera 2,5 mikrometara ili manje. Ove čestice su dovoljno male da prodru duboko u pluća i mogu uzrokovati ozbiljne zdravstvene probleme."
-    }
+    },
+    "seoTitle": "Česta pitanja - AirQuality.Tools",
+    "seoDesc": "Često postavljana pitanja o kvalitetu zraka, AQI, PM2.5 i korištenju AirQuality.Tools.",
+    "seoKeywords": "česta pitanja, kvalitet zraka, AQI, PM2.5, pomoć"
   },
   "about": {
     "title": "O nama",
     "description": "AirQuality.Tools je posvećen pružanju korisnicima autoritativnih, pravovremenih i jednostavnih globalnih usluga podataka o kvalitetu zraka.",
-    "team": "Naš tim se sastoji od stručnjaka za nauku o okolišu, inženjering podataka i frontend razvoj, posvećenih zaštiti zdravog života korištenjem tehnologije."
+    "team": "Naš tim se sastoji od stručnjaka za nauku o okolišu, inženjering podataka i frontend razvoj, posvećenih zaštiti zdravog života korištenjem tehnologije.",
+    "seoTitle": "O nama - AirQuality.Tools",
+    "seoDesc": "Saznajte više o AirQuality.Tools timu, našoj misiji i kako pružamo podatke o kvalitetu zraka u stvarnom vremenu.",
+    "seoKeywords": "o nama, kvalitet zraka, tim, kontakt, AQI"
   },
   "contact": {
     "title": "Kontakt",
     "intro": "Za saradnju, prijedloge ili probleme s podacima, kontaktirajte nas putem sljedećih metoda:",
     "email": "Email",
     "wechat": "WeChat",
-    "feedback": "Obrazac za povratne informacije (uskoro)"
+    "feedback": "Obrazac za povratne informacije (uskoro)",
+    "seoTitle": "Kontakt - AirQuality.Tools",
+    "seoDesc": "Kontaktirajte AirQuality.Tools za podršku, povratne informacije ili partnerstvo. Tu smo da vam pomognemo.",
+    "seoKeywords": "kontakt, kvalitet zraka, email, telefon, AQI"
+  },
+  "science": {
+    "seoTitle": "Naučni članci - Kvalitet zraka i zagađenje",
+    "seoDesc": "Pročitajte naučne članke i uvide o kvalitetu zraka, zagađenju, uticajima na zdravlje i nauci o okolišu.",
+    "seoKeywords": "nauka, kvalitet zraka, članak, AQI, PM2.5, zagađenje, zdravlje"
   }
 } 
