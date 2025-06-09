@@ -11,7 +11,6 @@ export default function Home() {
   const [airData, setAirData] = useState<AirData | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [country, setCountry] = useState('');
   const [hotCities, setHotCities] = useState<string[]>(["newyork", "losangeles", "chicago", "houston", "phoenix", "philadelphia", "sanantonio", "sandiego"]);
 
   interface AirData {
@@ -35,7 +34,6 @@ export default function Home() {
           fetchAirQuality(loc.city, true);
         }
         if (loc && loc.country) {
-          setCountry(loc.country);
           setHotCities(hotCitiesByCountry[loc.country] || ["newyork", "losangeles", "chicago", "houston", "phoenix", "philadelphia", "sanantonio", "sandiego"]);
         }
       } catch (e) {}

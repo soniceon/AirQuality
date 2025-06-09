@@ -1,14 +1,16 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './i18n/config';
 import Navbar from './components/Navbar';
-import AQIQuery from './pages/AQIQuery';
-import About from './pages/About';
-import Contact from './pages/Contact';
+import LoadingSpinner from './components/LoadingSpinner';
+// 懒加载页面组件
+const AQIQuery = lazy(() => import('./pages/AQIQuery'));
+const About = lazy(() => import('./pages/About'));
+const Contact = lazy(() => import('./pages/Contact'));
+const FAQ = lazy(() => import('./pages/FAQ'));
+const Science = lazy(() => import('./pages/Science'));
 import Home from './pages/Home';
-import FAQ from './pages/FAQ';
-import Science from './pages/Science';
 import { performanceMonitor } from './utils/performance';
 
 const App: React.FC = () => {
@@ -28,14 +30,16 @@ const App: React.FC = () => {
       <div className="min-h-screen bg-gray-50">
         <Navbar />
         <main className="container mx-auto px-4 py-8">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/query" element={<AQIQuery />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/faq" element={<FAQ />} />
-            <Route path="/science" element={<Science />} />
-          </Routes>
+          <Suspense fallback={<LoadingSpinner size="lg" />}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/query" element={<AQIQuery />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/faq" element={<FAQ />} />
+              <Route path="/science" element={<Science />} />
+            </Routes>
+          </Suspense>
         </main>
       </div>
     </Router>

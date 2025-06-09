@@ -18,16 +18,47 @@
     <meta name="twitter:description" content="全球主要城市空气质量实时查询，关注健康生活。" />
     <meta name="twitter:image" content="https://airquality.tools/og-image.png" />
     <meta name="theme-color" content="#3B82F6" />
+    
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="en" href="https://airquality.tools/en/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://airquality.tools/zh-CN/" />
+    <link rel="alternate" hreflang="zh-TW" href="https://airquality.tools/zh-TW/" />
+    <link rel="alternate" hreflang="ja" href="https://airquality.tools/ja/" />
+    <link rel="alternate" hreflang="ko" href="https://airquality.tools/ko/" />
+    <link rel="alternate" hreflang="es" href="https://airquality.tools/es/" />
+    <link rel="alternate" hreflang="fr" href="https://airquality.tools/fr/" />
+    <link rel="alternate" hreflang="de" href="https://airquality.tools/de/" />
+    <link rel="alternate" hreflang="ar" href="https://airquality.tools/ar/" />
+    <link rel="alternate" hreflang="hi" href="https://airquality.tools/hi/" />
+    <link rel="alternate" hreflang="km" href="https://airquality.tools/km/" />
+    <link rel="alternate" hreflang="ur" href="https://airquality.tools/ur/" />
+    <link rel="alternate" hreflang="el" href="https://airquality.tools/el/" />
+    <link rel="alternate" hreflang="tr" href="https://airquality.tools/tr/" />
+    <link rel="alternate" hreflang="ne" href="https://airquality.tools/ne/" />
+    <link rel="alternate" hreflang="bs" href="https://airquality.tools/bs/" />
+    <link rel="alternate" hreflang="sr" href="https://airquality.tools/sr/" />
+    <link rel="alternate" hreflang="hr" href="https://airquality.tools/hr/" />
+    <link rel="alternate" hreflang="ga" href="https://airquality.tools/ga/" />
+    <link rel="alternate" hreflang="x-default" href="https://airquality.tools/" />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <title>AirQuality.Tools - 实时监测全球城市空气质量</title>
+    
+    <!-- Enhanced Structured Data -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "AirQuality.Tools",
         "url": "https://airquality.tools/",
-        "description": "全球主要城市空气质量实时查询，关注健康生活。"
+        "description": "全球主要城市空气质量实时查询，关注健康生活。",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://airquality.tools/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        },
+        "inLanguage": ["en", "zh-CN", "zh-TW", "ja", "ko", "es", "fr", "de", "ar", "hi", "km", "ur", "el", "tr", "ne", "bs", "sr", "hr", "ga"]
       }
     </script>
     <script type="application/ld+json">
@@ -38,35 +69,81 @@
           {
             "@type": "Question",
             "name": "空气质量指数（AQI）是什么？",
-            "acceptedAnswer": { "@type": "Answer", "text": "AQI（Air Quality Index）是反映空气质量状况的综合指数，数值越高，污染越严重。" }
+            "acceptedAnswer": { 
+              "@type": "Answer", 
+              "text": "AQI（Air Quality Index）是反映空气质量状况的综合指数，数值越高，污染越严重。",
+              "inLanguage": "zh-CN"
+            }
           },
           {
             "@type": "Question",
             "name": "PM2.5、PM10 有什么区别？",
-            "acceptedAnswer": { "@type": "Answer", "text": "PM2.5 指直径小于等于2.5微米的颗粒物，PM10 指直径小于等于10微米的颗粒物，前者对健康影响更大。" }
+            "acceptedAnswer": { 
+              "@type": "Answer", 
+              "text": "PM2.5 指直径小于等于2.5微米的颗粒物，PM10 指直径小于等于10微米的颗粒物，前者对健康影响更大。",
+              "inLanguage": "zh-CN"
+            }
           },
           {
             "@type": "Question",
             "name": "如何改善室内空气质量？",
-            "acceptedAnswer": { "@type": "Answer", "text": "可通过通风、使用空气净化器、减少室内污染源等方式改善室内空气质量。" }
+            "acceptedAnswer": { 
+              "@type": "Answer", 
+              "text": "可通过通风、使用空气净化器、减少室内污染源等方式改善室内空气质量。",
+              "inLanguage": "zh-CN"
+            }
           },
           {
             "@type": "Question",
             "name": "空气质量对健康的影响？",
-            "acceptedAnswer": { "@type": "Answer", "text": "空气污染会增加呼吸道、心血管等疾病风险，尤其对儿童、老人和敏感人群影响更大。" }
+            "acceptedAnswer": { 
+              "@type": "Answer", 
+              "text": "空气污染会增加呼吸道、心血管等疾病风险，尤其对儿童、老人和敏感人群影响更大。",
+              "inLanguage": "zh-CN"
+            }
           },
           {
             "@type": "Question",
             "name": "数据来源和更新频率？",
-            "acceptedAnswer": { "@type": "Answer", "text": "数据来源于权威气象和环境监测机构，通常每小时更新一次。" }
+            "acceptedAnswer": { 
+              "@type": "Answer", 
+              "text": "数据来源于权威气象和环境监测机构，通常每小时更新一次。",
+              "inLanguage": "zh-CN"
+            }
           }
         ]
       }
     </script>
-    <script type="module" crossorigin src="/assets/index-7d2c0dee.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/react-vendor-5e9589d4.js">
-    <link rel="modulepreload" crossorigin href="/assets/ui-vendor-7b759502.js">
-    <link rel="stylesheet" href="/assets/index-cdd598c9.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "AirQuality.Tools",
+        "url": "https://airquality.tools",
+        "logo": "https://airquality.tools/logo.png",
+        "sameAs": [
+          "https://twitter.com/airqualitytools",
+          "https://www.facebook.com/airqualitytools",
+          "https://www.linkedin.com/company/airqualitytools"
+        ]
+      }
+    </script>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJJDDQ25FK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DJJDDQ25FK', {
+        'page_path': window.location.pathname,
+        'language': document.documentElement.lang
+      });
+    </script>
+    <script type="module" crossorigin src="/assets/index-cadd4c7f.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/react-vendor-618c84b9.js">
+    <link rel="modulepreload" crossorigin href="/assets/ui-vendor-13ec9c6e.js">
+    <link rel="stylesheet" href="/assets/index-9f88fbfc.css">
   </head>
   <body>
     <div id="root"></div>

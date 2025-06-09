@@ -30,7 +30,7 @@ const LanguageSwitcher: React.FC = () => {
       <Listbox value={currentLang} onChange={changeLanguage}>
         <Listbox.Button className="flex items-center justify-between px-2 py-2 rounded-lg border border-gray-300 shadow-sm bg-white text-gray-800 text-base font-medium focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-150 cursor-pointer min-w-0" style={{ width: 'auto', minWidth: 0, maxWidth: '100%' }}>
           <span className="flex items-center truncate">
-            <img src={selected[1].flagImg} alt={selected[1].name} className="w-5 h-5 mr-1 rounded-sm object-cover" />
+            <img src={selected[1].flagImg} alt={selected[1].name} className="w-5 h-5 mr-1 rounded-sm object-cover" loading="lazy" />
             <span className="truncate max-w-[120px]">{selected[1].nativeName}</span>
           </span>
           <svg className="w-4 h-4 ml-1 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
@@ -44,7 +44,7 @@ const LanguageSwitcher: React.FC = () => {
                 `flex items-center px-2 py-2 cursor-pointer select-none transition-colors ${active ? 'bg-blue-100 text-blue-900' : ''} ${selected ? 'font-bold' : ''}`
               }
             >
-              <img src={flagImg} alt={nativeName} className="w-5 h-5 mr-1 rounded-sm object-cover" />
+              <img src={flagImg} alt={nativeName} className="w-5 h-5 mr-1 rounded-sm object-cover" loading="lazy" />
               <span className="truncate max-w-[120px]">{nativeName}</span>
             </Listbox.Option>
           ))}
