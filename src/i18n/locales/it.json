@@ -1,0 +1,50 @@
+{
+  "home": {
+    "seoTitle": "AirQuality | Indice di Qualità dell'Aria e Strumenti per Città Globali",
+    "seoDesc": "La piattaforma AirQuality (qualità dell'aria) fornisce dati sull'indice di qualità dell'aria (AQI) e sull'inquinamento in tempo reale per le città di tutto il mondo.",
+    "seoKeywords": "airquality, qualità dell'aria, AQI, strumenti airquality, indice di qualità dell'aria, qualità dell'aria globale",
+    "title": "AirQuality | Indice di Qualità dell'Aria",
+    "intro": "Benvenuto su AirQuality, una piattaforma affidabile di informazioni sulla qualità dell'aria (airquality). AirQuality fornisce dati sulla qualità dell'aria (indice di qualità dell'aria, AQI) in tempo reale per le città di tutto il mondo.",
+    "footer": "La piattaforma AirQuality (qualità dell'aria) aiuta a monitorare l'indice di qualità dell'aria (AQI) e i dati sull'inquinamento per le città di tutto il mondo. Proteggi la tua salute con AirQuality!"
+  },
+  "science": {
+    "seoTitle": "AirQuality Scienza | Articoli sulla Qualità dell'Aria e AirQuality",
+    "seoDesc": "Articoli scientifici di AirQuality (qualità dell'aria): scopri l'indice di qualità dell'aria (AQI), l'inquinamento e gli impatti sulla salute in tutto il mondo.",
+    "seoKeywords": "airquality, qualità dell'aria, scienza, AQI, articoli airquality, indice di qualità dell'aria",
+    "title": "AirQuality Scienza | Conoscenza sulla Qualità dell'Aria",
+    "intro": "Benvenuto in AirQuality Scienza! Qui puoi imparare sulla qualità dell'aria (airquality), AQI, inquinamento e come proteggere la tua salute.",
+    "footer": "AirQuality Scienza (qualità dell'aria) aiuta a comprendere l'importanza dell'aria pulita e come la qualità dell'aria influisce sulla vita."
+  },
+  "faq": {
+    "seoTitle": "AirQuality FAQ | Domande sulla Qualità dell'Aria e AirQuality",
+    "seoDesc": "FAQ di AirQuality (qualità dell'aria): risposte alle domande frequenti sulla qualità dell'aria (airquality) e AQI nelle città di tutto il mondo.",
+    "seoKeywords": "airquality, qualità dell'aria, FAQ, domande airquality, indice di qualità dell'aria, AQI",
+    "title": "AirQuality FAQ | Domande sulla Qualità dell'Aria",
+    "intro": "Trova risposte alle tue domande sulla qualità dell'aria (airquality). AirQuality aiuta a comprendere AQI, inquinamento e molto altro.",
+    "footer": "Se hai bisogno di maggiori informazioni su airquality (qualità dell'aria), visita altre sezioni della piattaforma AirQuality."
+  },
+  "about": {
+    "seoTitle": "Chi Siamo AirQuality | Team di Qualità dell'Aria e AirQuality",
+    "seoDesc": "Sulla piattaforma AirQuality (qualità dell'aria): incontra il team airquality e la nostra missione di fornire dati sull'indice di qualità dell'aria (AQI) in tutto il mondo.",
+    "seoKeywords": "airquality, qualità dell'aria, chi siamo, team airquality, indice di qualità dell'aria, AQI",
+    "title": "Chi Siamo AirQuality | Team di Qualità dell'Aria",
+    "intro": "AirQuality (qualità dell'aria) si dedica a fornire dati precisi sull'indice di qualità dell'aria (AQI) per le città di tutto il mondo. Incontra il team airquality!",
+    "footer": "Grazie per utilizzare la piattaforma AirQuality (qualità dell'aria). Proteggi una vita sana con i dati airquality."
+  },
+  "contact": {
+    "seoTitle": "Contatta AirQuality | Supporto Qualità dell'Aria e AirQuality",
+    "seoDesc": "Contatta il team di AirQuality (qualità dell'aria) per supporto, feedback o richieste di dati airquality. Forniamo informazioni sull'indice di qualità dell'aria (AQI) in tutto il mondo.",
+    "seoKeywords": "airquality, qualità dell'aria, contatti, supporto airquality, indice di qualità dell'aria, AQI",
+    "title": "Contatta AirQuality | Supporto Qualità dell'Aria",
+    "intro": "Per domande, feedback o richieste di dati airquality, contatta il team di AirQuality (qualità dell'aria). Possiamo aiutarti con informazioni AQI.",
+    "footer": "Grazie per aver contattato il supporto di AirQuality (qualità dell'aria). Ottieni informazioni sulla città con i dati airquality."
+  },
+  "aqiQuery": {
+    "title": "Consulta AQI AirQuality | Indice di Qualità dell'Aria",
+    "intro": "Usa AirQuality (qualità dell'aria) per cercare dati sull'indice di qualità dell'aria (AQI) e sull'inquinamento in tempo reale per le città di tutto il mondo.",
+    "feature1": "Supporto per città di tutto il mondo",
+    "feature2": "Dati affidabili, aggiornamenti in tempo reale",
+    "feature3": "Controlla PM2.5, PM10, O₃, NO₂, SO₂, CO e altro",
+    "footer": "AirQuality (qualità dell'aria) rende AQI e dati sull'inquinamento facilmente accessibili a tutti."
+  }
+} 

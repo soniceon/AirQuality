@@ -1,0 +1,50 @@
+{
+  "home": {
+    "seoTitle": "AirQuality | Indeks Jakości Powietrza i Narzędzia dla Miast Globalnych",
+    "seoDesc": "Platforma AirQuality (jakość powietrza) dostarcza dane o indeksie jakości powietrza (AQI) i zanieczyszczeniach w czasie rzeczywistym dla miast na całym świecie.",
+    "seoKeywords": "airquality, jakość powietrza, AQI, narzędzia airquality, indeks jakości powietrza, globalna jakość powietrza",
+    "title": "AirQuality | Indeks Jakości Powietrza",
+    "intro": "Witamy w AirQuality, wiarygodnej platformie informacji o jakości powietrza (airquality). AirQuality dostarcza dane o jakości powietrza (indeks jakości powietrza, AQI) w czasie rzeczywistym dla miast na całym świecie.",
+    "footer": "Platforma AirQuality (jakość powietrza) pomaga śledzić indeks jakości powietrza (AQI) i dane o zanieczyszczeniach dla miast na całym świecie. Chroń swoje zdrowie z AirQuality!"
+  },
+  "science": {
+    "seoTitle": "AirQuality Nauka | Artykuły o Jakości Powietrza i AirQuality",
+    "seoDesc": "Artykuły naukowe AirQuality (jakość powietrza): dowiedz się o indeksie jakości powietrza (AQI), zanieczyszczeniach i wpływie na zdrowie na całym świecie.",
+    "seoKeywords": "airquality, jakość powietrza, nauka, AQI, artykuły airquality, indeks jakości powietrza",
+    "title": "AirQuality Nauka | Wiedza o Jakości Powietrza",
+    "intro": "Witamy w AirQuality Nauka! Tutaj możesz dowiedzieć się o jakości powietrza (airquality), AQI, zanieczyszczeniach i jak chronić swoje zdrowie.",
+    "footer": "AirQuality Nauka (jakość powietrza) pomaga zrozumieć znaczenie czystego powietrza i jak jakość powietrza wpływa na życie."
+  },
+  "faq": {
+    "seoTitle": "AirQuality FAQ | Pytania o Jakość Powietrza i AirQuality",
+    "seoDesc": "FAQ AirQuality (jakość powietrza): odpowiedzi na często zadawane pytania o jakość powietrza (airquality) i AQI w miastach na całym świecie.",
+    "seoKeywords": "airquality, jakość powietrza, FAQ, pytania airquality, indeks jakości powietrza, AQI",
+    "title": "AirQuality FAQ | Pytania o Jakość Powietrza",
+    "intro": "Znajdź odpowiedzi na swoje pytania o jakość powietrza (airquality). AirQuality pomaga zrozumieć AQI, zanieczyszczenia i więcej.",
+    "footer": "Jeśli potrzebujesz więcej informacji o airquality (jakości powietrza), odwiedź inne sekcje platformy AirQuality."
+  },
+  "about": {
+    "seoTitle": "O AirQuality | Zespół Jakości Powietrza i AirQuality",
+    "seoDesc": "O platformie AirQuality (jakość powietrza): poznaj zespół airquality i naszą misję dostarczania danych o indeksie jakości powietrza (AQI) na całym świecie.",
+    "seoKeywords": "airquality, jakość powietrza, o nas, zespół airquality, indeks jakości powietrza, AQI",
+    "title": "O AirQuality | Zespół Jakości Powietrza",
+    "intro": "AirQuality (jakość powietrza) poświęca się dostarczaniu dokładnych danych o indeksie jakości powietrza (AQI) dla miast na całym świecie. Poznaj zespół airquality!",
+    "footer": "Dziękujemy za korzystanie z platformy AirQuality (jakość powietrza). Chroń zdrowe życie z danymi airquality."
+  },
+  "contact": {
+    "seoTitle": "Kontakt z AirQuality | Wsparcie Jakości Powietrza i AirQuality",
+    "seoDesc": "Skontaktuj się z zespołem AirQuality (jakość powietrza) w sprawie wsparcia, opinii lub zapytań o dane airquality. Dostarczamy informacje o indeksie jakości powietrza (AQI) na całym świecie.",
+    "seoKeywords": "airquality, jakość powietrza, kontakt, wsparcie airquality, indeks jakości powietrza, AQI",
+    "title": "Kontakt z AirQuality | Wsparcie Jakości Powietrza",
+    "intro": "W przypadku pytań, opinii lub zapytań o dane airquality, skontaktuj się z zespołem AirQuality (jakość powietrza). Możemy pomóc z informacjami AQI.",
+    "footer": "Dziękujemy za kontakt z wsparciem AirQuality (jakość powietrza). Uzyskaj informacje o mieście z danymi airquality."
+  },
+  "aqiQuery": {
+    "title": "Zapytanie AQI AirQuality | Indeks Jakości Powietrza",
+    "intro": "Użyj AirQuality (jakość powietrza) do wyszukiwania danych o indeksie jakości powietrza (AQI) i zanieczyszczeniach w czasie rzeczywistym dla miast na całym świecie.",
+    "feature1": "Wsparcie dla miast na całym świecie",
+    "feature2": "Wiarygodne dane, aktualizacje w czasie rzeczywistym",
+    "feature3": "Sprawdź PM2.5, PM10, O₃, NO₂, SO₂, CO i więcej",
+    "footer": "AirQuality (jakość powietrza) sprawia, że AQI i dane o zanieczyszczeniach są łatwo dostępne dla wszystkich."
+  }
+} 

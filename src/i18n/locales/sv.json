@@ -1,0 +1,50 @@
+{
+  "home": {
+    "seoTitle": "AirQuality | Luftkvalitetsindex och Verktyg för Globala Städer",
+    "seoDesc": "AirQuality (luftkvalitet) plattformen tillhandahåller realtidsdata om luftkvalitetsindex (AQI) och föroreningar för städer över hela världen.",
+    "seoKeywords": "airquality, luftkvalitet, AQI, airquality verktyg, luftkvalitetsindex, global luftkvalitet",
+    "title": "AirQuality | Luftkvalitetsindex",
+    "intro": "Välkommen till AirQuality, en pålitlig plattform för luftkvalitetsinformation (airquality). AirQuality tillhandahåller realtidsdata om luftkvalitet (luftkvalitetsindex, AQI) för städer över hela världen.",
+    "footer": "AirQuality (luftkvalitet) plattformen hjälper till att spåra luftkvalitetsindex (AQI) och föroreningsdata för städer över hela världen. Skydda din hälsa med AirQuality!"
+  },
+  "science": {
+    "seoTitle": "AirQuality Vetenskap | Artiklar om Luftkvalitet och AirQuality",
+    "seoDesc": "AirQuality (luftkvalitet) vetenskapliga artiklar: lär dig om luftkvalitetsindex (AQI), föroreningar och hälsoeffekter över hela världen.",
+    "seoKeywords": "airquality, luftkvalitet, vetenskap, AQI, airquality artiklar, luftkvalitetsindex",
+    "title": "AirQuality Vetenskap | Kunskap om Luftkvalitet",
+    "intro": "Välkommen till AirQuality Vetenskap! Här kan du lära dig om luftkvalitet (airquality), AQI, föroreningar och hur du skyddar din hälsa.",
+    "footer": "AirQuality Vetenskap (luftkvalitet) hjälper till att förstå vikten av ren luft och hur luftkvalitet påverkar livet."
+  },
+  "faq": {
+    "seoTitle": "AirQuality FAQ | Frågor om Luftkvalitet och AirQuality",
+    "seoDesc": "AirQuality (luftkvalitet) FAQ: svar på vanliga frågor om luftkvalitet (airquality) och AQI i städer över hela världen.",
+    "seoKeywords": "airquality, luftkvalitet, FAQ, airquality frågor, luftkvalitetsindex, AQI",
+    "title": "AirQuality FAQ | Frågor om Luftkvalitet",
+    "intro": "Hitta svar på dina frågor om luftkvalitet (airquality). AirQuality hjälper till att förstå AQI, föroreningar och mer.",
+    "footer": "Om du behöver mer information om airquality (luftkvalitet), besök andra sektioner av AirQuality plattformen."
+  },
+  "about": {
+    "seoTitle": "Om AirQuality | Luftkvalitetsteam och AirQuality",
+    "seoDesc": "Om AirQuality (luftkvalitet) plattformen: träffa airquality teamet och vårt uppdrag att tillhandahålla luftkvalitetsindex (AQI) data över hela världen.",
+    "seoKeywords": "airquality, luftkvalitet, om oss, airquality team, luftkvalitetsindex, AQI",
+    "title": "Om AirQuality | Luftkvalitetsteam",
+    "intro": "AirQuality (luftkvalitet) ägnar sig åt att tillhandahålla exakta luftkvalitetsindex (AQI) data för städer över hela världen. Träffa airquality teamet!",
+    "footer": "Tack för att du använder AirQuality (luftkvalitet) plattformen. Skydda ett hälsosamt liv med airquality data."
+  },
+  "contact": {
+    "seoTitle": "Kontakta AirQuality | Luftkvalitetsstöd och AirQuality",
+    "seoDesc": "Kontakta AirQuality (luftkvalitet) teamet för stöd, feedback eller airquality dataförfrågningar. Vi tillhandahåller information om luftkvalitetsindex (AQI) över hela världen.",
+    "seoKeywords": "airquality, luftkvalitet, kontakt, airquality stöd, luftkvalitetsindex, AQI",
+    "title": "Kontakta AirQuality | Luftkvalitetsstöd",
+    "intro": "För frågor, feedback eller airquality dataförfrågningar, kontakta AirQuality (luftkvalitet) teamet. Vi kan hjälpa till med AQI information.",
+    "footer": "Tack för att du kontaktar AirQuality (luftkvalitet) stöd. Få stadsinformation med airquality data."
+  },
+  "aqiQuery": {
+    "title": "AirQuality AQI Sökning | Luftkvalitetsindex",
+    "intro": "Använd AirQuality (luftkvalitet) för att söka efter realtidsdata om luftkvalitetsindex (AQI) och föroreningar för städer över hela världen.",
+    "feature1": "Stöd för städer över hela världen",
+    "feature2": "Pålitlig data, realtidsuppdateringar",
+    "feature3": "Kontrollera PM2.5, PM10, O₃, NO₂, SO₂, CO och mer",
+    "footer": "AirQuality (luftkvalitet) gör AQI och föroreningsdata lättillgängliga för alla."
+  }
+} 

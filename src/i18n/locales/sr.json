@@ -7,13 +7,14 @@
   },
   "nav": {
     "home": "Почетна",
+    "science": "Science",
     "airQuality": "Квалитет ваздуха",
     "faq": "Честа питања",
     "about": "О нама",
     "contact": "Контакт"
   },
   "home": {
-    "title": "Индекс квалитета ваздуха",
+    "title": "AirQuality | Индекс квалитета ваздуха",
     "subtitle": "Информације о квалитету ваздуха у реалном времену за градове широм света",
     "searchPlaceholder": "Унесите име града...",
     "popularCities": "Популарni градови",
@@ -172,9 +173,11 @@
       "murcia": "Мурсија",
       "palma": "Палма"
     },
-    "seoTitle": "Индекс квалитета ваздуха - Глобални AQI подаци у реалном времену",
-    "seoDesc": "Проверите индекс квалитета ваздуха (AQI), PM2.5, PM10 и податке о загађењу за градове широм света. Будите информисани и заштитите своје здравље.",
-    "seoKeywords": "квалитет ваздуха, AQI, PM2.5, PM10, загађење, глобално, град, време, здравље"
+    "seoTitle": "AirQuality | Индекс квалитета ваздуха и алати за глобалне градове",
+    "seoDesc": "AirQuality (квалитет ваздуха) платформа пружа податке о индексу квалитета ваздуха (AQI) и загађењу у реалном времену за градове широм света.",
+    "seoKeywords": "airquality, квалитет ваздуха, AQI, алати за airquality, индекс квалитета ваздуха, глобални квалитет ваздуха",
+    "intro": "Добродошли на AirQuality, поуздану платформу за информације о квалитету ваздуха (airquality). AirQuality пружа податке о квалитету ваздуха (индекс квалитета ваздуха, AQI) у реалном времену за градове широм света.",
+    "footer": "AirQuality (квалитет ваздуха) платформа помаже у праћењу индекса квалитета ваздуха (AQI) и података о загађењу за градове широм света. Заштитите своје здравље уз AirQuality!"
   },
   "airQuality": {
     "aqi": "Индекс квалитета ваздуха",
@@ -183,7 +186,10 @@
     "o3": "Озон",
     "no2": "Азот-диоксид",
     "so2": "Сумпор-диоксид",
-    "co": "Угљен-моноксид"
+    "co": "Угљен-моноксид",
+    "temp": "Temperature",
+    "humidity": "Humidity",
+    "aqiDescTitle": "AQI Level Description"
   },
   "aqiLevels": {
     "good": "Добар",
@@ -194,7 +200,9 @@
     "hazardous": "Опасно"
   },
   "faq": {
-    "title": "Честа питања",
+    "title": "AirQuality Честа питања | Питања о квалитету ваздуха",
+    "intro": "Пронађите одговоре на своја питања о квалитету ваздуха (airquality). AirQuality помаже да се разуме AQI, загађење и више.",
+    "footer": "Ако вам је потребно више информација о airquality (квалитет ваздуха), посетите друге делове AirQuality платформе.",
     "whatIsAQI": {
       "question": "Шта је AQI?",
       "answer": "Индекс квалитета ваздуха (AQI) је стандардизована мера која се користи за извештавање о дневном квалитету ваздуха. Показује вам колико је ваш ваздух чист или загађен и који су могући здравствени ефекти повезани са тим."
@@ -203,31 +211,70 @@
       "question": "Шта је PM2.5?",
       "answer": "PM2.5 се односи на фине честице пречника 2,5 микрометара или мање. Ове честице су довољно мале да продру дубоко у плућа и могу изазвати озбиљне здравствене проблеме."
     },
-    "seoTitle": "Честа питања - AirQuality.Tools",
-    "seoDesc": "Често постављана питања о квалитету ваздуха, AQI, PM2.5 и коришћењу AirQuality.Tools.",
-    "seoKeywords": "честа питања, квалитет ваздуха, AQI, PM2.5, помоћ"
+    "dataSource": {
+      "question": "What are the data sources and update frequency?",
+      "answer": "AirQuality.Tools data comes from authoritative meteorological and environmental monitoring agencies, usually updated hourly to ensure accuracy."
+    },
+    "howToQuery": {
+      "question": "How to check air quality in a city?",
+      "answer": "Enter the city name on the AirQuality.Tools homepage and click 'Search' to get real-time air quality data for that city."
+    },
+    "healthImpact": {
+      "question": "Does air quality affect health?",
+      "answer": "Air pollution increases the risk of respiratory and cardiovascular diseases, especially for children, the elderly, and sensitive groups. Pay attention to air quality and maintain a healthy lifestyle."
+    },
+    "seoTitle": "AirQuality Честа питања | Питања о квалитету ваздуха и AirQuality",
+    "seoDesc": "AirQuality (квалитет ваздуха) Честа питања: одговори на најчешћа питања о квалитету ваздуха (airquality) и AQI у градовима широм света.",
+    "seoKeywords": "airquality, квалитет ваздуха, честа питања, питања о airquality, индекс квалитета ваздуха, AQI"
   },
   "about": {
-    "title": "О нама",
+    "title": "О AirQuality | Тим за квалитет ваздуха",
+    "intro": "AirQuality (квалитет ваздуха) посвећен је пружању тачних података о индексу квалитета ваздуха (AQI) за градове широм света. Упознајте airquality тим!",
+    "footer": "Хвала што користите AirQuality (квалитет ваздуха) платформу. Заштитите здрав живот уз airquality податке.",
     "description": "AirQuality.Tools је посвећен пружању корисницима ауторитативних, благовремених и једноставних глобалних услуга података о квалитету ваздуха.",
     "team": "Наш тим се састоји од стручњака за науку о животној средини, инжењеринг података и frontend развој, посвећених заштити здравог живота коришћењем технологије.",
-    "seoTitle": "О нама - AirQuality.Tools",
-    "seoDesc": "Сазнајте више о AirQuality.Tools тиму, нашој мисији и како пружамо податке о квалитету ваздуха у реалном времену.",
-    "seoKeywords": "о нама, квалитет ваздуха, тим, контакт, AQI"
+    "seoTitle": "О AirQuality | Тим за квалитет ваздуха и AirQuality",
+    "seoDesc": "О AirQuality (квалитет ваздуха) платформи: упознајте airquality тим и нашу мисију пружања података о индексу квалитета ваздуха (AQI) широм света.",
+    "seoKeywords": "airquality, квалитет ваздуха, о нама, airquality тим, индекс квалитета ваздуха, AQI"
   },
   "contact": {
-    "title": "Контакт",
-    "intro": "За сарадњу, предлоге или проблеме са подацима, контактирајте нас путем следећих метода:",
+    "title": "Контактирајте AirQuality | Подршка за квалитет ваздуха",
+    "intro": "За питања, повратне информације или захтеве за airquality подацима, контактирајте AirQuality (квалитет ваздуха) тим. Можемо помоћи са AQI информацијама.",
+    "footer": "Хвала што сте контактирали AirQuality (квалитет ваздуха) подршку. Пронађите информације о градовима уз airquality податке.",
     "email": "Е-пошта",
     "wechat": "WeChat",
     "feedback": "Форма за повратne информације (ускоро)",
-    "seoTitle": "Контакт - AirQuality.Tools",
-    "seoDesc": "Контактирајте AirQuality.Tools за подршку, повратne информације или партнерство. Ту смо да вам помогнемо.",
-    "seoKeywords": "контакт, квалитет ваздуха, емаил, телефон, AQI"
+    "seoTitle": "Контактирајте AirQuality | Подршка за квалитет ваздуха и AirQuality",
+    "seoDesc": "Контактирајте AirQuality (квалитет ваздуха) тим за подршку, повратне информације или захтеве за airquality подацима. Пружамо информације о индексу квалитета ваздуха (AQI) широм света.",
+    "seoKeywords": "airquality, квалитет ваздуха, контакт, airquality подршка, индекс квалитета ваздуха, AQI"
   },
   "science": {
-    "seoTitle": "Научни чланци - Квалитет ваздуха и загађење",
-    "seoDesc": "Прочитајте научне чланке и увиде о квалитету ваздуха, загађењу, утицајима на здравље и науци о животној средини.",
-    "seoKeywords": "наука, квалитет ваздуха, чланак, AQI, PM2.5, загађење, здравље"
+    "title": "AirQuality Наука | Знање о квалитету ваздуха",
+    "intro": "Добродошли у AirQuality Наука! Овде сазнајте о квалитету ваздуха (airquality), AQI, загађењу и како заштитити своје здравље.",
+    "footer": "AirQuality Наука (квалитет ваздуха) помаже да се разуме значај чистог ваздуха и како квалитет ваздуха утиче на живот.",
+    "sourceTitle": "Main Sources of Air Pollution",
+    "sourceContent": "Air pollution mainly comes from industrial emissions, vehicle exhaust, construction dust, coal burning, and domestic waste incineration. The structure of pollution sources may vary by city and season.",
+    "impactTitle": "Impact of Air Quality on Different Groups",
+    "impactContent": "Air pollution has a greater impact on children, the elderly, pregnant women, and people with respiratory diseases. Long-term exposure to high pollution increases health risks significantly.",
+    "protectTitle": "How to Protect Yourself",
+    "protect1": "Reduce outdoor activities when air pollution is severe, especially during rush hours.",
+    "protect2": "Wear protective masks (such as N95) when going out.",
+    "protect3": "Use air purifiers indoors and keep rooms ventilated.",
+    "protect4": "Follow authoritative air quality forecasts and adjust travel and exercise plans in time.",
+    "trendTitle": "Historical Trends and Global Comparison",
+    "trendContent": "In recent years, air quality in some cities has improved, but winter and heavy pollution days still require vigilance. Globally, developed countries generally have better air quality, while some cities in developing countries face more serious pollution.",
+    "policyTitle": "Policies and Social Measures",
+    "policyContent": "Governments improve air quality through emission limits, promotion of new energy, and urban greening. The public can also contribute by choosing green travel and saving energy.",
+    "seoTitle": "AirQuality Наука | Чланци о квалитету ваздуха и AirQuality",
+    "seoDesc": "AirQuality (квалитет ваздуха) научни чланци: сазнајте о индексу квалитета ваздуха (AQI), загађењу и здравственим ефектима широм света.",
+    "seoKeywords": "airquality, квалитет ваздуха, наука, AQI, чланци о airquality, индекс квалитета ваздуха"
+  },
+  "aqiQuery": {
+    "title": "AirQuality AQI Претрага | Индекс квалитета ваздуха",
+    "intro": "Користите AirQuality (квалитет ваздуха) за претрагу података о индексу квалитета ваздуха (AQI) и загађењу у реалном времену за градове широм света.",
+    "feature1": "Подршка за градове широм света",
+    "feature2": "Поуздани подаци, ажурирања у реалном времену",
+    "feature3": "Проверите PM2.5, PM10, O₃, NO₂, SO₂, CO и више",
+    "footer": "AirQuality (квалитет ваздуха) чини AQI и податке о загађењу лако доступним свима."
   }
-} 
+}

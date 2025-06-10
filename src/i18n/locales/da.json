@@ -1,0 +1,50 @@
+{
+  "home": {
+    "seoTitle": "AirQuality | Luftkvalitetsindeks og Værktøjer til Globale Byer",
+    "seoDesc": "AirQuality (luftkvalitet) platformen leverer realtidsdata om luftkvalitetsindeks (AQI) og forurening for byer over hele verden.",
+    "seoKeywords": "airquality, luftkvalitet, AQI, airquality værktøjer, luftkvalitetsindeks, global luftkvalitet",
+    "title": "AirQuality | Luftkvalitetsindeks",
+    "intro": "Velkommen til AirQuality, en pålidelig platform for luftkvalitetsinformation (airquality). AirQuality leverer realtidsdata om luftkvalitet (luftkvalitetsindeks, AQI) for byer over hele verden.",
+    "footer": "AirQuality (luftkvalitet) platformen hjælper med at spore luftkvalitetsindeks (AQI) og forureningsdata for byer over hele verden. Beskyt dit helbred med AirQuality!"
+  },
+  "science": {
+    "seoTitle": "AirQuality Videnskab | Artikler om Luftkvalitet og AirQuality",
+    "seoDesc": "AirQuality (luftkvalitet) videnskabelige artikler: lær om luftkvalitetsindeks (AQI), forurening og sundhedseffekter over hele verden.",
+    "seoKeywords": "airquality, luftkvalitet, videnskab, AQI, airquality artikler, luftkvalitetsindeks",
+    "title": "AirQuality Videnskab | Viden om Luftkvalitet",
+    "intro": "Velkommen til AirQuality Videnskab! Her kan du lære om luftkvalitet (airquality), AQI, forurening og hvordan du beskytter dit helbred.",
+    "footer": "AirQuality Videnskab (luftkvalitet) hjælper med at forstå betydningen af ren luft og hvordan luftkvalitet påvirker livet."
+  },
+  "faq": {
+    "seoTitle": "AirQuality FAQ | Spørgsmål om Luftkvalitet og AirQuality",
+    "seoDesc": "AirQuality (luftkvalitet) FAQ: svar på almindelige spørgsmål om luftkvalitet (airquality) og AQI i byer over hele verden.",
+    "seoKeywords": "airquality, luftkvalitet, FAQ, airquality spørgsmål, luftkvalitetsindeks, AQI",
+    "title": "AirQuality FAQ | Spørgsmål om Luftkvalitet",
+    "intro": "Find svar på dine spørgsmål om luftkvalitet (airquality). AirQuality hjælper med at forstå AQI, forurening og mere.",
+    "footer": "Hvis du har brug for mere information om airquality (luftkvalitet), besøg andre sektioner af AirQuality platformen."
+  },
+  "about": {
+    "seoTitle": "Om AirQuality | Luftkvalitetsteam og AirQuality",
+    "seoDesc": "Om AirQuality (luftkvalitet) platformen: mød airquality teamet og vores mission om at levere luftkvalitetsindeks (AQI) data over hele verden.",
+    "seoKeywords": "airquality, luftkvalitet, om os, airquality team, luftkvalitetsindeks, AQI",
+    "title": "Om AirQuality | Luftkvalitetsteam",
+    "intro": "AirQuality (luftkvalitet) er dedikeret til at levere præcise luftkvalitetsindeks (AQI) data for byer over hele verden. Mød airquality teamet!",
+    "footer": "Tak fordi du bruger AirQuality (luftkvalitet) platformen. Beskyt et sundt liv med airquality data."
+  },
+  "contact": {
+    "seoTitle": "Kontakt AirQuality | Luftkvalitetsupport og AirQuality",
+    "seoDesc": "Kontakt AirQuality (luftkvalitet) teamet for support, feedback eller airquality dataanmodninger. Vi leverer information om luftkvalitetsindeks (AQI) over hele verden.",
+    "seoKeywords": "airquality, luftkvalitet, kontakt, airquality support, luftkvalitetsindeks, AQI",
+    "title": "Kontakt AirQuality | Luftkvalitetsupport",
+    "intro": "For spørgsmål, feedback eller airquality dataanmodninger, kontakt AirQuality (luftkvalitet) teamet. Vi kan hjælpe med AQI information.",
+    "footer": "Tak fordi du kontakter AirQuality (luftkvalitet) support. Få byinformation med airquality data."
+  },
+  "aqiQuery": {
+    "title": "AirQuality AQI Søgning | Luftkvalitetsindeks",
+    "intro": "Brug AirQuality (luftkvalitet) til at søge efter realtidsdata om luftkvalitetsindeks (AQI) og forurening for byer over hele verden.",
+    "feature1": "Support for byer over hele verden",
+    "feature2": "Pålidelig data, realtidsopdateringer",
+    "feature3": "Kontroller PM2.5, PM10, O₃, NO₂, SO₂, CO og mere",
+    "footer": "AirQuality (luftkvalitet) gør AQI og forureningsdata nemt tilgængelige for alle."
+  }
+} 

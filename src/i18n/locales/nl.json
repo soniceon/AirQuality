@@ -1,0 +1,50 @@
+{
+  "home": {
+    "seoTitle": "AirQuality | Luchtkwaliteitsindex en Tools voor Wereldsteden",
+    "seoDesc": "Het AirQuality (luchtkwaliteit) platform biedt real-time luchtkwaliteitsindex (AQI) en vervuilingsgegevens voor steden wereldwijd.",
+    "seoKeywords": "airquality, luchtkwaliteit, AQI, airquality tools, luchtkwaliteitsindex, wereldwijde luchtkwaliteit",
+    "title": "AirQuality | Luchtkwaliteitsindex",
+    "intro": "Welkom bij AirQuality, een betrouwbaar platform voor luchtkwaliteitsinformatie (airquality). AirQuality biedt real-time luchtkwaliteitsgegevens (luchtkwaliteitsindex, AQI) voor steden wereldwijd.",
+    "footer": "Het AirQuality (luchtkwaliteit) platform helpt bij het volgen van de luchtkwaliteitsindex (AQI) en vervuilingsgegevens voor steden wereldwijd. Bescherm uw gezondheid met AirQuality!"
+  },
+  "science": {
+    "seoTitle": "AirQuality Wetenschap | Artikelen over Luchtkwaliteit en AirQuality",
+    "seoDesc": "AirQuality (luchtkwaliteit) wetenschappelijke artikelen: leer over luchtkwaliteitsindex (AQI), vervuiling en gezondheidseffecten wereldwijd.",
+    "seoKeywords": "airquality, luchtkwaliteit, wetenschap, AQI, airquality artikelen, luchtkwaliteitsindex",
+    "title": "AirQuality Wetenschap | Kennis over Luchtkwaliteit",
+    "intro": "Welkom bij AirQuality Wetenschap! Hier kunt u leren over luchtkwaliteit (airquality), AQI, vervuiling en hoe u uw gezondheid kunt beschermen.",
+    "footer": "AirQuality Wetenschap (luchtkwaliteit) helpt bij het begrijpen van het belang van schone lucht en hoe luchtkwaliteit het leven beïnvloedt."
+  },
+  "faq": {
+    "seoTitle": "AirQuality FAQ | Vragen over Luchtkwaliteit en AirQuality",
+    "seoDesc": "AirQuality (luchtkwaliteit) FAQ: antwoorden op veelgestelde vragen over luchtkwaliteit (airquality) en AQI in steden wereldwijd.",
+    "seoKeywords": "airquality, luchtkwaliteit, FAQ, airquality vragen, luchtkwaliteitsindex, AQI",
+    "title": "AirQuality FAQ | Vragen over Luchtkwaliteit",
+    "intro": "Vind antwoorden op uw vragen over luchtkwaliteit (airquality). AirQuality helpt bij het begrijpen van AQI, vervuiling en meer.",
+    "footer": "Als u meer informatie nodig heeft over airquality (luchtkwaliteit), bezoek dan andere secties van het AirQuality platform."
+  },
+  "about": {
+    "seoTitle": "Over AirQuality | Luchtkwaliteit Team en AirQuality",
+    "seoDesc": "Over het AirQuality (luchtkwaliteit) platform: ontmoet het airquality team en onze missie om luchtkwaliteitsindex (AQI) gegevens wereldwijd te leveren.",
+    "seoKeywords": "airquality, luchtkwaliteit, over ons, airquality team, luchtkwaliteitsindex, AQI",
+    "title": "Over AirQuality | Luchtkwaliteit Team",
+    "intro": "AirQuality (luchtkwaliteit) zet zich in voor het leveren van nauwkeurige luchtkwaliteitsindex (AQI) gegevens voor steden wereldwijd. Ontmoet het airquality team!",
+    "footer": "Bedankt voor het gebruik van het AirQuality (luchtkwaliteit) platform. Bescherm een gezond leven met airquality gegevens."
+  },
+  "contact": {
+    "seoTitle": "Neem Contact op met AirQuality | Luchtkwaliteit Ondersteuning en AirQuality",
+    "seoDesc": "Neem contact op met het AirQuality (luchtkwaliteit) team voor ondersteuning, feedback of airquality gegevensverzoeken. We bieden informatie over de luchtkwaliteitsindex (AQI) wereldwijd.",
+    "seoKeywords": "airquality, luchtkwaliteit, contact, airquality ondersteuning, luchtkwaliteitsindex, AQI",
+    "title": "Neem Contact op met AirQuality | Luchtkwaliteit Ondersteuning",
+    "intro": "Voor vragen, feedback of airquality gegevensverzoeken, neem contact op met het AirQuality (luchtkwaliteit) team. We kunnen helpen met AQI informatie.",
+    "footer": "Bedankt voor het contact opnemen met AirQuality (luchtkwaliteit) ondersteuning. Krijg stadsinformatie met airquality gegevens."
+  },
+  "aqiQuery": {
+    "title": "AirQuality AQI Zoeken | Luchtkwaliteitsindex",
+    "intro": "Gebruik AirQuality (luchtkwaliteit) om real-time luchtkwaliteitsindex (AQI) en vervuilingsgegevens te zoeken voor steden wereldwijd.",
+    "feature1": "Ondersteuning voor steden wereldwijd",
+    "feature2": "Betrouwbare gegevens, real-time updates",
+    "feature3": "Controleer PM2.5, PM10, O₃, NO₂, SO₂, CO en meer",
+    "footer": "AirQuality (luchtkwaliteit) maakt AQI en vervuilingsgegevens gemakkelijk toegankelijk voor iedereen."
+  }
+} 

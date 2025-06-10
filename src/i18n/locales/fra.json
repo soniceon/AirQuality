@@ -14,7 +14,12 @@
     "contact": "Contact"
   },
   "home": {
-    "title": "Indice de qualité de l'air",
+    "seoTitle": "AirQuality | Indice de qualité de l'air et outils pour les villes mondiales",
+    "seoDesc": "La plateforme AirQuality (qualité de l'air) fournit des données en temps réel sur l'indice de qualité de l'air (IQA) et la pollution pour les villes du monde entier.",
+    "seoKeywords": "airquality, qualité de l'air, IQA, outils airquality, indice de qualité de l'air, qualité de l'air mondiale",
+    "title": "AirQuality | Indice de qualité de l'air",
+    "intro": "Bienvenue sur AirQuality, une plateforme fiable pour l'information sur la qualité de l'air (airquality). AirQuality fournit des données en temps réel sur la qualité de l'air (indice de qualité de l'air, IQA) pour les villes du monde entier.",
+    "footer": "La plateforme AirQuality (qualité de l'air) aide à suivre l'indice de qualité de l'air (IQA) et les données de pollution pour les villes du monde entier. Protégez votre santé avec AirQuality !",
     "subtitle": "Informations en temps réel sur la qualité de l'air pour les villes du monde entier",
     "searchPlaceholder": "Entrez le nom de la ville. ..",
     "popularCities": "Villes populaires"
@@ -37,7 +42,12 @@
     "hazardous": "Dangereux"
   },
   "faq": {
-    "title": "Questions fréquemment posées",
+    "seoTitle": "AirQuality FAQ | Questions sur la qualité de l'air et AirQuality",
+    "seoDesc": "AirQuality (qualité de l'air) FAQ : réponses aux questions courantes sur la qualité de l'air (airquality) et l'IQA dans les villes du monde entier.",
+    "seoKeywords": "airquality, qualité de l'air, FAQ, questions airquality, indice de qualité de l'air, IQA",
+    "title": "AirQuality FAQ | Questions sur la qualité de l'air",
+    "intro": "Trouvez des réponses à vos questions sur la qualité de l'air (airquality). AirQuality aide à comprendre l'IQA, la pollution et plus encore.",
+    "footer": "Si vous avez besoin de plus d'informations sur airquality (qualité de l'air), consultez d'autres sections de la plateforme AirQuality.",
     "whatIsAQI": {
       "question": "Qu'est-ce que l'AQI ?",
       "answer": "L'indice de qualité de l'air (AQI) est une mesure normalisée utilisée pour signaler la qualité de l'air quotidienne. Il vous indique à quel point votre air est propre ou pollué, et quels effets sur la santé associés pourraient vous préoccuper."
@@ -48,17 +58,32 @@
     }
   },
   "about": {
-    "title": "À propos de nous",
+    "seoTitle": "À propos d'AirQuality | Équipe qualité de l'air et AirQuality",
+    "seoDesc": "À propos de la plateforme AirQuality (qualité de l'air) : rencontrez l'équipe airquality et notre mission de fournir des données sur l'indice de qualité de l'air (IQA) dans le monde entier.",
+    "seoKeywords": "airquality, qualité de l'air, à propos, équipe airquality, indice de qualité de l'air, IQA",
+    "title": "À propos d'AirQuality | Équipe qualité de l'air",
+    "intro": "AirQuality (qualité de l'air) s'engage à fournir des données précises sur l'indice de qualité de l'air (IQA) pour les villes du monde entier. Rencontrez l'équipe airquality !",
+    "footer": "Merci d'utiliser la plateforme AirQuality (qualité de l'air). Protégez une vie saine avec les données airquality.",
     "description": "Nous fournissons des informations en temps réel sur la qualité de l'air pour vous aider à prendre des décisions éclairées concernant vos activités en plein air et protéger votre santé."
   },
   "contact": {
-    "title": "Nous contacter",
+    "seoTitle": "Contactez AirQuality | Support qualité de l'air et AirQuality",
+    "seoDesc": "Contactez l'équipe AirQuality (qualité de l'air) pour le support, les retours ou les demandes de données airquality. Nous fournissons des informations sur l'indice de qualité de l'air (IQA) dans le monde entier.",
+    "seoKeywords": "airquality, qualité de l'air, contact, support airquality, indice de qualité de l'air, IQA",
+    "title": "Contactez AirQuality | Support qualité de l'air",
+    "intro": "Pour toute question, retour ou demande de données airquality, contactez l'équipe AirQuality (qualité de l'air). Nous pouvons aider avec les informations IQA.",
+    "footer": "Merci de contacter le support AirQuality (qualité de l'air). Obtenez des informations sur les villes avec les données airquality.",
     "email": "Courriel",
     "phone": "Téléphone",
     "address": "Adresse"
   },
   "science": {
-    "title": "Science de la qualité de l'air",
+    "seoTitle": "AirQuality Science | Articles sur la qualité de l'air et AirQuality",
+    "seoDesc": "Articles scientifiques AirQuality (qualité de l'air) : découvrez l'indice de qualité de l'air (IQA), la pollution et les effets sur la santé dans le monde entier.",
+    "seoKeywords": "airquality, qualité de l'air, science, IQA, articles airquality, indice de qualité de l'air",
+    "title": "AirQuality Science | Connaissance sur la qualité de l'air",
+    "intro": "Bienvenue dans AirQuality Science ! Ici, vous pouvez en apprendre plus sur la qualité de l'air (airquality), l'IQA, la pollution et la protection de la santé.",
+    "footer": "AirQuality Science (qualité de l'air) aide à comprendre l'importance de l'air pur et comment la qualité de l'air affecte la vie.",
     "sourceTitle": "Principales sources de pollution de l'air",
     "sourceContent": "La pollution de l'air provient principalement des émissions industrielles, des gaz d'échappement des véhicules, de la poussière de construction, de la combustion du charbon et de l'incinération des déchets domestiques. La structure des sources de pollution peut varier selon la ville et la saison.",
     "impactTitle": "Impact de la qualité de l'air sur différents groupes",
@@ -72,5 +97,13 @@
     "trendContent": "Ces dernières années, la qualité de l'air s'est améliorée dans certaines villes, mais il faut rester vigilant en hiver et lors des pics de pollution. À l'échelle mondiale, les pays développés ont généralement une meilleure qualité de l'air, tandis que certaines villes des pays en développement sont plus touchées.",
     "policyTitle": "Politiques et mesures sociales",
     "policyContent": "Les gouvernements améliorent la qualité de l'air grâce à des limites d'émissions, à la promotion des énergies nouvelles et à la végétalisation urbaine. Le public peut également contribuer en adoptant des modes de déplacement écologiques et en économisant l'énergie."
+  },
+  "aqiQuery": {
+    "title": "Recherche AirQuality IQA | Indice de qualité de l'air",
+    "intro": "Utilisez AirQuality (qualité de l'air) pour rechercher des données en temps réel sur l'indice de qualité de l'air (IQA) et la pollution pour les villes du monde entier.",
+    "feature1": "Support pour les villes du monde entier",
+    "feature2": "Données fiables, mises à jour en temps réel",
+    "feature3": "Vérifiez PM2.5, PM10, O₃, NO₂, SO₂, CO et plus",
+    "footer": "AirQuality (qualité de l'air) rend les données IQA et pollution facilement accessibles à tous."
   }
 }

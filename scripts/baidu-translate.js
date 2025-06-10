@@ -1,67 +1,105 @@
-// 用于批量翻译en.json为多语言json文件
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
-const crypto = require('crypto');
-const { appid, secret } = require('../src/i18n/baidu.config');
 
-const LANGS = [
-  'fra', // 法语
-  'ara'  // 阿拉伯语
-]; // 目标语言，分批翻译
+// 百度翻译配置
+const BAIDU_APP_ID = '20250518002360182';
+const BAIDU_KEY = 'QpB6pM_wA7S7nmREWEEh';
 
-const EN_PATH = path.join(__dirname, '../src/i18n/locales/en.json');
-const LOCALES_DIR = path.join(__dirname, '../src/i18n/locales/');
+const BAIDU_LANG_MAP = {
+  'km': 'km',
+  'ur': 'ur',
+  'ne': 'ne',
+  'bs': 'bs',
+  'sr': 'sr',
+  'hr': 'hr',
+  'ga': 'ga',
+};
 
-function md5(text) {
-  return crypto.createHash('md5').update(text).digest('hex');
+// 生成百度翻译签名
+function generateSign(text, salt) {
+  const str = BAIDU_APP_ID + text + salt + BAIDU_KEY;
+  return require('crypto').createHash('md5').update(str).digest('hex');
 }
 
-async function baiduTranslate(q, to, from = 'en') {
+// 百度翻译函数
+async function baiduTranslate(q, lang) {
+  if (!q || typeof q !== 'string' || !q.trim()) return q;
+  if (lang === 'en') return q;
+  
   const salt = Date.now();
-  const sign = md5(appid + q + salt + secret);
-  const params = new URLSearchParams({
-    q,
-    from,
-    to,
-    appid,
-    salt: salt.toString(),
-    sign
-  });
-  const url = `https://fanyi-api.baidu.com/api/trans/vip/translate?${params.toString()}`;
-  const res = await axios.get(url);
-  if (res.data && res.data.trans_result && res.data.trans_result[0]) {
-    return res.data.trans_result.map(item => item.dst).join('\n');
-  } else {
-    throw new Error(JSON.stringify(res.data));
-  }
-}
-
-async function translateObject(obj, to) {
-  if (typeof obj === 'string') {
-    return await baiduTranslate(obj, to);
-  } else if (Array.isArray(obj)) {
-    return Promise.all(obj.map(item => translateObject(item, to)));
-  } else if (typeof obj === 'object' && obj !== null) {
-    const result = {};
-    for (const key of Object.keys(obj)) {
-      result[key] = await translateObject(obj[key], to);
+  const sign = generateSign(q, salt);
+  
+  try {
+    const res = await axios.get('https://api.fanyi.baidu.com/api/trans/vip/translate', {
+      params: {
+        q,
+        from: 'en',
+        to: lang,
+        appid: BAIDU_APP_ID,
+        salt,
+        sign
+      },
+      timeout: 5000
+    });
+    
+    if (res.data && res.data.trans_result && res.data.trans_result[0]) {
+      const translated = res.data.trans_result[0].dst;
+      console.log(`[BAIDU] en->${lang}: '${q}' => '${translated}'`);
+      return translated;
     }
-    return result;
-  } else {
-    return obj;
+    return q;
+  } catch (e) {
+    console.error('[BAIDU] API error:', e.response ? e.response.data : e.message);
+    return q;
   }
 }
 
+// 主函数
 async function main() {
-  const en = JSON.parse(fs.readFileSync(EN_PATH, 'utf-8'));
-  for (const lang of LANGS) {
-    console.log(`Translating to ${lang}...`);
-    const translated = await translateObject(en, lang);
-    fs.writeFileSync(path.join(LOCALES_DIR, `${lang}.json`), JSON.stringify(translated, null, 2), 'utf-8');
-    console.log(`Saved ${lang}.json`);
+  try {
+    // 读取需要翻译的文件
+    const inputFile = path.join(__dirname, '../src/i18n/locales/en.json');
+    const outputDir = path.join(__dirname, '../src/i18n/locales');
+    
+    if (!fs.existsSync(inputFile)) {
+      console.error('Input file not found:', inputFile);
+      return;
+    }
+    
+    const enData = JSON.parse(fs.readFileSync(inputFile, 'utf8'));
+    
+    // 遍历所有目标语言
+    for (const lang of Object.keys(BAIDU_LANG_MAP)) {
+      console.log(`\nTranslating to ${lang}...`);
+      const outputFile = path.join(outputDir, `${lang}.json`);
+      
+      // 读取现有翻译（如果存在）
+      let existingData = {};
+      if (fs.existsSync(outputFile)) {
+        existingData = JSON.parse(fs.readFileSync(outputFile, 'utf8'));
+      }
+      
+      // 翻译每个键值
+      for (const [key, value] of Object.entries(enData)) {
+        if (typeof value === 'string' && !existingData[key]) {
+          console.log(`Translating: ${key}`);
+          existingData[key] = await baiduTranslate(value, lang);
+          // 保存进度
+          fs.writeFileSync(outputFile, JSON.stringify(existingData, null, 2), 'utf8');
+          // 等待1秒，避免请求过快
+          await new Promise(r => setTimeout(r, 1000));
+        }
+      }
+      
+      console.log(`Completed ${lang} translation`);
+    }
+    
+    console.log('\nAll translations completed!');
+  } catch (error) {
+    console.error('Error:', error);
   }
-  console.log('All done!');
 }
 
-main().catch(e => console.error(e)); 
+// 运行主函数
+main();

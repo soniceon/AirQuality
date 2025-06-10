@@ -1,22 +1,23 @@
 {
   "common": {
-    "search": "Cuardaigh",
+    "search": "Search",
     "loading": "Ag luchtú...",
     "error": "Earráid",
     "retry": "Athdhéan iarracht"
   },
   "nav": {
-    "home": "Baile",
+    "home": "Home",
+    "science": "Science",
     "airQuality": "Cáilíocht Aeir",
     "faq": "CC",
     "about": "Fúinn",
     "contact": "Déan teagmháil"
   },
   "home": {
-    "title": "Innéacs Cáilíochta Aeir",
+    "title": "AirQuality | Innéacs Cáilíochta Aeir",
     "subtitle": "Eolas fíor-ama ar cháilíocht aeir do chathracha ar fud an domhain",
     "searchPlaceholder": "Iontráil ainm na cathrach...",
-    "popularCities": "Cathracha Coitianta",
+    "popularCities": "Popular Cities",
     "dataDisclaimer": "Sonraí le haghaidh tagartha amháin | Teastaíonn API fíor-cháilíochta aeir le haghaidh úsáide fíor.",
     "cities": {
       "beijing": "Béising",
@@ -27,7 +28,7 @@
       "chongqing": "Chongqing",
       "hangzhou": "Hangzhou",
       "xian": "Xi'an",
-      "newyork": "Nua-Eabhrac",
+      "newyork": "New York",
       "losangeles": "Los Angeles",
       "chicago": "Chicago",
       "houston": "Houston",
@@ -35,14 +36,14 @@
       "philadelphia": "Philadelphia",
       "sanantonio": "San Antonio",
       "sandiego": "San Diego",
-      "london": "Londain",
-      "manchester": "Manchain",
+      "london": "London",
+      "manchester": "Manchester",
       "birmingham": "Birmingham",
-      "liverpool": "Learpholl",
+      "liverpool": "Liverpool",
       "leeds": "Leeds",
       "glasgow": "Glaschú",
       "sheffield": "Sheffield",
-      "bristol": "Bristiol",
+      "bristol": "Bristol",
       "paris": "Páras",
       "marseille": "Marseille",
       "lyon": "Lyon",
@@ -51,10 +52,10 @@
       "nantes": "Nantes",
       "strasbourg": "Strasbourg",
       "montpellier": "Montpellier",
-      "cairo": "Caireo",
-      "alexandria": "Alastar",
+      "cairo": "Cairo",
+      "alexandria": "Alexandria",
       "giza": "Giza",
-      "shubra": "Shubra",
+      "shubra": "Shubra El-Kheima",
       "portsaid": "Port Said",
       "suez": "Suez",
       "luxor": "Luxor",
@@ -88,10 +89,10 @@
       "faisalabad": "Faisalabad",
       "rawalpindi": "Rawalpindi",
       "multan": "Multan",
-      "hyderabadpk": "Hyderabad (Pakistan)",
+      "hyderabadpk": "Hyderabad",
       "gujranwala": "Gujranwala",
       "peshawar": "Peshawar",
-      "athens": "An Aithin",
+      "athens": "Athens",
       "thessaloniki": "Teasalainicé",
       "patras": "Patras",
       "heraklion": "Heraklion",
@@ -123,7 +124,7 @@
       "bijeljina": "Bijeljina",
       "prijedor": "Prijedor",
       "brcko": "Brčko",
-      "belgrade": "Beograd",
+      "belgrade": "Belgrade",
       "novisad": "Novi Sad",
       "nis": "Niš",
       "kragujevac": "Kragujevac",
@@ -140,13 +141,13 @@
       "pula": "Pula",
       "karlovac": "Karlovac",
       "dublin": "Baile Átha Cliath",
-      "cork": "Corcaigh",
-      "limerick": "Luimneach",
-      "galway": "Gaillimh",
+      "cork": "Cork",
+      "limerick": "Limerick",
+      "galway": "Galway",
       "waterford": "Port Láirge",
       "drogheda": "Droichead Átha",
       "dundalk": "Dún Dealgan",
-      "swords": "Sord",
+      "swords": "Swords",
       "tokyo": "Tóiceo",
       "osaka": "Ósaca",
       "yokohama": "Yokohama",
@@ -163,7 +164,7 @@
       "stuttgart": "Stuttgart",
       "dusseldorf": "Düsseldorf",
       "dortmund": "Dortmund",
-      "madrid": "Maidrid",
+      "madrid": "Madrid",
       "barcelona": "Barcelona",
       "valencia": "Valencia",
       "seville": "Seville",
@@ -172,9 +173,11 @@
       "murcia": "Murcia",
       "palma": "Palma"
     },
-    "seoTitle": "Innéacs Cáilíochta Aeir - Sonraí AQI Domhanda Fíor-ama",
-    "seoDesc": "Seiceáil innéacs cáilíochta aeir (AQI), PM2.5, PM10 agus sonraí truaillithe do chathracha ar fud an domhain. Fan ar an eolas agus tabhair aire do do shláinte.",
-    "seoKeywords": "cáilíocht aeir, AQI, PM2.5, PM10, truailliú, domhanda, cathair, aimsir, sláinte"
+    "seoTitle": "AirQuality | Innéacs Cáilíochta Aeir agus Uirlisí do Chathracha Domhanda",
+    "seoDesc": "Soláthraíonn ardán AirQuality (cáilíocht aeir) sonraí fíor-ama ar innéacs cáilíochta aeir (AQI) agus truailliú do chathracha ar fud an domhain.",
+    "seoKeywords": "airquality, cáilíocht aeir, AQI, uirlisí airquality, innéacs cáilíochta aeir, cáilíocht aeir domhanda",
+    "intro": "Fáilte go AirQuality, ardán iontaofa do fhaisnéis cáilíochta aeir (airquality). Soláthraíonn AirQuality sonraí fíor-ama ar cháilíocht aeir (innéacs cáilíochta aeir, AQI) do chathracha ar fud an domhain.",
+    "footer": "Cuidíonn ardán AirQuality (cáilíocht aeir) le monatóireacht a dhéanamh ar innéacs cáilíochta aeir (AQI) agus sonraí truaillithe do chathracha ar fud an domhain. Cosain do shláinte le AirQuality!"
   },
   "airQuality": {
     "aqi": "Innéacs Cáilíochta Aeir",
@@ -183,51 +186,95 @@
     "o3": "Ózón",
     "no2": "Dé-ocsaíd nítrigine",
     "so2": "Dé-ocsaíd sulfair",
-    "co": "Monacsaíd charbóin"
+    "co": "Monacsaíd charbóin",
+    "temp": "Temperature",
+    "humidity": "Humidity",
+    "aqiDescTitle": "AQI Level Description"
   },
   "aqiLevels": {
-    "good": "Maith",
-    "moderate": "Measartha",
+    "good": "Good",
+    "moderate": "Moderate",
     "unhealthyForSensitive": "Neamhshláintiúil do ghrúpaí íogaire",
     "unhealthy": "Neamhshláintiúil",
     "veryUnhealthy": "An-neamhshláintiúil",
     "hazardous": "Contúirteach"
   },
   "faq": {
-    "title": "CC",
+    "title": "AirQuality CC | Ceisteanna faoi Cháilíocht Aeir",
+    "intro": "Faigh freagraí ar do cheisteanna faoi cháilíocht aeir (airquality). Cuidíonn AirQuality le tuiscint a fháil ar AQI, truailliú agus níos mó.",
+    "footer": "Má theastaíonn tuilleadh eolais uait faoi airquality (cáilíocht aeir), tabhair cuairt ar rannóga eile den ardán AirQuality.",
     "whatIsAQI": {
-      "question": "Cad é AQI?",
-      "answer": "Is tomhas caighdeánaithe é an tInnéacs Cáilíochta Aeir (AQI) a úsáidtear chun cáilíocht laethúil an aeir a thuairisciú. Insíonn sé duit cé chomh glan nó truaillithe is atá d'aer agus cad iad na héifeachtaí sláinte a d'fhéadfadh a bheith bainteach leis."
+      "question": "What is AQI?",
+      "answer": "The Air Quality Index (AQI) is a standardized measure used to report daily air quality. It tells you how clean or polluted your air is, and what associated health effects might be a concern for you."
     },
     "whatIsPM25": {
-      "question": "Cad é PM2.5?",
-      "answer": "Tagraíonn PM2.5 do cháithníní fíneáil a bhfuil trastomhas 2.5 micriméadar nó níos lú acu. Tá na cáithníní seo sách beag chun dul go domhain sna scamhóga agus d'fhéadfadh siad fadhbanna sláinte tromchúiseacha a chur faoi deara."
+      "question": "What is PM2.5?",
+      "answer": "PM2.5 refers to fine particulate matter with a diameter of 2.5 micrometers or less. These particles are small enough to penetrate deep into the lungs and can cause serious health problems."
     },
-    "seoTitle": "Ceisteanna Coitianta - AirQuality.Tools",
-    "seoDesc": "Ceisteanna coitianta faoi cháilíocht aeir, AQI, PM2.5 agus úsáid AirQuality.Tools.",
-    "seoKeywords": "ceisteanna coitianta, cáilíocht aeir, AQI, PM2.5, cabhair"
+    "dataSource": {
+      "question": "What are the data sources and update frequency?",
+      "answer": "AirQuality.Tools data comes from authoritative meteorological and environmental monitoring agencies, usually updated hourly to ensure accuracy."
+    },
+    "howToQuery": {
+      "question": "How to check air quality in a city?",
+      "answer": "Enter the city name on the AirQuality.Tools homepage and click 'Search' to get real-time air quality data for that city."
+    },
+    "healthImpact": {
+      "question": "Does air quality affect health?",
+      "answer": "Air pollution increases the risk of respiratory and cardiovascular diseases, especially for children, the elderly, and sensitive groups. Pay attention to air quality and maintain a healthy lifestyle."
+    },
+    "seoTitle": "AirQuality CC | Ceisteanna faoi Cháilíocht Aeir agus AirQuality",
+    "seoDesc": "CC AirQuality (cáilíocht aeir): freagraí ar cheisteanna coitianta faoi cháilíocht aeir (airquality) agus AQI i gcathracha ar fud an domhain.",
+    "seoKeywords": "airquality, cáilíocht aeir, CC, ceisteanna airquality, innéacs cáilíochta aeir, AQI"
   },
   "about": {
-    "title": "Fúinn",
-    "description": "Tá AirQuality.Tools tiomanta do sheirbhísí sonraí cáilíochta aeir domhanda údarásacha, tráthúla agus atá éasca le húsáid a sholáthar d'úsáideoirí.",
-    "team": "Tá ár bhfoireann comhdhéanta d'eolaithe comhshaoil, innealtóirí sonraí agus forbróirí tosaigh, tiomanta do shaol sláintiúil a chosaint trí theicneolaíocht.",
-    "seoTitle": "Fúinn - AirQuality.Tools",
-    "seoDesc": "Faigh amach faoi fhoireann AirQuality.Tools, ár misean agus conas a sholáthraímid sonraí cáilíochta aeir fíor-ama do chathracha domhanda.",
-    "seoKeywords": "fúinn, cáilíocht aeir, foireann, teagmháil, AQI"
+    "title": "Maidir le AirQuality | Foireann Cáilíochta Aeir",
+    "intro": "Tá AirQuality (cáilíocht aeir) tiomanta do shonraí cruinne innéacs cáilíochta aeir (AQI) a sholáthar do chathracha ar fud an domhain. Buail leis an bhfoireann airquality!",
+    "footer": "Go raibh maith agat as úsáid a bhaint as ardán AirQuality (cáilíocht aeir). Cosain saol sláintiúil le sonraí airquality.",
+    "description": "AirQuality.Tools is committed to providing users with authoritative, timely, and user-friendly global air quality data services.",
+    "team": "Our team consists of experts in environmental science, data engineering, and frontend development, dedicated to using technology to protect healthy living.",
+    "seoTitle": "Maidir le AirQuality | Foireann Cáilíochta Aeir agus AirQuality",
+    "seoDesc": "Maidir le hardán AirQuality (cáilíocht aeir): buaileann le foireann airquality agus ár misean sonraí innéacs cáilíochta aeir (AQI) a sholáthar ar fud an domhain.",
+    "seoKeywords": "airquality, cáilíocht aeir, fúinn, foireann airquality, innéacs cáilíochta aeir, AQI"
   },
   "contact": {
-    "title": "Déan teagmháil",
-    "intro": "Le haghaidh comhoibrithe, moltaí nó saincheisteanna sonraí, déan teagmháil linn trí na modhanna seo a leanas:",
-    "email": "Ríomhphost",
+    "title": "Déan Teagmháil le AirQuality | Tacaíocht Cáilíochta Aeir",
+    "intro": "Le haghaidh ceisteanna, aiseolais nó iarratais ar shonraí airquality, déan teagmháil le foireann AirQuality (cáilíocht aeir). Is féidir linn cabhrú le faisnéis AQI.",
+    "footer": "Go raibh maith agat as teagmháil a dhéanamh le tacaíocht AirQuality (cáilíocht aeir). Faigh faisnéis chathrach le sonraí airquality.",
+    "email": "Email",
     "wechat": "WeChat",
-    "feedback": "Foirmeacha aiseolais (ag teacht go luath)",
-    "seoTitle": "Déan teagmháil linn - AirQuality.Tools",
-    "seoDesc": "Déan teagmháil le AirQuality.Tools le haghaidh tacaíochta, aiseolais nó comhpháirtíochta. Táimid anseo chun cabhrú leat.",
-    "seoKeywords": "teagmháil, cáilíocht aeir, ríomhphost, guthán, AQI"
+    "feedback": "Feedback form (coming soon)",
+    "seoTitle": "Déan Teagmháil le AirQuality | Tacaíocht Cáilíochta Aeir agus AirQuality",
+    "seoDesc": "Déan teagmháil le foireann AirQuality (cáilíocht aeir) le haghaidh tacaíochta, aiseolais nó iarratais ar shonraí airquality. Soláthraímid faisnéis innéacs cáilíochta aeir (AQI) ar fud an domhain.",
+    "seoKeywords": "airquality, cáilíocht aeir, teagmháil, tacaíocht airquality, innéacs cáilíochta aeir, AQI"
   },
   "science": {
-    "seoTitle": "Ailt Eolaíochta - Léargais ar Cháilíocht Aeir agus Truailliú",
-    "seoDesc": "Léigh ailt eolaíochta agus léargais faoi cháilíocht aeir, truailliú, tionchair sláinte agus eolaíocht chomhshaoil.",
-    "seoKeywords": "eolaíocht, cáilíocht aeir, alt, AQI, PM2.5, truailliú, sláinte"
+    "title": "Eolaíocht AirQuality | Eolas ar Cháilíocht Aeir",
+    "intro": "Fáilte go Eolaíocht AirQuality! Foghlaim anseo faoi cháilíocht aeir (airquality), AQI, truailliú agus conas do shláinte a chosaint.",
+    "footer": "Cuidíonn Eolaíocht AirQuality (cáilíocht aeir) le tuiscint a fháil ar thábhacht an aeir ghlain agus ar an tionchar a bhíonn ag cáilíocht aeir ar an saol.",
+    "sourceTitle": "Main Sources of Air Pollution",
+    "sourceContent": "Air pollution mainly comes from industrial emissions, vehicle exhaust, construction dust, coal burning, and domestic waste incineration. The structure of pollution sources may vary by city and season.",
+    "impactTitle": "Impact of Air Quality on Different Groups",
+    "impactContent": "Air pollution has a greater impact on children, the elderly, pregnant women, and people with respiratory diseases. Long-term exposure to high pollution increases health risks significantly.",
+    "protectTitle": "How to Protect Yourself",
+    "protect1": "Reduce outdoor activities when air pollution is severe, especially during rush hours.",
+    "protect2": "Wear protective masks (such as N95) when going out.",
+    "protect3": "Use air purifiers indoors and keep rooms ventilated.",
+    "protect4": "Follow authoritative air quality forecasts and adjust travel and exercise plans in time.",
+    "trendTitle": "Historical Trends and Global Comparison",
+    "trendContent": "In recent years, air quality in some cities has improved, but winter and heavy pollution days still require vigilance. Globally, developed countries generally have better air quality, while some cities in developing countries face more serious pollution.",
+    "policyTitle": "Policies and Social Measures",
+    "policyContent": "Governments improve air quality through emission limits, promotion of new energy, and urban greening. The public can also contribute by choosing green travel and saving energy.",
+    "seoTitle": "Eolaíocht AirQuality | Ailt ar Cháilíocht Aeir agus AirQuality",
+    "seoDesc": "Ailt eolaíochta AirQuality (cáilíocht aeir): foghlaim faoi innéacs cáilíochta aeir (AQI), truailliú agus tionchair sláinte ar fud an domhain.",
+    "seoKeywords": "airquality, cáilíocht aeir, eolaíocht, AQI, ailt airquality, innéacs cáilíochta aeir"
+  },
+  "aqiQuery": {
+    "title": "Cuardach AQI AirQuality | Innéacs Cáilíochta Aeir",
+    "intro": "Úsáid AirQuality (cáilíocht aeir) chun sonraí fíor-ama ar innéacs cáilíochta aeir (AQI) agus truailliú do chathracha ar fud an domhain a chuardach.",
+    "feature1": "Tacaíocht do chathracha ar fud an domhain",
+    "feature2": "Sonraí iontaofa, nuashonruithe fíor-ama",
+    "feature3": "Seiceáil PM2.5, PM10, O₃, NO₂, SO₂, CO agus níos mó",
+    "footer": "Déanann AirQuality (cáilíocht aeir) sonraí AQI agus truaillithe inrochtana go héasca do chách."
   }
-} 
+}

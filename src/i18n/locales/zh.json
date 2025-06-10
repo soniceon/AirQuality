@@ -12,7 +12,12 @@
     "contact": "联系"
   },
   "home": {
-    "title": "空气质量指数",
+    "seoTitle": "AirQuality | 空气质量指数与全球城市工具",
+    "seoDesc": "AirQuality（空气质量）平台为全球城市提供实时空气质量指数（AQI）和污染数据。",
+    "seoKeywords": "airquality, 空气质量, AQI, airquality 工具, 空气质量指数, 全球空气质量",
+    "title": "AirQuality | 空气质量指数",
+    "intro": "欢迎来到 AirQuality，值得信赖的空气质量（airquality）信息平台。AirQuality 为全球城市提供实时空气质量（空气质量指数，AQI）数据。",
+    "footer": "AirQuality（空气质量）平台帮助追踪全球城市空气质量指数（AQI）和污染数据。用 AirQuality 守护您的健康！",
     "subtitle": "全球城市的实时空气质量信息",
     "searchPlaceholder": "输入城市名称。..",
     "popularCities": "热门城市"
@@ -35,7 +40,12 @@
     "hazardous": "危险"
   },
   "faq": {
-    "title": "常见问题解答",
+    "seoTitle": "AirQuality 常见问题 | 空气质量与 AirQuality 问答",
+    "seoDesc": "AirQuality（空气质量）常见问题：解答全球城市空气质量（airquality）与 AQI 相关疑问。",
+    "seoKeywords": "airquality, 空气质量, 常见问题, airquality 问题, 空气质量指数, AQI",
+    "title": "AirQuality 常见问题 | 空气质量问答",
+    "intro": "查找您关于空气质量（airquality）的疑问解答。AirQuality 帮助您理解 AQI、污染等信息。",
+    "footer": "如需更多 airquality（空气质量）信息，请浏览 AirQuality 平台其他页面。",
     "whatIsAQI": {
       "question": "什么是AQI？",
       "answer": "空气质量指数（AQI）是用于报告每日空气质量的标准化指标。它告诉你你的空气有多干净或有多污染，以及你可能担心的相关健康影响。"
@@ -46,13 +56,39 @@
     }
   },
   "about": {
-    "title": "关于我们",
+    "seoTitle": "关于 AirQuality | 空气质量团队与 AirQuality",
+    "seoDesc": "关于 AirQuality（空气质量）平台：认识 airquality 团队与我们的全球空气质量指数（AQI）数据使命。",
+    "seoKeywords": "airquality, 空气质量, 关于我们, airquality 团队, 空气质量指数, AQI",
+    "title": "关于 AirQuality | 空气质量团队",
+    "intro": "AirQuality（空气质量）致力于为全球城市提供精确的空气质量指数（AQI）数据。认识 airquality 团队！",
+    "footer": "感谢您使用 AirQuality（空气质量）平台。用 airquality 数据守护健康生活。",
     "description": "我们提供实时空气质量信息，帮助您对户外活动做出明智的决定，保护您的健康。"
   },
   "contact": {
-    "title": "联系我们",
+    "seoTitle": "联系 AirQuality | 空气质量支持与 AirQuality",
+    "seoDesc": "联系 AirQuality（空气质量）团队，获取支持、反馈或 airquality 数据需求。我们提供全球空气质量指数（AQI）信息。",
+    "seoKeywords": "airquality, 空气质量, 联系, airquality 支持, 空气质量指数, AQI",
+    "title": "联系 AirQuality | 空气质量支持",
+    "intro": "如有疑问、反馈或 airquality 数据需求，请联系 AirQuality（空气质量）团队。我们可协助提供 AQI 信息。",
+    "footer": "感谢您联系 AirQuality（空气质量）支持。用 airquality 数据获取城市信息。",
     "email": "电子邮件",
     "phone": "电话",
     "address": "地址"
+  },
+  "aqiQuery": {
+    "title": "AirQuality AQI 查询 | 空气质量指数",
+    "intro": "使用 AirQuality（空气质量）查询全球城市实时空气质量指数（AQI）和污染数据。",
+    "feature1": "支持全球城市",
+    "feature2": "数据可靠，实时更新",
+    "feature3": "查询 PM2.5、PM10、O₃、NO₂、SO₂、CO 等指标",
+    "footer": "AirQuality（空气质量）让 AQI 与污染数据轻松获取。"
+  },
+  "science": {
+    "seoTitle": "AirQuality 科普 | 空气质量与 AirQuality 文章",
+    "seoDesc": "AirQuality（空气质量）科普文章：了解空气质量指数（AQI）、污染与健康影响。",
+    "seoKeywords": "airquality, 空气质量, 科普, AQI, airquality 文章, 空气质量指数",
+    "title": "AirQuality 科普 | 空气质量知识",
+    "intro": "欢迎来到 AirQuality 科普！在这里您可以了解空气质量（airquality）、AQI、污染及健康防护。",
+    "footer": "AirQuality 科普（空气质量）帮助您理解洁净空气的重要性及空气质量对生活的影响。"
   }
 }

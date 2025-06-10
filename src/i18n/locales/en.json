@@ -14,7 +14,7 @@
     "contact": "Contact"
   },
   "home": {
-    "title": "Air Quality Index",
+    "title": "AirQuality | Air Quality Index",
     "subtitle": "Real-time air quality information for cities worldwide",
     "searchPlaceholder": "Enter city name...",
     "popularCities": "Popular Cities",
@@ -173,9 +173,11 @@
       "murcia": "Murcia",
       "palma": "Palma"
     },
-    "seoTitle": "Air Quality Index - Real-time Global AQI & Pollution Data",
-    "seoDesc": "Check real-time air quality index (AQI), PM2.5, PM10, and pollution data for cities worldwide. Stay informed and protect your health.",
-    "seoKeywords": "air quality, AQI, PM2.5, PM10, pollution, global, city, weather, health"
+    "seoTitle": "AirQuality | Air Quality Index & Tools for Global Cities",
+    "seoDesc": "AirQuality (air quality) platform provides real-time air quality index (AQI) and pollution data for cities worldwide.",
+    "seoKeywords": "airquality, air quality, AQI, airquality tools, air quality index, global airquality",
+    "intro": "Welcome to AirQuality, your trusted air quality (airquality) information platform. AirQuality provides real-time air quality (air quality index, AQI) data for cities worldwide.",
+    "footer": "AirQuality (air quality) platform helps you track air quality index (AQI) and pollution data for global cities. Stay healthy with AirQuality!"
   },
   "airQuality": {
     "aqi": "Air Quality Index",
@@ -198,7 +200,9 @@
     "hazardous": "Hazardous"
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "AirQuality FAQ | Air Quality Questions",
+    "intro": "Find answers to your air quality (airquality) questions. AirQuality helps you understand AQI, pollution, and more.",
+    "footer": "For more airquality (air quality) information, visit other sections of AirQuality platform.",
     "whatIsAQI": {
       "question": "What is AQI?",
       "answer": "The Air Quality Index (AQI) is a standardized measure used to report daily air quality. It tells you how clean or polluted your air is, and what associated health effects might be a concern for you."
@@ -219,30 +223,35 @@
       "question": "Does air quality affect health?",
       "answer": "Air pollution increases the risk of respiratory and cardiovascular diseases, especially for children, the elderly, and sensitive groups. Pay attention to air quality and maintain a healthy lifestyle."
     },
-    "seoTitle": "FAQ - AirQuality.Tools",
-    "seoDesc": "Frequently asked questions about air quality, AQI, PM2.5, and how to use AirQuality.Tools.",
-    "seoKeywords": "faq, air quality, AQI, PM2.5, help"
+    "seoTitle": "AirQuality FAQ | Air Quality & AirQuality Questions",
+    "seoDesc": "AirQuality (air quality) FAQ: answers to common air quality (airquality) and AQI questions for global cities.",
+    "seoKeywords": "airquality, air quality, FAQ, airquality questions, air quality index, AQI"
   },
   "about": {
-    "title": "About Us",
+    "title": "About AirQuality | Air Quality Team",
+    "intro": "AirQuality (air quality) is dedicated to providing accurate air quality index (AQI) data for cities worldwide. Meet the airquality team!",
+    "footer": "Thank you for using AirQuality (air quality) platform. Stay updated with airquality data for a healthier life.",
     "description": "AirQuality.Tools is committed to providing users with authoritative, timely, and user-friendly global air quality data services.",
     "team": "Our team consists of experts in environmental science, data engineering, and frontend development, dedicated to using technology to protect healthy living.",
-    "seoTitle": "About Us - AirQuality.Tools",
-    "seoDesc": "Learn about the AirQuality.Tools team, our mission, and how we provide real-time air quality data for global cities.",
-    "seoKeywords": "about, air quality, team, contact, AQI"
+    "seoTitle": "About AirQuality | Air Quality & AirQuality Team",
+    "seoDesc": "About AirQuality (air quality) platform: meet the airquality team and learn about our mission to provide global air quality index (AQI) data.",
+    "seoKeywords": "airquality, air quality, about, airquality team, air quality index, AQI"
   },
   "contact": {
-    "title": "Contact Us",
-    "intro": "For cooperation, suggestions, or data issues, please contact us via the following methods:",
+    "title": "Contact AirQuality | Air Quality Support",
+    "intro": "Contact the AirQuality (air quality) team for any questions, feedback, or airquality data requests. We are here to help you with air quality index (AQI) information.",
+    "footer": "Thank you for reaching out to AirQuality (air quality) support. Stay informed with airquality data for your city.",
     "email": "Email",
     "wechat": "WeChat",
     "feedback": "Feedback form (coming soon)",
-    "seoTitle": "Contact Us - AirQuality.Tools",
-    "seoDesc": "Contact AirQuality.Tools for support, feedback, or partnership inquiries. We're here to help you with air quality information.",
-    "seoKeywords": "contact, air quality, email, phone, AQI"
+    "seoTitle": "Contact AirQuality | Air Quality & AirQuality Support",
+    "seoDesc": "Contact AirQuality (air quality) team for support, feedback, and airquality data requests. We provide global air quality index (AQI) information.",
+    "seoKeywords": "airquality, air quality, contact, airquality support, air quality index, AQI"
   },
   "science": {
-    "title": "Air Quality Science",
+    "title": "AirQuality Science | Air Quality Knowledge",
+    "intro": "Welcome to AirQuality Science! Here you can learn about air quality (airquality), AQI, pollution, and how to protect your health.",
+    "footer": "AirQuality (air quality) science helps you understand the importance of clean air and how airquality impacts your life.",
     "sourceTitle": "Main Sources of Air Pollution",
     "sourceContent": "Air pollution mainly comes from industrial emissions, vehicle exhaust, construction dust, coal burning, and domestic waste incineration. The structure of pollution sources may vary by city and season.",
     "impactTitle": "Impact of Air Quality on Different Groups",
@@ -256,8 +265,16 @@
     "trendContent": "In recent years, air quality in some cities has improved, but winter and heavy pollution days still require vigilance. Globally, developed countries generally have better air quality, while some cities in developing countries face more serious pollution.",
     "policyTitle": "Policies and Social Measures",
     "policyContent": "Governments improve air quality through emission limits, promotion of new energy, and urban greening. The public can also contribute by choosing green travel and saving energy.",
-    "seoTitle": "Science Articles - Air Quality & Pollution Insights",
-    "seoDesc": "Read scientific articles and insights about air quality, pollution, health impacts, and environmental science.",
-    "seoKeywords": "science, air quality, article, AQI, PM2.5, pollution, health"
+    "seoTitle": "AirQuality Science | Air Quality & AirQuality Articles",
+    "seoDesc": "AirQuality (air quality) science articles: learn about air quality index (AQI), pollution, and health impacts worldwide.",
+    "seoKeywords": "airquality, air quality, science, AQI, airquality articles, air quality index"
+  },
+  "aqiQuery": {
+    "title": "AirQuality AQI Query | Air Quality Index",
+    "intro": "Use AirQuality (air quality) to query real-time air quality index (AQI) and pollution data for any city worldwide.",
+    "feature1": "Supports global cities",
+    "feature2": "Authoritative data, updated in real time",
+    "feature3": "Check PM2.5, PM10, O₃, NO₂, SO₂, CO and more",
+    "footer": "AirQuality (air quality) makes AQI and pollution data easy to access for everyone."
   }
-} 
+}

@@ -1,0 +1,50 @@
+{
+  "home": {
+    "seoTitle": "AirQuality | Ilmanlaadun Indeksi ja Työkalut Kaupungeille",
+    "seoDesc": "AirQuality (ilmanlaatu) -alusta tarjoaa reaaliaikaisia ilmanlaadun indeksi (AQI) ja saastetietoja kaupungeista ympäri maailmaa.",
+    "seoKeywords": "airquality, ilmanlaatu, AQI, airquality työkalut, ilmanlaadun indeksi, globaali ilmanlaatu",
+    "title": "AirQuality | Ilmanlaadun Indeksi",
+    "intro": "Tervetuloa AirQualityyn, luotettavaan ilmanlaatutiedon (airquality) alustaan. AirQuality tarjoaa reaaliaikaisia ilmanlaadun (ilmanlaadun indeksi, AQI) tietoja kaupungeista ympäri maailmaa.",
+    "footer": "AirQuality (ilmanlaatu) -alusta auttaa seuraamaan ilmanlaadun indeksiä (AQI) ja saastetietoja kaupungeista ympäri maailmaa. Suojaa terveyttäsi AirQualityn avulla!"
+  },
+  "science": {
+    "seoTitle": "AirQuality Tiede | Artikkelit Ilmanlaadusta ja AirQualitysta",
+    "seoDesc": "AirQuality (ilmanlaatu) tieteelliset artikkelit: opi ilmanlaadun indeksistä (AQI), saasteista ja terveysvaikutuksista maailmanlaajuisesti.",
+    "seoKeywords": "airquality, ilmanlaatu, tiede, AQI, airquality artikkelit, ilmanlaadun indeksi",
+    "title": "AirQuality Tiede | Tietoa Ilmanlaadusta",
+    "intro": "Tervetuloa AirQuality Tiede -osioon! Täällä opit ilmanlaadusta (airquality), AQI:sta, saasteista ja terveyden suojelemisesta.",
+    "footer": "AirQuality Tiede (ilmanlaatu) auttaa ymmärtämään puhtaan ilman merkitystä ja ilmanlaadun vaikutuksia elämään."
+  },
+  "faq": {
+    "seoTitle": "AirQuality UKK | Kysymyksiä Ilmanlaadusta ja AirQualitysta",
+    "seoDesc": "AirQuality (ilmanlaatu) UKK: vastauksia yleisiin kysymyksiin ilmanlaadusta (airquality) ja AQI:sta kaupungeissa ympäri maailmaa.",
+    "seoKeywords": "airquality, ilmanlaatu, UKK, airquality kysymykset, ilmanlaadun indeksi, AQI",
+    "title": "AirQuality UKK | Kysymyksiä Ilmanlaadusta",
+    "intro": "Löydä vastaukset kysymyksiisi ilmanlaadusta (airquality). AirQuality auttaa ymmärtämään AQI:ta, saasteita ja paljon muuta.",
+    "footer": "Jos tarvitset lisää tietoa airqualitysta (ilmanlaatu), vieraile muissa AirQuality-alustan osioissa."
+  },
+  "about": {
+    "seoTitle": "Tietoa AirQualitysta | Ilmanlaatutekijät ja AirQuality",
+    "seoDesc": "Tietoa AirQuality (ilmanlaatu) -alustasta: tapaa airquality-tiimi ja missiomme tarjota ilmanlaadun indeksi (AQI) -tietoja maailmanlaajuisesti.",
+    "seoKeywords": "airquality, ilmanlaatu, tietoa meistä, airquality tiimi, ilmanlaadun indeksi, AQI",
+    "title": "Tietoa AirQualitysta | Ilmanlaatutekijät",
+    "intro": "AirQuality (ilmanlaatu) on omistautunut tarjoamaan tarkkoja ilmanlaadun indeksi (AQI) -tietoja kaupungeista ympäri maailmaa. Tapaa airquality-tiimi!",
+    "footer": "Kiitos, että käytät AirQuality (ilmanlaatu) -alustaa. Suojaa terveellistä elämää airquality-tiedoilla."
+  },
+  "contact": {
+    "seoTitle": "Ota Yhteyttä AirQualityyn | Ilmanlaadun Tuki ja AirQuality",
+    "seoDesc": "Ota yhteyttä AirQuality (ilmanlaatu) -tiimiin saadaksesi tukea, palautetta tai airquality-tietopyyntöjä. Tarjoamme ilmanlaadun indeksi (AQI) -tietoja maailmanlaajuisesti.",
+    "seoKeywords": "airquality, ilmanlaatu, yhteys, airquality tuki, ilmanlaadun indeksi, AQI",
+    "title": "Ota Yhteyttä AirQualityyn | Ilmanlaadun Tuki",
+    "intro": "Kysymyksiin, palautteeseen tai airquality-tietopyyntöihin, ota yhteyttä AirQuality (ilmanlaatu) -tiimiin. Autamme AQI-tiedoissa.",
+    "footer": "Kiitos, että otit yhteyttä AirQuality (ilmanlaatu) -tukeen. Saat kaupunkitietoja airquality-tiedoilla."
+  },
+  "aqiQuery": {
+    "title": "AirQuality AQI Haku | Ilmanlaadun Indeksi",
+    "intro": "Käytä AirQuality (ilmanlaatu) -palvelua hakeaksesi reaaliaikaisia ilmanlaadun indeksi (AQI) ja saastetietoja kaupungeista ympäri maailmaa.",
+    "feature1": "Tuki kaupungeille ympäri maailmaa",
+    "feature2": "Luotettavat tiedot, reaaliaikaiset päivitykset",
+    "feature3": "Tarkista PM2.5, PM10, O₃, NO₂, SO₂, CO ja paljon muuta",
+    "footer": "AirQuality (ilmanlaatu) tekee AQI- ja saastetiedot helposti saataville kaikille."
+  }
+} 

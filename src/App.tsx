@@ -31,14 +31,14 @@ const App: React.FC = () => {
         <Navbar />
         <main className="container mx-auto px-4 py-8">
           <Suspense fallback={<LoadingSpinner size="lg" />}>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/query" element={<AQIQuery />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/query" element={<AQIQuery />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/science" element={<Science />} />
-            </Routes>
+          </Routes>
           </Suspense>
         </main>
       </div>
