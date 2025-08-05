@@ -3,7 +3,6 @@ import { Search, Wind, Thermometer, Droplets, AlertTriangle, CheckCircle, XCircl
 import { useTranslation } from 'react-i18next';
 import { getUserLocation, getWeatherAndAirQuality } from '../utils/baiduApi';
 import SEOHead from '../components/SEOHead';
-import LanguageDebug from '../components/LanguageDebug';
 import { languageToCountry, hotCitiesByCountry } from '../constants/city';
 
 export default function Home() {
@@ -322,7 +321,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <LanguageDebug />
     </>
   );
 } 

@@ -17,7 +17,11 @@
   "error": {
     "pageNotFound": "Page Not Found",
     "pageNotFoundDesc": "Sorry, the page you are looking for does not exist.",
-    "helpText": "If you think this is an error, please contact us."
+    "helpText": "If you think this is an error, please contact us.",
+    "locationFailed": "Location detection failed",
+    "districtCodeFailed": "Failed to get administrative division code",
+    "cityNotFound": "City coordinates not found",
+    "airQualityFailed": "Failed to get air quality data"
   },
   "seo": {
     "defaultTitle": "Air Quality Index (AQI) - Global City Real-time Air Quality Monitoring | AirQuality.Tools",

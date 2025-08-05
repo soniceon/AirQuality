@@ -9,7 +9,11 @@
   "error": {
     "pageNotFound": "找不到頁面",
     "pageNotFoundDesc": "抱歉，您要查找的頁面不存在。",
-    "helpText": "如果您認為這是錯誤，請聯繫我們。"
+    "helpText": "如果您認為這是錯誤，請聯繫我們。",
+    "locationFailed": "定位失敗",
+    "districtCodeFailed": "獲取行政區劃代碼失敗",
+    "cityNotFound": "未找到該城市的經緯度",
+    "airQualityFailed": "空氣品質數據獲取失敗"
   },
   "seo": {
     "defaultTitle": "空氣品質指數(AQI)查詢 - 全球都市實時空氣品質監測 | AirQuality.Tools",

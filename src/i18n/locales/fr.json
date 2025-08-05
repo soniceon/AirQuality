@@ -9,7 +9,11 @@
   "error": {
     "pageNotFound": "Page non trouvée",
     "pageNotFoundDesc": "Désolé, la page que vous recherchez n'existe pas.",
-    "helpText": "Si vous pensez que c'est une erreur, contactez-nous."
+    "helpText": "Si vous pensez que c'est une erreur, contactez-nous.",
+    "locationFailed": "Échec de la détection de localisation",
+    "districtCodeFailed": "Échec de l'obtention du code de division administrative",
+    "cityNotFound": "Coordonnées de la ville non trouvées",
+    "airQualityFailed": "Échec de l'obtention des données de qualité de l'air"
   },
   "seo": {
     "defaultTitle": "Indice de Qualité de l'Air (AQI) - Surveillance de la Qualité de l'Air en Temps Réel des Villes Mondiales | AirQuality.Tools",

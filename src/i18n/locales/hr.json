@@ -9,7 +9,11 @@
   "error": {
     "pageNotFound": "Stranica nije pronađena",
     "pageNotFoundDesc": "Ispričavamo se, stranica koju tražite ne postoji.",
-    "helpText": "Ako mislite da je ovo greška, molimo vas da nas kontaktirate."
+    "helpText": "Ako mislite da je ovo greška, molimo vas da nas kontaktirate.",
+    "locationFailed": "Otkrivanje lokacije neuspješno",
+    "districtCodeFailed": "Neuspješno dohvaćanje koda administrativne podjele",
+    "cityNotFound": "Koordinate grada nisu pronađene",
+    "airQualityFailed": "Neuspješno dohvaćanje podataka o kvaliteti zraka"
   },
   "seo": {
     "defaultTitle": "Indeks kvalitete zraka (AQI) - Praćenje kvalitete zraka u stvarnom vremenu za globalne gradove | AirQuality.Tools",

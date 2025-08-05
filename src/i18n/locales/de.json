@@ -9,7 +9,11 @@
   "error": {
     "pageNotFound": "Seite nicht gefunden",
     "pageNotFoundDesc": "Entschuldigung, die gesuchte Seite existiert nicht.",
-    "helpText": "Wenn Sie denken, dass dies ein Fehler ist, kontaktieren Sie uns."
+    "helpText": "Wenn Sie denken, dass dies ein Fehler ist, kontaktieren Sie uns.",
+    "locationFailed": "Standorterkennung fehlgeschlagen",
+    "districtCodeFailed": "Fehler beim Abrufen des Verwaltungsbezirkscodes",
+    "cityNotFound": "Stadtkoordinaten nicht gefunden",
+    "airQualityFailed": "Fehler beim Abrufen der Luftqualitätsdaten"
   },
   "seo": {
     "defaultTitle": "Luftqualitätsindex (AQI) - Echtzeit-Luftqualitätsüberwachung für globale Städte | AirQuality.Tools",

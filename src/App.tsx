@@ -11,7 +11,6 @@ const Contact = lazy(() => import('./pages/Contact'));
 const FAQ = lazy(() => import('./pages/FAQ'));
 const Science = lazy(() => import('./pages/Science'));
 const NotFound = lazy(() => import('./pages/NotFound'));
-const TestLanguage = lazy(() => import('./pages/TestLanguage'));
 import Home from './pages/Home';
 import { performanceMonitor } from './utils/performance';
 
@@ -40,7 +39,6 @@ const App: React.FC = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/science" element={<Science />} />
-            <Route path="/test" element={<TestLanguage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           </Suspense>

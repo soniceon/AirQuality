@@ -16,7 +16,7 @@ export async function getUserLocation() {
         country: data.content.address_detail.province
       };
     }
-    throw new Error('定位失败');
+    throw new Error(i18n.t('error.locationFailed'));
   } catch {
     // 兜底：语言->国家->热门城市->随机
     const lang = i18n.language || (typeof navigator !== 'undefined' ? navigator.language : 'en');
@@ -35,7 +35,7 @@ export async function getDistrictId(city: string): Promise<string> {
     // cityCode 不是标准district_id，需用result.adcode（新版API）
     return data.result.adcode || data.result.cityCode.toString();
   }
-  throw new Error('获取行政区划代码失败');
+  throw new Error(i18n.t('error.districtCodeFailed'));
 }
 
 // 通过城市名获取经纬度
@@ -45,7 +45,7 @@ export async function getLatLonByCity(city: string) {
   if (Array.isArray(data) && data.length > 0) {
     return { lat: data[0].lat, lon: data[0].lon, name: data[0].name, country: data[0].country };
   }
-  throw new Error('未找到该城市的经纬度');
+  throw new Error(i18n.t('error.cityNotFound'));
 }
 
 // 通过经纬度获取空气质量
@@ -81,5 +81,5 @@ export async function getWeatherAndAirQuality(city: string) {
       humidity
     };
   }
-  throw new Error('空气质量数据获取失败');
+  throw new Error(i18n.t('error.airQualityFailed'));
 } 

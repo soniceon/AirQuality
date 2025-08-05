@@ -9,7 +9,11 @@
   "error": {
     "pageNotFound": "Sayfa bulunamadı",
     "pageNotFoundDesc": "Üzgünüz, aradığınız sayfa mevcut değil.",
-    "helpText": "Bunun bir hata olduğunu düşünüyorsanız, lütfen bizimle iletişime geçin."
+    "helpText": "Bunun bir hata olduğunu düşünüyorsanız, lütfen bizimle iletişime geçin.",
+    "locationFailed": "Konum algılama başarısız",
+    "districtCodeFailed": "İdari bölüm kodu alınamadı",
+    "cityNotFound": "Şehir koordinatları bulunamadı",
+    "airQualityFailed": "Hava kalitesi verisi alınamadı"
   },
   "seo": {
     "defaultTitle": "Hava Kalitesi İndeksi (AQI) - Küresel Şehirlerin Gerçek Zamanlı Hava Kalitesi İzleme | AirQuality.Tools",

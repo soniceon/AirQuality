@@ -9,7 +9,11 @@
   "error": {
     "pageNotFound": "Níor aimsíodh an leathanach",
     "pageNotFoundDesc": "Tá brón orainn, ní bhíonn an leathanach a bhfuil tú ag cuardach air ann.",
-    "helpText": "Má cheapann tú gur earráid é seo, déan teagmháil linn le do thoil."
+    "helpText": "Má cheapann tú gur earráid é seo, déan teagmháil linn le do thoil.",
+    "locationFailed": "Theip ar bhrath suímh",
+    "districtCodeFailed": "Theip ar fháil ar chód rannáin riaracháin",
+    "cityNotFound": "Níor aimsíodh comhordanáidí na cathrach",
+    "airQualityFailed": "Theip ar fháil ar shonraí cáilíochta aeir"
   },
   "seo": {
     "defaultTitle": "Innéacs Cáilíochta Aeir (AQI) - Monatóireacht Cáilíochta Aeir Fíor-ama do Chathracha Domhanda | AirQuality.Tools",

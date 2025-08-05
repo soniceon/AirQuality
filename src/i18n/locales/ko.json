@@ -9,7 +9,11 @@
   "error": {
     "pageNotFound": "페이지를 찾을 수 없습니다",
     "pageNotFoundDesc": "죄송합니다. 요청하신 페이지가 존재하지 않습니다.",
-    "helpText": "이것이 오류라고 생각되시면 문의해 주세요."
+    "helpText": "이것이 오류라고 생각되시면 문의해 주세요.",
+    "locationFailed": "위치 감지에 실패했습니다",
+    "districtCodeFailed": "행정 구역 코드 가져오기에 실패했습니다",
+    "cityNotFound": "도시 좌표를 찾을 수 없습니다",
+    "airQualityFailed": "대기질 데이터 가져오기에 실패했습니다"
   },
   "seo": {
     "defaultTitle": "공기질 지수(AQI) - 세계 도시 실시간 공기질 모니터링 | AirQuality.Tools",

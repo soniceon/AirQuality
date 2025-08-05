@@ -9,7 +9,11 @@
   "error": {
     "pageNotFound": "ページが見つかりません",
     "pageNotFoundDesc": "申し訳ございませんが、お探しのページは存在しません。",
-    "helpText": "これがエラーだと思われる場合は、お問い合わせください。"
+    "helpText": "これがエラーだと思われる場合は、お問い合わせください。",
+    "locationFailed": "位置情報の取得に失敗しました",
+    "districtCodeFailed": "行政区画コードの取得に失敗しました",
+    "cityNotFound": "都市の座標が見つかりません",
+    "airQualityFailed": "空気品質データの取得に失敗しました"
   },
   "seo": {
     "defaultTitle": "空気品質指数(AQI) - 世界都市のリアルタイム空気品質監視 | AirQuality.Tools",
