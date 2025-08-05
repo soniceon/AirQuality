@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Search, Wind, Thermometer, Droplets, AlertTriangle, CheckCircle, XCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { getUserLocation, getWeatherAndAirQuality } from '../utils/baiduApi';
-import { Helmet } from 'react-helmet';
+import SEOHead from '../components/SEOHead';
 import { languageToCountry, hotCitiesByCountry } from '../constants/city';
 
 export default function Home() {
@@ -122,32 +122,12 @@ export default function Home() {
 
   return (
     <>
-      <Helmet>
-        <title>{t('home.seoTitle')}</title>
-        <meta name="description" content={t('home.seoDesc')} />
-        <meta name="keywords" content={t('home.seoKeywords')} />
-        <meta property="og:title" content={t('home.seoTitle')} />
-        <meta property="og:description" content={t('home.seoDesc')} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={typeof window !== 'undefined' ? window.location.href : ''} />
-        <meta property="og:image" content="https://airquality.tools/og-image.png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={t('home.seoTitle')} />
-        <meta name="twitter:description" content={t('home.seoDesc')} />
-        <meta name="twitter:image" content="https://airquality.tools/og-image.png" />
-        {/* hreflang 多语言链接 */}
-        {Array.isArray(i18n.options.supportedLngs) && i18n.options.supportedLngs.filter((l: string) => l !== "cimode").map((l: string) => (
-          <link rel="alternate" hrefLang={l} href={typeof window !== 'undefined' ? window.location.origin + (l === i18n.options.fallbackLng ? '/' : `/${l}`) : ''} key={l} />
-        ))}
-        {/* 结构化数据 WebSite */}
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          "name": t('home.seoTitle'),
-          "url": typeof window !== 'undefined' ? window.location.origin : '',
-          "description": t('home.seoDesc')
-        })}</script>
-      </Helmet>
+      <SEOHead 
+        title={t('seo.defaultTitle')}
+        description={t('seo.defaultDescription')}
+        canonical="https://airquality.tools/"
+        ogType="website"
+      />
     <div className="max-w-4xl mx-auto p-6 bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
       <div className="bg-white rounded-xl shadow-lg p-8">
         <div className="text-center mb-8">

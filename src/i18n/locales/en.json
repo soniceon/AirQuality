@@ -3,7 +3,8 @@
     "search": "Search",
     "loading": "Loading...",
     "error": "Error",
-    "retry": "Retry"
+    "retry": "Retry",
+    "goBack": "Go Back"
   },
   "nav": {
     "home": "Home",
@@ -12,6 +13,25 @@
     "faq": "FAQ",
     "about": "About",
     "contact": "Contact"
+  },
+  "error": {
+    "pageNotFound": "Page Not Found",
+    "pageNotFoundDesc": "Sorry, the page you are looking for does not exist.",
+    "helpText": "If you think this is an error, please contact us."
+  },
+  "seo": {
+    "defaultTitle": "Air Quality Index (AQI) - Global City Real-time Air Quality Monitoring | AirQuality.Tools",
+    "defaultDescription": "AirQuality.Tools provides real-time air quality index (AQI) monitoring data for major cities worldwide, supporting 100+ cities including Beijing, Shanghai, Guangzhou, Shenzhen, New York, London, Paris. Help you pay attention to healthy living. PM2.5, PM10, ozone and other pollutants real-time monitoring.",
+    "defaultKeywords": "air quality, AQI, real-time monitoring, global cities, environment, health, PM2.5, PM10, air pollution, weather",
+    "ogImageAlt": "AirQuality.Tools - Global City Air Quality Monitoring",
+    "aboutTitle": "About Us - Air Quality Monitoring Platform | AirQuality.Tools",
+    "aboutDescription": "Learn about AirQuality.Tools mission and vision. We are committed to providing accurate and timely air quality data for global users, helping everyone pay attention to healthy living.",
+    "contactTitle": "Contact Us - AirQuality.Tools",
+    "contactDescription": "Contact the AirQuality.Tools team for technical support, business cooperation or user feedback. We are always here to help.",
+    "faqTitle": "FAQ - Air Quality Index FAQ | AirQuality.Tools",
+    "faqDescription": "Frequently asked questions about air quality index (AQI), PM2.5, PM10, etc., helping you better understand air quality data.",
+    "scienceTitle": "Science Articles - Air Quality Knowledge | AirQuality.Tools",
+    "scienceDescription": "Air quality related science articles, including AQI index interpretation, pollutant introduction, health effects and other professional knowledge."
   },
   "home": {
     "title": "AirQuality | Air Quality Index",

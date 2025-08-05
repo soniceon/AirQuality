@@ -1,12 +1,44 @@
 User-agent: *
 Allow: /
 
-# Sitemaps
-Sitemap: https://airquality.tools/sitemaps/sitemap-index.xml
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
 
-# Crawl-delay
-Crawl-delay: 10
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Amazonbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 1
+
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 1
+
+User-agent: Applebot
+Allow: /
+Crawl-delay: 2
+
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bytespider
+Allow: /
+Crawl-delay: 2
 
 # Disallow admin and api routes
+Disallow: /search/
+Disallow: /query/
+Disallow: /api/
 Disallow: /admin/
-Disallow: /api/ 
+Disallow: /sitemaps/sitemap-index.xml
+
+# Sitemaps
+Sitemap: https://airquality.tools/sitemap.xml 

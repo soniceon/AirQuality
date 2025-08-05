@@ -3,7 +3,8 @@
     "search": "搜索",
     "loading": "加载。..",
     "error": "错误",
-    "retry": "重试"
+    "retry": "重试",
+    "goBack": "返回上页"
   },
   "nav": {
     "home": "家",
@@ -12,6 +13,25 @@
     "faq": "常问问题",
     "about": "关于",
     "contact": "联系方式"
+  },
+  "error": {
+    "pageNotFound": "页面未找到",
+    "pageNotFoundDesc": "抱歉，您访问的页面不存在。",
+    "helpText": "如果您认为这是一个错误，请联系我们。"
+  },
+  "seo": {
+    "defaultTitle": "空气质量指数(AQI)查询 - 全球城市实时空气质量监测 | AirQuality.Tools",
+    "defaultDescription": "AirQuality.Tools提供全球主要城市的实时空气质量指数(AQI)监测数据，支持北京、上海、广州、深圳、纽约、伦敦、巴黎等100+城市查询，助您关注健康生活。PM2.5、PM10、臭氧等污染物实时监测。",
+    "defaultKeywords": "空气质量, AQI, 实时监测, 全球城市, 环境, 健康, PM2.5, PM10, 空气污染, 天气",
+    "ogImageAlt": "AirQuality.Tools - 全球城市空气质量监测",
+    "aboutTitle": "关于我们 - 空气质量监测平台 | AirQuality.Tools",
+    "aboutDescription": "了解AirQuality.Tools的使命和愿景，我们致力于为全球用户提供准确、及时的空气质量数据，帮助大家关注健康生活。",
+    "contactTitle": "联系我们 - AirQuality.Tools",
+    "contactDescription": "联系AirQuality.Tools团队，获取技术支持、商务合作或用户反馈。我们随时为您提供帮助。",
+    "faqTitle": "常见问题 - 空气质量指数FAQ | AirQuality.Tools",
+    "faqDescription": "关于空气质量指数(AQI)、PM2.5、PM10等常见问题解答，帮助您更好地理解空气质量数据。",
+    "scienceTitle": "科普文章 - 空气质量知识 | AirQuality.Tools",
+    "scienceDescription": "空气质量相关的科普文章，包括AQI指数解读、污染物介绍、健康影响等专业知识。"
   },
   "home": {
     "title": "空气质量|空气质量指数",

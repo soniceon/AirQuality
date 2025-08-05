@@ -10,6 +10,7 @@ const About = lazy(() => import('./pages/About'));
 const Contact = lazy(() => import('./pages/Contact'));
 const FAQ = lazy(() => import('./pages/FAQ'));
 const Science = lazy(() => import('./pages/Science'));
+const NotFound = lazy(() => import('./pages/NotFound'));
 import Home from './pages/Home';
 import { performanceMonitor } from './utils/performance';
 
@@ -36,8 +37,9 @@ const App: React.FC = () => {
             <Route path="/query" element={<AQIQuery />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-              <Route path="/faq" element={<FAQ />} />
-              <Route path="/science" element={<Science />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/science" element={<Science />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
           </Suspense>
         </main>

@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>https://airquality.tools/hi/</loc>
+      <loc>https://airquality.tools/</loc>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>https://airquality.tools/hi/about</loc>
+      <loc>https://airquality.tools/about</loc>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>https://airquality.tools/hi/contact</loc>
+      <loc>https://airquality.tools/contact</loc>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>https://airquality.tools/hi/faq</loc>
+      <loc>https://airquality.tools/faq</loc>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>https://airquality.tools/hi/science</loc>
+      <loc>https://airquality.tools/science</loc>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
     </url>

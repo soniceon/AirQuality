@@ -27,6 +27,15 @@ const supportedLanguages = {
 // 网站基础 URL
 const BASE_URL = 'https://airquality.tools';
 
+// 实际存在的页面路径（不包含语言前缀）
+const existingPages = [
+  '/',
+  '/about',
+  '/contact', 
+  '/faq',
+  '/science'
+];
+
 // 生成站点地图 XML 内容
 function generateSitemapXML(urls) {
   const xmlUrls = urls.map(url => `
@@ -58,7 +67,7 @@ function generateSitemapIndex(sitemaps) {
 </sitemapindex>`;
 }
 
-// 主函数：生成所有站点地图
+// 主函数：生成站点地图
 async function generateSitemaps() {
   const sitemapDir = path.join(__dirname, '../public/sitemaps');
   
@@ -71,14 +80,8 @@ async function generateSitemaps() {
   
   // 为每种语言生成站点地图
   for (const [langCode] of Object.entries(supportedLanguages)) {
-    const urls = [
-      `${BASE_URL}/${langCode}/`,
-      `${BASE_URL}/${langCode}/about`,
-      `${BASE_URL}/${langCode}/contact`,
-      `${BASE_URL}/${langCode}/faq`,
-      `${BASE_URL}/${langCode}/science`
-    ];
-
+    const urls = existingPages.map(page => `${BASE_URL}${page}`);
+    
     const sitemapContent = generateSitemapXML(urls);
     const sitemapPath = path.join(sitemapDir, `sitemap-${langCode}.xml`);
     fs.writeFileSync(sitemapPath, sitemapContent);
@@ -86,11 +89,16 @@ async function generateSitemaps() {
     sitemapUrls.push(`${BASE_URL}/sitemaps/sitemap-${langCode}.xml`);
   }
 
+  // 生成主站点地图（包含所有页面，不区分语言）
+  const mainUrls = existingPages.map(page => `${BASE_URL}${page}`);
+  const mainSitemapContent = generateSitemapXML(mainUrls);
+  fs.writeFileSync(path.join(__dirname, '../public/sitemap.xml'), mainSitemapContent);
+
   // 生成站点地图索引
   const sitemapIndexContent = generateSitemapIndex(sitemapUrls);
   fs.writeFileSync(path.join(sitemapDir, 'sitemap-index.xml'), sitemapIndexContent);
 
-  console.log('站点地图生成成功！');
+  console.log('站点地图生成成功！支持多语言但URL不包含语言前缀。');
 }
 
 // 运行脚本
