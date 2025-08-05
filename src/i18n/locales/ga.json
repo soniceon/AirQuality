@@ -3,7 +3,27 @@
     "search": "Search",
     "loading": "Ag luchtú...",
     "error": "Earráid",
-    "retry": "Athdhéan iarracht"
+    "retry": "Athdhéan iarracht",
+    "goBack": "Ar ais"
+  },
+  "error": {
+    "pageNotFound": "Níor aimsíodh an leathanach",
+    "pageNotFoundDesc": "Tá brón orainn, ní bhíonn an leathanach a bhfuil tú ag cuardach air ann.",
+    "helpText": "Má cheapann tú gur earráid é seo, déan teagmháil linn le do thoil."
+  },
+  "seo": {
+    "defaultTitle": "Innéacs Cáilíochta Aeir (AQI) - Monatóireacht Cáilíochta Aeir Fíor-ama do Chathracha Domhanda | AirQuality.Tools",
+    "defaultDescription": "Soláthraíonn AirQuality.Tools sonraí monatóireachta Innéacs Cáilíochta Aeir (AQI) fíor-ama do phríomhchathracha an domhain, ag tacú le hiarratais ó níos mó ná 100 cathair cosúil le Beijing, Shanghai, Guangzhou, Shenzhen, New York, Londain, Páras, srl., ag cabhrú leat aire a thabhairt do shaol sláintiúil. Monatóireacht fíor-ama truailleán cosúil le PM2.5, PM10, ózón, srl.",
+    "defaultKeywords": "cáilíocht aeir, AQI, monatóireacht fíor-ama, cathracha domhanda, comhshaol, sláinte, PM2.5, PM10, truailleán aeir, aimsir",
+    "ogImageAlt": "AirQuality.Tools - Monatóireacht Cáilíochta Aeir Cathracha Domhanda",
+    "aboutTitle": "Fúinn - Ardán Monatóireachta Cáilíochta Aeir | AirQuality.Tools",
+    "aboutDescription": "Foghlaim faoi mhisean agus fís AirQuality.Tools, táimid tiomanta sonraí cáilíochta aeir cruinne agus tráthúla a sholáthar d'úsáideoirí domhanda, ag cabhrú le gach duine aire a thabhairt do shaol sláintiúil.",
+    "contactTitle": "Déan Teagmháil Linn - AirQuality.Tools",
+    "contactDescription": "Déan teagmháil le foireann AirQuality.Tools le haghaidh tacaíochta teicniúil, comhar gnó nó aiseolas úsáideora. Táimid anseo chun cabhrú leat ag aon am.",
+    "faqTitle": "Ceisteanna Coitianta - FAQ Innéacs Cáilíochta Aeir | AirQuality.Tools",
+    "faqDescription": "Freagraí ar cheisteanna coitianta faoi Innéacs Cáilíochta Aeir (AQI), PM2.5, PM10, srl., ag cabhrú leat sonraí cáilíochta aeir a thuiscint níos fearr.",
+    "scienceTitle": "Ailt Eolaíochta - Eolas Cáilíochta Aeir | AirQuality.Tools",
+    "scienceDescription": "Ailt eolaíochta a bhaineann le cáilíocht aeir, lena n-áirítear léirmhíniú innéacs AQI, cur i láthair truailleán, tionchar sláinte agus eolas gairmiúil eile."
   },
   "nav": {
     "home": "Home",

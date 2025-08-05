@@ -3,7 +3,27 @@
     "search": "蒐索",
     "loading": "加載。 ..",
     "error": "錯誤",
-    "retry": "重試"
+    "retry": "重試",
+    "goBack": "返回"
+  },
+  "error": {
+    "pageNotFound": "找不到頁面",
+    "pageNotFoundDesc": "抱歉，您要查找的頁面不存在。",
+    "helpText": "如果您認為這是錯誤，請聯繫我們。"
+  },
+  "seo": {
+    "defaultTitle": "空氣品質指數(AQI)查詢 - 全球都市實時空氣品質監測 | AirQuality.Tools",
+    "defaultDescription": "AirQuality.Tools提供全球主要都市的實時空氣品質指數(AQI)監測數據，支持北京、上海、廣州、深圳、紐約、倫敦、巴黎等100+都市查詢，助您關注健康生活。PM2.5、PM10、臭氧等污染物實時監測。",
+    "defaultKeywords": "空氣品質, AQI, 實時監測, 全球都市, 環境, 健康, PM2.5, PM10, 空氣污染, 天氣",
+    "ogImageAlt": "AirQuality.Tools - 全球都市空氣品質監測",
+    "aboutTitle": "關於我們 - 空氣品質監測平台 | AirQuality.Tools",
+    "aboutDescription": "了解AirQuality.Tools的使命和願景，我們致力於為全球用戶提供準確、及時的空氣品質數據，幫助大家關注健康生活。",
+    "contactTitle": "聯繫我們 - AirQuality.Tools",
+    "contactDescription": "聯繫AirQuality.Tools團隊，獲取技術支持、商務合作或用戶反饋。我們隨時為您提供幫助。",
+    "faqTitle": "常見問題 - 空氣品質指數FAQ | AirQuality.Tools",
+    "faqDescription": "關於空氣品質指數(AQI)、PM2.5、PM10等常見問題解答，幫助您更好地理解空氣品質數據。",
+    "scienceTitle": "科普文章 - 空氣品質知識 | AirQuality.Tools",
+    "scienceDescription": "空氣品質相關的科普文章，包括AQI指數解讀、污染物介紹、健康影響等專業知識。"
   },
   "nav": {
     "home": "主頁",

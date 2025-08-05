@@ -3,7 +3,27 @@
     "search": "Pretraži",
     "loading": "Učitavanje...",
     "error": "Greška",
-    "retry": "Pokušaj ponovno"
+    "retry": "Pokušaj ponovno",
+    "goBack": "Natrag"
+  },
+  "error": {
+    "pageNotFound": "Stranica nije pronađena",
+    "pageNotFoundDesc": "Ispričavamo se, stranica koju tražite ne postoji.",
+    "helpText": "Ako mislite da je ovo greška, molimo vas da nas kontaktirate."
+  },
+  "seo": {
+    "defaultTitle": "Indeks kvalitete zraka (AQI) - Praćenje kvalitete zraka u stvarnom vremenu za globalne gradove | AirQuality.Tools",
+    "defaultDescription": "AirQuality.Tools pruža podatke o praćenju indeksa kvalitete zraka (AQI) u stvarnom vremenu za glavne gradove svijeta, podržavajući upite iz više od 100 gradova kao što su Beijing, Šangaj, Guangzhou, Shenzhen, New York, London, Pariz, itd., pomažući vam da se brinete o zdravom životu. Praćenje zagađivača u stvarnom vremenu kao što su PM2.5, PM10, ozon, itd.",
+    "defaultKeywords": "kvaliteta zraka, AQI, praćenje u stvarnom vremenu, globalni gradovi, okoliš, zdravlje, PM2.5, PM10, zagađenje zraka, vrijeme",
+    "ogImageAlt": "AirQuality.Tools - Praćenje kvalitete zraka globalnih gradova",
+    "aboutTitle": "O nama - Platforma za praćenje kvalitete zraka | AirQuality.Tools",
+    "aboutDescription": "Saznajte o misiji i viziji AirQuality.Tools, posvećeni smo pružanju preciznih i pravovremenih podataka o kvaliteti zraka globalnim korisnicima, pomažući svima da se brinu o zdravom životu.",
+    "contactTitle": "Kontaktirajte nas - AirQuality.Tools",
+    "contactDescription": "Kontaktirajte AirQuality.Tools tim za tehničku podršku, poslovnu suradnju ili povratne informacije korisnika. Tu smo da vam pomognemo u bilo kojem trenutku.",
+    "faqTitle": "Često postavljana pitanja - FAQ indeksa kvalitete zraka | AirQuality.Tools",
+    "faqDescription": "Odgovori na često postavljana pitanja o indeksu kvalitete zraka (AQI), PM2.5, PM10, itd., pomažući vam da bolje razumijete podatke o kvaliteti zraka.",
+    "scienceTitle": "Znanstveni članci - Znanje o kvaliteti zraka | AirQuality.Tools",
+    "scienceDescription": "Znanstveni članci vezani za kvalitetu zraka, uključujući tumačenje AQI indeksa, uvod u zagađivače, utjecaj na zdravlje i druga profesionalna znanja."
   },
   "nav": {
     "home": "Početna",

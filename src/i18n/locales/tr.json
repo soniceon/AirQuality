@@ -3,7 +3,27 @@
     "search": "Search",
     "loading": "Loading...",
     "error": "Error",
-    "retry": "Retry"
+    "retry": "Retry",
+    "goBack": "Geri dön"
+  },
+  "error": {
+    "pageNotFound": "Sayfa bulunamadı",
+    "pageNotFoundDesc": "Üzgünüz, aradığınız sayfa mevcut değil.",
+    "helpText": "Bunun bir hata olduğunu düşünüyorsanız, lütfen bizimle iletişime geçin."
+  },
+  "seo": {
+    "defaultTitle": "Hava Kalitesi İndeksi (AQI) - Küresel Şehirlerin Gerçek Zamanlı Hava Kalitesi İzleme | AirQuality.Tools",
+    "defaultDescription": "AirQuality.Tools, dünyanın önde gelen şehirleri için gerçek zamanlı Hava Kalitesi İndeksi (AQI) izleme verileri sağlar, Beijing, Şangay, Guangzhou, Shenzhen, New York, Londra, Paris vb. 100+ şehrin sorgularını destekler, sağlıklı yaşamınıza dikkat etmenize yardımcı olur. PM2.5, PM10, ozon vb. kirleticilerin gerçek zamanlı izlenmesi.",
+    "defaultKeywords": "hava kalitesi, AQI, gerçek zamanlı izleme, küresel şehirler, çevre, sağlık, PM2.5, PM10, hava kirliliği, hava durumu",
+    "ogImageAlt": "AirQuality.Tools - Küresel Şehirlerin Hava Kalitesi İzleme",
+    "aboutTitle": "Hakkımızda - Hava Kalitesi İzleme Platformu | AirQuality.Tools",
+    "aboutDescription": "AirQuality.Tools'un misyonu ve vizyonu hakkında bilgi edinin, küresel kullanıcılara doğru ve zamanında hava kalitesi verileri sağlamaya kendimizi adadık, herkesin sağlıklı yaşamına dikkat etmesine yardımcı oluyoruz.",
+    "contactTitle": "İletişim - AirQuality.Tools",
+    "contactDescription": "Teknik destek, işbirliği veya kullanıcı geri bildirimi için AirQuality.Tools ekibiyle iletişime geçin. Size her zaman yardım etmek için buradayız.",
+    "faqTitle": "Sık Sorulan Sorular - Hava Kalitesi İndeksi SSS | AirQuality.Tools",
+    "faqDescription": "Hava Kalitesi İndeksi (AQI), PM2.5, PM10 vb. hakkında sık sorulan soruların cevapları, hava kalitesi verilerini daha iyi anlamanıza yardımcı olur.",
+    "scienceTitle": "Bilimsel Makaleler - Hava Kalitesi Bilgisi | AirQuality.Tools",
+    "scienceDescription": "AQI indeksi yorumlama, kirletici tanıtımı, sağlık etkileri ve diğer profesyonel bilgileri içeren hava kalitesi ile ilgili bilimsel makaleler."
   },
   "nav": {
     "home": "Home",
