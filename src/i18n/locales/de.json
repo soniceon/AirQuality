@@ -3,7 +3,27 @@
     "search": "Suche",
     "loading": "Laden. ..",
     "error": "Fehler",
-    "retry": "Wiederversuchen"
+    "retry": "Wiederversuchen",
+    "goBack": "Zurück"
+  },
+  "error": {
+    "pageNotFound": "Seite nicht gefunden",
+    "pageNotFoundDesc": "Entschuldigung, die gesuchte Seite existiert nicht.",
+    "helpText": "Wenn Sie denken, dass dies ein Fehler ist, kontaktieren Sie uns."
+  },
+  "seo": {
+    "defaultTitle": "Luftqualitätsindex (AQI) - Echtzeit-Luftqualitätsüberwachung für globale Städte | AirQuality.Tools",
+    "defaultDescription": "AirQuality.Tools bietet Echtzeit-Luftqualitätsindex (AQI) Überwachungsdaten für die wichtigsten Städte der Welt, unterstützt Abfragen von über 100 Städten wie Beijing, Shanghai, Guangzhou, Shenzhen, New York, London, Paris, etc., hilft Ihnen, sich um ein gesundes Leben zu kümmern. Echtzeit-Überwachung von Schadstoffen wie PM2.5, PM10, Ozon, etc.",
+    "defaultKeywords": "Luftqualität, AQI, Echtzeit-Überwachung, globale Städte, Umwelt, Gesundheit, PM2.5, PM10, Luftverschmutzung, Wetter",
+    "ogImageAlt": "AirQuality.Tools - Luftqualitätsüberwachung für globale Städte",
+    "aboutTitle": "Über Uns - Luftqualitätsüberwachungsplattform | AirQuality.Tools",
+    "aboutDescription": "Lernen Sie die Mission und Vision von AirQuality.Tools kennen, wir widmen uns der Bereitstellung präziser und zeitnaher Luftqualitätsdaten für globale Benutzer und helfen allen, sich um ein gesundes Leben zu kümmern.",
+    "contactTitle": "Kontaktieren Sie Uns - AirQuality.Tools",
+    "contactDescription": "Kontaktieren Sie das AirQuality.Tools-Team für technischen Support, Geschäftskooperation oder Benutzer-Feedback. Wir sind jederzeit hier, um Ihnen zu helfen.",
+    "faqTitle": "Häufig Gestellte Fragen - Luftqualitätsindex FAQ | AirQuality.Tools",
+    "faqDescription": "Antworten auf häufig gestellte Fragen zum Luftqualitätsindex (AQI), PM2.5, PM10, etc., helfen Ihnen, Luftqualitätsdaten besser zu verstehen.",
+    "scienceTitle": "Wissenschaftliche Artikel - Luftqualitätswissen | AirQuality.Tools",
+    "scienceDescription": "Wissenschaftliche Artikel im Zusammenhang mit Luftqualität, einschließlich AQI-Index-Interpretation, Schadstoff-Einführung, Gesundheitsauswirkungen und andere professionelle Kenntnisse."
   },
   "nav": {
     "home": "Startseite",

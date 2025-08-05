@@ -3,7 +3,27 @@
     "search": "Recherche",
     "loading": "Chargement. ..",
     "error": "Erreur",
-    "retry": "Réessayer"
+    "retry": "Réessayer",
+    "goBack": "Retour"
+  },
+  "error": {
+    "pageNotFound": "Page non trouvée",
+    "pageNotFoundDesc": "Désolé, la page que vous recherchez n'existe pas.",
+    "helpText": "Si vous pensez que c'est une erreur, contactez-nous."
+  },
+  "seo": {
+    "defaultTitle": "Indice de Qualité de l'Air (AQI) - Surveillance de la Qualité de l'Air en Temps Réel des Villes Mondiales | AirQuality.Tools",
+    "defaultDescription": "AirQuality.Tools fournit des données de surveillance de l'Indice de Qualité de l'Air (AQI) en temps réel pour les principales villes du monde, soutenant les requêtes de plus de 100 villes comme Beijing, Shanghai, Guangzhou, Shenzhen, New York, Londres, Paris, etc., vous aidant à prendre soin d'une vie saine. Surveillance en temps réel des polluants comme PM2.5, PM10, ozone, etc.",
+    "defaultKeywords": "qualité de l'air, AQI, surveillance en temps réel, villes mondiales, environnement, santé, PM2.5, PM10, pollution de l'air, météo",
+    "ogImageAlt": "AirQuality.Tools - Surveillance de la Qualité de l'Air des Villes Mondiales",
+    "aboutTitle": "À Propos de Nous - Plateforme de Surveillance de la Qualité de l'Air | AirQuality.Tools",
+    "aboutDescription": "Apprenez la mission et la vision d'AirQuality.Tools, nous nous consacrons à fournir des données précises et opportunes sur la qualité de l'air aux utilisateurs mondiaux, aidant tout le monde à prendre soin d'une vie saine.",
+    "contactTitle": "Contactez-Nous - AirQuality.Tools",
+    "contactDescription": "Contactez l'équipe AirQuality.Tools pour obtenir un support technique, une coopération commerciale ou des commentaires d'utilisateurs. Nous sommes là pour vous aider à tout moment.",
+    "faqTitle": "Questions Fréquemment Posées - FAQ de l'Indice de Qualité de l'Air | AirQuality.Tools",
+    "faqDescription": "Réponses aux questions fréquemment posées sur l'Indice de Qualité de l'Air (AQI), PM2.5, PM10, etc., vous aidant à mieux comprendre les données de qualité de l'air.",
+    "scienceTitle": "Articles Scientifiques - Connaissance de la Qualité de l'Air | AirQuality.Tools",
+    "scienceDescription": "Articles scientifiques liés à la qualité de l'air, incluant l'interprétation de l'indice AQI, l'introduction des polluants, l'impact sur la santé et autres connaissances professionnelles."
   },
   "nav": {
     "home": "Accueil",

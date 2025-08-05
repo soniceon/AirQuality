@@ -3,7 +3,27 @@
     "search": "검색",
     "loading": "로딩중입니다...",
     "error": "오류",
-    "retry": "다시 시도하세요"
+    "retry": "다시 시도하세요",
+    "goBack": "뒤로 가기"
+  },
+  "error": {
+    "pageNotFound": "페이지를 찾을 수 없습니다",
+    "pageNotFoundDesc": "죄송합니다. 요청하신 페이지가 존재하지 않습니다.",
+    "helpText": "이것이 오류라고 생각되시면 문의해 주세요."
+  },
+  "seo": {
+    "defaultTitle": "공기질 지수(AQI) - 세계 도시 실시간 공기질 모니터링 | AirQuality.Tools",
+    "defaultDescription": "AirQuality.Tools는 세계 주요 도시의 실시간 공기질 지수(AQI) 모니터링 데이터를 제공하며, 베이징, 상하이, 광저우, 선전, 뉴욕, 런던, 파리 등 100개 이상의 도시 쿼리를 지원하여 건강한 생활을 돕습니다. PM2.5, PM10, 오존 등의 오염물질 실시간 모니터링.",
+    "defaultKeywords": "공기질, AQI, 실시간 모니터링, 세계 도시, 환경, 건강, PM2.5, PM10, 대기 오염, 날씨",
+    "ogImageAlt": "AirQuality.Tools - 세계 도시 공기질 모니터링",
+    "aboutTitle": "우리에 대해 - 공기질 모니터링 플랫폼 | AirQuality.Tools",
+    "aboutDescription": "AirQuality.Tools의 사명과 비전에 대해 알아보고, 우리가 세계 사용자에게 정확하고 시의적절한 공기질 데이터를 제공하여 건강한 생활을 지원하는 데 전념하고 있음을 이해하세요.",
+    "contactTitle": "연락처 - AirQuality.Tools",
+    "contactDescription": "AirQuality.Tools 팀에 연락하여 기술 지원, 비즈니스 협력 또는 사용자 피드백을 받으세요. 우리는 언제든지 도움을 드릴 준비가 되어 있습니다.",
+    "faqTitle": "자주 묻는 질문 - 공기질 지수 FAQ | AirQuality.Tools",
+    "faqDescription": "공기질 지수(AQI), PM2.5, PM10 등에 대한 자주 묻는 질문의 답변으로 공기질 데이터를 더 잘 이해하는 데 도움이 됩니다.",
+    "scienceTitle": "과학 기사 - 공기질 지식 | AirQuality.Tools",
+    "scienceDescription": "AQI 지수 해석, 오염물질 소개, 건강 영향 등의 전문 지식을 포함한 공기질 관련 과학 기사."
   },
   "nav": {
     "home": "홈",

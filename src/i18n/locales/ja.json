@@ -3,7 +3,27 @@
     "search": "検索",
     "loading": "ロード中..",
     "error": "エラー",
-    "retry": "再試行"
+    "retry": "再試行",
+    "goBack": "戻る"
+  },
+  "error": {
+    "pageNotFound": "ページが見つかりません",
+    "pageNotFoundDesc": "申し訳ございませんが、お探しのページは存在しません。",
+    "helpText": "これがエラーだと思われる場合は、お問い合わせください。"
+  },
+  "seo": {
+    "defaultTitle": "空気品質指数(AQI) - 世界都市のリアルタイム空気品質監視 | AirQuality.Tools",
+    "defaultDescription": "AirQuality.Toolsは世界の主要都市のリアルタイム空気品質指数(AQI)監視データを提供し、北京、上海、広州、深圳、ニューヨーク、ロンドン、パリなど100以上の都市のクエリをサポートし、健康的な生活を支援します。PM2.5、PM10、オゾンなどの汚染物質のリアルタイム監視。",
+    "defaultKeywords": "空気品質, AQI, リアルタイム監視, 世界都市, 環境, 健康, PM2.5, PM10, 大気汚染, 天気",
+    "ogImageAlt": "AirQuality.Tools - 世界都市の空気品質監視",
+    "aboutTitle": "私たちについて - 空気品質監視プラットフォーム | AirQuality.Tools",
+    "aboutDescription": "AirQuality.Toolsの使命とビジョンについて学び、私たちが世界のユーザーに正確でタイムリーな空気品質データを提供し、健康的な生活を支援することに専念していることを理解してください。",
+    "contactTitle": "お問い合わせ - AirQuality.Tools",
+    "contactDescription": "AirQuality.Toolsチームに連絡し、技術サポート、ビジネス協力、またはユーザーフィードバックを取得してください。私たちはいつでもお手伝いします。",
+    "faqTitle": "よくある質問 - 空気品質指数FAQ | AirQuality.Tools",
+    "faqDescription": "空気品質指数(AQI)、PM2.5、PM10などに関するよくある質問の回答で、空気品質データをよりよく理解するのに役立ちます。",
+    "scienceTitle": "科学記事 - 空気品質知識 | AirQuality.Tools",
+    "scienceDescription": "AQI指数の解釈、汚染物質の紹介、健康への影響などの専門知識を含む空気品質関連の科学記事。"
   },
   "nav": {
     "home": "ホーム",
