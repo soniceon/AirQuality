@@ -3,6 +3,7 @@ import { Search, Wind, Thermometer, Droplets, AlertTriangle, CheckCircle, XCircl
 import { useTranslation } from 'react-i18next';
 import { getUserLocation, getWeatherAndAirQuality } from '../utils/baiduApi';
 import SEOHead from '../components/SEOHead';
+import LanguageDebug from '../components/LanguageDebug';
 import { languageToCountry, hotCitiesByCountry } from '../constants/city';
 
 export default function Home() {
@@ -125,6 +126,7 @@ export default function Home() {
       <SEOHead 
         title={t('seo.defaultTitle')}
         description={t('seo.defaultDescription')}
+        keywords={t('seo.defaultKeywords')}
         canonical="https://airquality.tools/"
         ogType="website"
       />
@@ -320,6 +322,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <LanguageDebug />
     </>
   );
 } 

@@ -22,7 +22,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
   const { t, i18n } = useTranslation();
   const currentLang = i18n.language;
 
-  // 默认SEO内容
+  // 直接获取翻译内容，确保语言变化时更新
   const defaultTitle = t('seo.defaultTitle', '空气质量指数(AQI)查询 - 全球城市实时空气质量监测 | AirQuality.Tools');
   const defaultDescription = t('seo.defaultDescription', 'AirQuality.Tools提供全球主要城市的实时空气质量指数(AQI)监测数据，支持北京、上海、广州、深圳、纽约、伦敦、巴黎等100+城市查询，助您关注健康生活。PM2.5、PM10、臭氧等污染物实时监测。');
   const defaultKeywords = t('seo.defaultKeywords', '空气质量, AQI, 实时监测, 全球城市, 环境, 健康, PM2.5, PM10, 空气污染, 天气');
